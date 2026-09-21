@@ -6,6 +6,8 @@
 
 **A collection of ready-to-use UI components: Elements, Sections, and Pages.**
 
+`#PakaiAiTapiBerasaBukanAi` — *use AI, without looking like AI*
+
 Built by [tech.mudahdeal.com](https://tech.mudahdeal.com)
 
 [🇮🇩 Bahasa Indonesia](README.md) · 🇬🇧 **English**
@@ -19,6 +21,14 @@ Built by [tech.mudahdeal.com](https://tech.mudahdeal.com)
 This repo holds UI components we picked and cleaned up ourselves, so anyone can use them — either as a **reference** while building something, or **copied straight** into your own project.
 
 No required install, no dependencies to lock you in. Take what you need, change it however you like.
+
+### `#PakaiAiTapiBerasaBukanAi`
+
+AI-built websites are easy to spot: the same layouts, the same look, nothing that feels made by a person. The problem isn't the AI — it's that the AI has nothing to work from.
+
+This repo is that reference. Point your AI at the components here and the work gets **easier** — no explaining from scratch — and more **consistent**, because every part of the page starts from the same set.
+
+Use AI, without the result feeling like AI.
 
 ## What's Inside
 
