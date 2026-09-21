@@ -2,7 +2,7 @@
 
 .review-v4 {
   --review-v4-primary: #01498b;
-  --review-v4-blue: #0876d1;
+  --review-v4-blue: #01498b;
   --review-v4-ink: #101a35;
   --review-v4-muted: #56627a;
 
@@ -10,10 +10,7 @@
   width: 100%;
   padding: clamp(42px, 6vw, 78px) 0;
   overflow: hidden;
-  background:
-    radial-gradient(circle at 4% 20%, rgba(1, 73, 139, 0.08), transparent 15%),
-    radial-gradient(circle at 96% 12%, rgba(8, 118, 209, 0.09), transparent 17%),
-    #f7f9ff;
+  background: #ffffff;
   font-family: 'Inter', sans-serif;
   opacity: 0;
   will-change: opacity, transform;
