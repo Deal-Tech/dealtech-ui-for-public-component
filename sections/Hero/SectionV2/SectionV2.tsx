@@ -3,7 +3,7 @@ import { AlertCircle } from 'lucide-react';
 
 import './section-v2.css';
 
-const eyebrow = 'Versi 1.0';
+const eyebrow = 'Versi 2';
 const title = 'Sederhanakan Operasional dalam';
 const titleAccent = 'Satu Dashboard';
 const description =

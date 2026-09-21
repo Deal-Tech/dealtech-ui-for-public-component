@@ -19,7 +19,7 @@ const demoImages = [
     },
 ];
 
-const eyebrow = 'Versi 1.0';
+const eyebrow = 'Versi 1';
 const title = 'Kelola Operasional Anda Lebih Mudah dengan';
 const titleAccent = 'Satu Dashboard';
 const description =

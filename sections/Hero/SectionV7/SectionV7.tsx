@@ -42,7 +42,7 @@ export default function SectionV7() {
                 <div className="hero-v7__shell">
                     <div className="hero-v7__content">
                         <span className="hero-v7__eyebrow hero-v7__reveal hero-v7__hidden">
-                            <AlertCircle size={16} strokeWidth={2.5} aria-hidden="true" /> Versi 1.0
+                            <AlertCircle size={16} strokeWidth={2.5} aria-hidden="true" /> Versi 7
                         </span>
 
                         <h1 className="hero-v7__title hero-v7__reveal hero-v7__hidden">
