@@ -26,7 +26,7 @@ Isi repo dibagi jadi tiga folder di akar, supaya langsung ketemu:
 
 | Folder | Isi | Contoh |
 |---|---|---|
-| [`elements/`](elements/) | Unit terkecil — satu tugas, satu tampilan. | Button, Badge, Input, Card, Avatar, Modal |
+| [`elements/`](elements/) | Unit terkecil — satu tugas, satu tampilan, dikelompokkan per kategori. | Button, Badge, Input, Card, Avatar, Modal |
 | [`sections/`](sections/) | Gabungan beberapa element jadi satu blok utuh, dikelompokkan per kategori. | Hero, Pricing, Navbar, Footer, Testimonial, FAQ |
 | [`pages/`](pages/) | Halaman lengkap, hasil rangkaian beberapa komponen. | Landing page, Login, Dashboard, Pricing, 404 |
 
@@ -34,7 +34,9 @@ Isi repo dibagi jadi tiga folder di akar, supaya langsung ketemu:
 
 ```
 dealtech-ui-for-public-component/
-├── elements/            # unit terkecil (button, input, card, ...)
+├── elements/            # unit terkecil, dikelompokkan per kategori
+│   └── Button/
+│       └── ButtonV1/
 ├── sections/            # blok halaman, dikelompokkan per kategori
 │   └── Hero/
 │       └── SectionV1/   # satu varian = satu folder
@@ -56,10 +58,10 @@ Tidak perlu fork, tidak perlu kredit, tidak perlu lapor.
 
 Supaya konsisten dan gampang dicari:
 
-- `elements/` dan `pages/`: nama folder `kebab-case` — contoh `pricing-table`, `login-page`.
-- `sections/`: dua tingkat `PascalCase` — kategori lalu varian, contoh `Hero/SectionV1`, `Pricing/SectionV2`.
+- `elements/` dan `sections/`: dua tingkat `PascalCase` — kategori lalu varian, contoh `Button/ButtonV1`, `Hero/SectionV1`.
+- `pages/`: nama folder `kebab-case` — contoh `login-page`, `pricing-page`.
 - Satu varian = satu folder, berisi file komponen + preview-nya.
-- Varian baru dalam kategori yang sama tinggal menambah nomor: `SectionV2`, `SectionV3`.
+- Varian baru dalam kategori yang sama tinggal menambah nomor: `ButtonV2`, `SectionV2`.
 
 ## Kontribusi
 
