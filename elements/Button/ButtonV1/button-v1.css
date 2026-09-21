@@ -5,6 +5,7 @@
   --btn-primary: #01498b;
   --btn-primary-dark: #013a6f;
   --btn-primary-soft: rgba(1, 73, 139, 0.08);
+  font-family: 'Inter', sans-serif;
 }
 
 .btn-v1 {
@@ -18,7 +19,7 @@
   height: 50px;
   border-radius: 999px;
   padding: 0 24px;
-  font-family: inherit;
+  font-family: 'Inter', sans-serif;
   font-size: 0.9375rem;
   font-weight: 700;
   cursor: pointer;

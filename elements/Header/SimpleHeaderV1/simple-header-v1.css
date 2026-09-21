@@ -12,7 +12,7 @@
   border-bottom: 1px solid var(--simple-header-v1-line);
   background: #ffffff;
   color: #111827;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 14px;
 }
 

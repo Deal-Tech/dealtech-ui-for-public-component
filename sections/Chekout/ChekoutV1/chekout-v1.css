@@ -14,7 +14,7 @@
   padding: clamp(16px, 3vw, 24px);
   background: #ffffff;
   color: var(--chekout-v1-text);
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   -webkit-font-smoothing: antialiased;
 }

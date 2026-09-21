@@ -8,7 +8,7 @@
   padding: 28px 20px;
   border-top: 1px solid var(--simple-footer-v1-line);
   background: #ffffff;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Inter', sans-serif;
   text-align: center;
 }
 
