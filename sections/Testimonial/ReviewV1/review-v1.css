@@ -70,7 +70,7 @@
   margin: 12px 0 0;
   text-align: center;
   color: var(--review-v1-muted);
-  font-size: 0.9375rem;
+  font-size: 0.875rem;
   font-style: italic;
   line-height: 1.6;
 }
@@ -109,20 +109,20 @@
 .review-v1__stars {
   display: inline-flex;
   gap: 2px;
-  color: #f5a623;
+  color: var(--review-v1-primary);
 }
 
 .review-v1__text {
   margin: 0;
   flex: 1;
   color: var(--review-v1-muted);
-  font-size: 0.94rem;
+  font-size: 0.875rem;
   line-height: 1.65;
 }
 
 .review-v1__name {
   color: var(--review-v1-ink);
-  font-size: 0.88rem;
+  font-size: 0.8125rem;
   font-weight: 700;
 }
 

@@ -67,7 +67,7 @@
 .review-v2__subtitle {
   margin: 12px 0 0;
   color: var(--review-v2-muted);
-  font-size: 0.9375rem;
+  font-size: 0.875rem;
   font-style: italic;
   line-height: 1.6;
   text-align: center;
@@ -100,19 +100,19 @@
 .review-v2__stars {
   display: inline-flex;
   gap: 2px;
-  color: #f5a623;
+  color: var(--review-v2-primary);
 }
 
 .review-v2__text {
   margin: 0;
   color: var(--review-v2-muted);
-  font-size: 0.94rem;
+  font-size: 0.875rem;
   line-height: 1.65;
 }
 
 .review-v2__name {
   color: var(--review-v2-ink);
-  font-size: 0.88rem;
+  font-size: 0.8125rem;
   font-weight: 700;
 }
 
