@@ -1,0 +1,88 @@
+import { useEffect, useRef } from 'react';
+import { Star } from 'lucide-react';
+
+import './review-v2.css';
+
+const reviews = [
+    {
+        name: 'A**** M. — Finance Manager',
+        text: 'Dulu rekap tagihan membutuhkan beberapa hari setiap awal bulan. Sekarang tim tinggal membuka laporan dan langsung mengetahui pembayaran yang belum selesai.',
+    },
+    {
+        name: 'R**** H. — Customer Support',
+        text: 'Pelanggan tidak lagi menghubungi admin hanya untuk menanyakan status transaksi. Mereka bisa memeriksanya sendiri, sehingga tim jauh lebih lega.',
+    },
+    {
+        name: 'S**** F. — Operations Lead',
+        text: 'Data pelanggan, transaksi, aktivitas, dan laporan kini berada dalam satu sistem. Saat audit, semua informasi siap digunakan.',
+    },
+    {
+        name: 'D**** P. — Product Designer',
+        text: 'Komponen yang konsisten membuat proses menyusun halaman jauh lebih cepat. Tim dapat fokus pada pengalaman pengguna tanpa mengulang pola yang sama.',
+    },
+    {
+        name: 'N**** A. — Frontend Developer',
+        text: 'Strukturnya mudah dipahami dan responsif sejak awal. Penyesuaian warna serta konten juga tidak membutuhkan perubahan besar.',
+    },
+    {
+        name: 'F**** R. — Project Manager',
+        text: 'Waktu pengerjaan antarmuka menjadi lebih terukur. Semua anggota tim memakai pola komponen yang sama dan hasil akhirnya terasa lebih rapi.',
+    },
+];
+
+export default function ReviewV2() {
+    const sectionRef = useRef<HTMLElement>(null);
+
+    useEffect(() => {
+        const section = sectionRef.current;
+        if (!section) return;
+
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    section.classList.add('review-v2--visible');
+                    observer.disconnect();
+                }
+            },
+            { threshold: 0.12, rootMargin: '0px 0px -40px 0px' },
+        );
+
+        observer.observe(section);
+        return () => observer.disconnect();
+    }, []);
+
+    return (
+        <section ref={sectionRef} className="review-v2">
+            <div className="review-v2__shell">
+                <h2 className="review-v2__heading">
+                    Sudah Dipakai Berbagai Tim untuk{' '}
+                    <span className="review-v2__heading-accent">Berhenti Mencatat Manual</span>
+                </h2>
+
+                <p className="review-v2__subtitle">
+                    Dibangun bersama pengguna agar sesuai dengan kebutuhan operasional sehari-hari.
+                </p>
+
+                <div className="review-v2__masonry">
+                    {reviews.map((review) => (
+                        <article key={review.name} className="review-v2__card">
+                            <div className="review-v2__stars" aria-label="Nilai 5 dari 5">
+                                {Array.from({ length: 5 }).map((_, index) => (
+                                    <Star
+                                        key={index}
+                                        size={14}
+                                        strokeWidth={0}
+                                        fill="currentColor"
+                                        aria-hidden="true"
+                                    />
+                                ))}
+                            </div>
+                            <p className="review-v2__text">{review.text}</p>
+                            <span className="review-v2__name">{review.name}</span>
+                        </article>
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
+}
