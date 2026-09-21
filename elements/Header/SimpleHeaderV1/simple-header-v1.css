@@ -41,7 +41,9 @@
 }
 
 .simple-header-v1__cta {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   margin-left: 10px;
   padding: 5px 14px;
   border-radius: 999px;
