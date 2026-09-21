@@ -57,10 +57,10 @@
 .about-v1__title {
   margin: 0;
   color: var(--about-v1-ink);
-  font-size: clamp(2rem, 4vw, 3rem);
-  line-height: 1.24;
+  font-size: clamp(1.5rem, 3.1vw, 2.25rem);
+  line-height: 1.28;
   font-weight: 700;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.03em;
 }
 
 .about-v1__title-accent {
@@ -155,10 +155,6 @@
     padding: 48px 0 40px;
   }
 
-  .about-v1__title {
-    max-width: 720px;
-    font-size: clamp(1.85rem, 6vw, 2.7rem);
-  }
 }
 
 @media (max-width: 640px) {
