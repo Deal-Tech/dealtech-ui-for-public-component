@@ -28,3 +28,6 @@ Thumbs.db
 .cache/
 .turbo/
 *.tsbuildinfo
+
+# Skills
+skills/
