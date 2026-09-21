@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://ik.imagekit.io/sja4kckbn/AsetDealTech/panel%20dealtechui.png" alt="DealTech UI" width="100%" />
+
 # DealTech UI — Public Components
 
 **A collection of ready-to-use UI components: Elements, Sections, and Pages.**
