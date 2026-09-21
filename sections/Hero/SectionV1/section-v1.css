@@ -244,69 +244,27 @@
   }
 }
 
-/* ── Demo slider ─────────────────────────────────────────── */
+/* ── Daftar gambar demo ──────────────────────────────────── */
 
-.demo-slider {
+.home-hero__demo-list {
   margin-top: 26px;
-}
-
-.demo-slider__track {
   min-width: 0;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
 }
 
-.demo-slider__item {
-  min-width: 0;
-}
-
-.demo-slider__item img {
+.home-hero__demo-list img {
   display: block;
+  min-width: 0;
   width: 100%;
   height: auto;
   border-radius: 14px;
   border: 1px solid var(--lp-line);
 }
 
-.demo-slider__dots {
-  display: none;
-}
-
 @media (max-width: 900px) {
-  .demo-slider__track {
-    display: flex;
-    gap: 0;
-    overflow-x: auto;
-    overflow-y: hidden;
-    scroll-snap-type: x mandatory;
-    scrollbar-width: none;
-  }
-  .demo-slider__track::-webkit-scrollbar {
-    display: none;
-  }
-  .demo-slider__item {
-    flex: 0 0 100%;
-    scroll-snap-align: start;
-  }
-  .demo-slider__dots {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin-top: 16px;
-  }
-  .demo-slider__dot {
-    width: 8px;
-    height: 8px;
-    padding: 0;
-    border: 0;
-    border-radius: 999px;
-    background: var(--lp-line);
-    cursor: pointer;
-    transition: width 0.25s ease, background 0.25s ease;
-  }
-  .demo-slider__dot.is-active {
-    width: 26px;
-    background: var(--lp-primary);
+  .home-hero__demo-list {
+    grid-template-columns: 1fr;
   }
 }

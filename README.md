@@ -26,28 +26,24 @@ Isi repo dibagi jadi tiga folder di akar, supaya langsung ketemu:
 
 | Folder | Isi | Contoh |
 |---|---|---|
-| [`elements/`](elements/) | Unit terkecil — satu tugas, satu tampilan, dikelompokkan per kategori. | Button, Badge, Input, Card, Avatar, Modal |
-| [`sections/`](sections/) | Gabungan beberapa element jadi satu blok utuh, dikelompokkan per kategori. | Hero, Pricing, Navbar, Footer, Testimonial, FAQ |
+| [`elements/`](elements/) | Unit terkecil — satu tugas, satu tampilan. | Button, Badge, Input, Card, Avatar, Modal |
+| [`components/`](components/) | Gabungan beberapa element jadi satu blok utuh. | Hero, Pricing, Navbar, Footer, Testimonial, FAQ |
 | [`pages/`](pages/) | Halaman lengkap, hasil rangkaian beberapa komponen. | Landing page, Login, Dashboard, Pricing, 404 |
 
 ## Struktur Folder
 
 ```
 dealtech-ui-for-public-component/
-├── elements/            # unit terkecil, dikelompokkan per kategori
-│   └── Button/
-│       └── ButtonV1/
-├── sections/            # blok halaman, dikelompokkan per kategori
-│   └── Hero/
-│       └── SectionV1/   # satu varian = satu folder
-└── pages/               # halaman utuh
+├── elements/      # unit terkecil (button, input, card, ...)
+├── components/    # blok halaman (hero, pricing, footer, ...)
+└── pages/         # halaman utuh
 ```
 
-> Isinya masih sedikit dan akan ditambahkan bertahap.
+> Ketiga folder masih kosong. Isinya akan ditambahkan bertahap.
 
 ## Cara Pakai
 
-1. Telusuri folder sesuai yang kamu cari — `elements`, `sections`, atau `pages`.
+1. Telusuri folder sesuai yang kamu cari — `elements`, `components`, atau `pages`.
 2. Buka folder komponennya, baca `README.md` di dalamnya (kalau ada) untuk catatan singkat.
 3. Salin file ke project kamu.
 4. Sesuaikan warna, teks, dan spacing dengan kebutuhan.
@@ -58,10 +54,9 @@ Tidak perlu fork, tidak perlu kredit, tidak perlu lapor.
 
 Supaya konsisten dan gampang dicari:
 
-- `elements/` dan `sections/`: dua tingkat `PascalCase` — kategori lalu varian, contoh `Button/ButtonV1`, `Hero/SectionV1`.
-- `pages/`: nama folder `kebab-case` — contoh `login-page`, `pricing-page`.
-- Satu varian = satu folder, berisi file komponen + preview-nya.
-- Varian baru dalam kategori yang sama tinggal menambah nomor: `ButtonV2`, `SectionV2`.
+- Nama folder komponen: `kebab-case` — contoh `pricing-table`, `hero-split`.
+- Satu komponen = satu folder, berisi file komponen + preview-nya.
+- Kalau ada beberapa varian, pakai sufiks jelas: `hero-split`, `hero-centered`, `hero-video`.
 
 ## Kontribusi
 

@@ -2,10 +2,9 @@ import { useEffect } from 'react';
 import { AlertCircle, CheckCircle2 } from 'lucide-react';
 
 import './section-v1.css';
-import DemoSlider, { type DemoImage } from './DemoSlider';
 
 // Ganti sesuai kebutuhan
-const demoImages: DemoImage[] = [
+const demoImages = [
     {
         src: '/images/hero-section-v1/demo-dashboard.svg',
         alt: 'Dashboard aplikasi: ringkasan angka utama, grafik tren bulanan, dan tabel transaksi terbaru.',
@@ -89,7 +88,19 @@ export default function SectionV1() {
 
                     <div className="home-hero__demo sl-reveal sl-opacity-0">
                         <p className="home-hero__demo-title">{demoTitle}</p>
-                        <DemoSlider images={demoImages} />
+                        <div className="home-hero__demo-list">
+                            {demoImages.map((img) => (
+                                <img
+                                    key={img.src}
+                                    src={img.src}
+                                    alt={img.alt}
+                                    width={img.width}
+                                    height={img.height}
+                                    loading="lazy"
+                                    decoding="async"
+                                />
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div>
