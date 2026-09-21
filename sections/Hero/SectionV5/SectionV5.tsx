@@ -44,13 +44,13 @@ export default function SectionV5() {
                     </span>
 
                     <h1 className="hero-v5__title hero-v5__reveal hero-v5__hidden">
-                        <span>Sederhanakan Operasional dalam</span>{' '}
-                        <span className="hero-v5__title-accent">Satu Dashboard</span>
+                        <span>Sederhanakan Design UI, Pakai</span>{' '}
+                        <span className="hero-v5__title-accent">Dealtech UI For Public Components</span>
                     </h1>
 
                     <p className="hero-v5__description hero-v5__reveal hero-v5__hidden">
-                        Data, transaksi, kehadiran, sampai laporan tercatat rapi dalam satu sistem. Tim berhenti
-                        merekap manual, dan pengguna bisa memantau sendiri dari HP.
+                        Rancang halaman lebih cepat dengan komponen UI siap pakai yang responsif, konsisten, dan
+                        mudah disesuaikan untuk berbagai kebutuhan proyek.
                     </p>
 
                     <div className="hero-v5__actions hero-v5__reveal hero-v5__hidden">

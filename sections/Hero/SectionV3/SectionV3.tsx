@@ -4,10 +4,10 @@ import { AlertCircle } from 'lucide-react';
 import './section-v3.css';
 
 const eyebrow = 'Versi 3';
-const title = 'Sederhanakan Operasional dalam';
-const titleAccent = 'Satu Dashboard';
+const title = 'Sederhanakan Design UI, Pakai';
+const titleAccent = 'Dealtech UI For Public Components';
 const description =
-    'Data, transaksi, kehadiran, sampai laporan tercatat rapi dalam satu sistem. Tim berhenti merekap manual, dan pengguna bisa memantau sendiri dari HP.';
+    'Rancang halaman lebih cepat dengan komponen UI siap pakai yang responsif, konsisten, dan mudah disesuaikan untuk berbagai kebutuhan proyek.';
 
 const primaryCta = { label: 'Daftar & Coba Gratis', href: '#harga' };
 const secondaryCta = { label: 'Lihat Fitur', href: '#fitur' };

@@ -20,10 +20,10 @@ const demoImages = [
 ];
 
 const eyebrow = 'Versi 1';
-const title = 'Kelola Operasional Anda Lebih Mudah dengan';
-const titleAccent = 'Satu Dashboard';
+const title = 'Sederhanakan Design UI, Pakai';
+const titleAccent = 'Dealtech UI For Public Components';
 const description =
-    'Data, transaksi, kehadiran, sampai laporan tercatat rapi dalam satu sistem. Tim berhenti merekap manual, dan pengguna bisa memantau sendiri dari HP.';
+    'Rancang halaman lebih cepat dengan komponen UI siap pakai yang responsif, konsisten, dan mudah disesuaikan untuk berbagai kebutuhan proyek.';
 
 const primaryCta = { label: 'Daftar & Coba Gratis', href: '#harga' };
 const secondaryCta = { label: 'Lihat Fitur', href: '#fitur' };

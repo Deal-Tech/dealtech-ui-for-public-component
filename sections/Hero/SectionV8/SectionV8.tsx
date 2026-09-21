@@ -43,13 +43,13 @@ export default function SectionV8() {
                     </span>
 
                     <h1 className="hero-v8__title hero-v8__reveal hero-v8__hidden">
-                        <span>Sederhanakan Operasional dalam</span>{' '}
-                        <span className="hero-v8__title-accent">Satu Dashboard</span>
+                        <span>Sederhanakan Design UI, Pakai</span>{' '}
+                        <span className="hero-v8__title-accent">Dealtech UI For Public Components</span>
                     </h1>
 
                     <p className="hero-v8__description hero-v8__reveal hero-v8__hidden">
-                        Data, transaksi, kehadiran, sampai laporan tercatat rapi dalam satu sistem. Tim berhenti
-                        merekap manual, dan pengguna bisa memantau sendiri dari HP.
+                        Rancang halaman lebih cepat dengan komponen UI siap pakai yang responsif, konsisten, dan
+                        mudah disesuaikan untuk berbagai kebutuhan proyek.
                     </p>
 
                     <div className="hero-v8__search hero-v8__reveal hero-v8__hidden">
