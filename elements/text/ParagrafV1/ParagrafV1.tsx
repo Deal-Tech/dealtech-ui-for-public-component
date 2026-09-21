@@ -6,7 +6,7 @@ export interface ParagrafV1Props {
 }
 
 export default function ParagrafV1({
-    children = 'Data, transaksi, kehadiran, sampai laporan tercatat rapi dalam satu sistem. Tim berhenti merekap manual, dan pengguna bisa memantau sendiri dari HP.',
+    children = 'Rancang halaman lebih cepat dengan komponen UI siap pakai yang responsif, konsisten, dan mudah disesuaikan untuk berbagai kebutuhan proyek.',
     className = '',
 }: ParagrafV1Props) {
     return <p className={`paragraf-v1${className ? ` ${className}` : ''}`}>{children}</p>;

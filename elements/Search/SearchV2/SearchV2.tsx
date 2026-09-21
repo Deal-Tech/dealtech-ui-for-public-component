@@ -1,5 +1,5 @@
 import type { FormEventHandler } from 'react';
-import { CalendarDays, MapPin, Search, Users } from 'lucide-react';
+import { Code2, LayoutGrid, Palette, Search } from 'lucide-react';
 
 import './search-v2.css';
 
@@ -9,12 +9,12 @@ interface SearchV2Props {
 }
 
 const fields = [
-    { label: 'Tujuan', placeholder: 'Mau ke mana?', name: 'destination', Icon: MapPin },
-    { label: 'Tanggal', placeholder: 'Pilih tanggal', name: 'date', Icon: CalendarDays },
-    { label: 'Tamu', placeholder: '2 Orang', name: 'guests', Icon: Users },
+    { label: 'Kategori', placeholder: 'Pilih kategori', name: 'category', Icon: LayoutGrid },
+    { label: 'Teknologi', placeholder: 'Pilih teknologi', name: 'technology', Icon: Code2 },
+    { label: 'Style', placeholder: 'Pilih style', name: 'style', Icon: Palette },
 ];
 
-export default function SearchV2({ buttonLabel = 'Cari Paket', onSubmit }: SearchV2Props) {
+export default function SearchV2({ buttonLabel = 'Cari Komponen', onSubmit }: SearchV2Props) {
     return (
         <form className="search-v2" role="search" onSubmit={onSubmit}>
             <div className="search-v2__fields">

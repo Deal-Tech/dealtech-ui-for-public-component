@@ -50,11 +50,11 @@ export default function SectionV6() {
                         </p>
 
                         <div className="hero-v6__actions hero-v6__reveal hero-v6__hidden">
-                            <a className="hero-v6__button hero-v6__button--primary" href="#harga">
-                                Daftar &amp; Coba Gratis
+                            <a className="hero-v6__button hero-v6__button--primary" href="#fitur">
+                                Jelajahi Komponen
                             </a>
                             <a className="hero-v6__button hero-v6__button--secondary" href="#fitur">
-                                Lihat Fitur
+                                Lihat Dokumentasi
                             </a>
                         </div>
                     </div>
@@ -62,7 +62,7 @@ export default function SectionV6() {
                     <div className="hero-v6__visual hero-v6__reveal hero-v6__hidden">
                         <img
                             src={dashboardImage}
-                            alt="Dashboard aplikasi dengan ringkasan angka, grafik, dan transaksi terbaru."
+                            alt="Preview komponen dashboard Dealtech UI."
                             width={1460}
                             height={1078}
                             decoding="async"

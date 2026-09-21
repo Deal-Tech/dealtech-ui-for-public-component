@@ -4,10 +4,10 @@ import { AlertCircle, ArrowRight, BarChart3, Database, Users, Workflow } from 'l
 import './section-v11.css';
 
 const services = [
-    { title: 'Manajemen Data', description: 'Data tersusun aman dan rapi', Icon: Database },
-    { title: 'Otomasi Proses', description: 'Pekerjaan rutin lebih efisien', Icon: Workflow },
-    { title: 'Analitik Bisnis', description: 'Pantau performa secara langsung', Icon: BarChart3 },
-    { title: 'Kolaborasi Tim', description: 'Kerja bersama dalam satu ruang', Icon: Users },
+    { title: 'Komponen React', description: 'Elemen dan section siap pakai', Icon: Database },
+    { title: 'Variasi Layout', description: 'Pilihan design untuk setiap halaman', Icon: Workflow },
+    { title: 'Design Responsif', description: 'Rapi di desktop hingga mobile', Icon: BarChart3 },
+    { title: 'Dokumentasi & Preview', description: 'Mudah dipelajari dan dicoba', Icon: Users },
 ];
 
 export default function SectionV11() {
@@ -54,11 +54,11 @@ export default function SectionV11() {
                     </p>
 
                     <div className="hero-v11__actions hero-v11__reveal hero-v11__hidden">
-                        <a className="hero-v11__button hero-v11__button--primary" href="#harga">
-                            Daftar &amp; Coba Gratis
+                        <a className="hero-v11__button hero-v11__button--primary" href="#fitur">
+                            Jelajahi Komponen
                         </a>
                         <a className="hero-v11__button hero-v11__button--secondary" href="#fitur">
-                            Lihat Fitur
+                            Lihat Dokumentasi
                         </a>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ export default function SectionV11() {
                     <div className="hero-v11__orb hero-v11__orb--small" />
 
                     <div className="hero-v11__service-card">
-                        <h2>Layanan Kami</h2>
+                        <h2>Koleksi Kami</h2>
                         <div className="hero-v11__service-list">
                             {services.map(({ title, description, Icon }) => (
                                 <a href="#fitur" className="hero-v11__service" key={title}>

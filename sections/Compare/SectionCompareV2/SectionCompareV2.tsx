@@ -5,47 +5,47 @@ import './section-compare-v2.css';
 
 const oldItems = [
     {
-        title: 'Rekap manual:',
-        description: 'Transaksi dicatat di buku dan spreadsheet, rawan salah hitung dan selisih.',
+        title: 'Mulai dari nol:',
+        description: 'Setiap halaman dirancang ulang sehingga waktu pengembangan menjadi lebih panjang.',
     },
     {
-        title: 'Data terpencar:',
-        description: 'Setiap anggota tim punya file sendiri dengan versi yang berbeda-beda.',
+        title: 'Style tidak konsisten:',
+        description: 'Warna, spacing, dan pola komponen berbeda di setiap bagian produk.',
     },
     {
-        title: 'Admin jadi call center:',
-        description: 'Pelanggan bertanya satu per satu dan tim harus menjawab hal yang sama berulang kali.',
+        title: 'Responsif belakangan:',
+        description: 'Tampilan mobile baru diperbaiki setelah layout desktop selesai dibuat.',
     },
     {
-        title: 'Tagihan telat diketahui:',
-        description: 'Masalah baru terlihat setelah pembayaran tertunda terlalu lama.',
+        title: 'Copy paste berulang:',
+        description: 'Kode yang sama tersebar di banyak file dan sulit diperbarui bersama.',
     },
     {
-        title: 'Laporan dadakan:',
-        description: 'Setiap pimpinan meminta laporan, seluruh data harus dihitung ulang dari awal.',
+        title: 'Sulit dikembangkan:',
+        description: 'Setiap variasi baru membutuhkan perubahan besar pada struktur yang sudah ada.',
     },
 ];
 
 const newItems = [
     {
-        title: 'Tagihan otomatis:',
-        description: 'Tagihan dibuat sesuai jadwal dan status pembayaran langsung terlihat.',
+        title: 'Komponen siap pakai:',
+        description: 'Elemen dan section dapat langsung digunakan sebagai fondasi halaman.',
     },
     {
-        title: 'Satu sumber data:',
-        description: 'Pelanggan, operasional, transaksi, dan laporan tersimpan dalam satu sistem.',
+        title: 'Satu design system:',
+        description: 'Warna, spacing, dan pola visual tetap konsisten di seluruh tampilan.',
     },
     {
-        title: 'Portal mandiri:',
-        description: 'Pengguna memeriksa tagihan dan informasi sendiri tanpa selalu menghubungi admin.',
+        title: 'Responsif sejak awal:',
+        description: 'Setiap komponen disiapkan untuk desktop, tablet, dan mobile.',
     },
     {
-        title: 'Pembayaran terpantau:',
-        description: 'Daftar pembayaran tertunda tampil setiap hari agar bisa segera ditindaklanjuti.',
+        title: 'Variasi mudah dibuat:',
+        description: 'Struktur yang rapi memudahkan pembuatan versi baru tanpa mengulang semuanya.',
     },
     {
-        title: 'Laporan siap pakai:',
-        description: 'Data keuangan dan operasional dapat dilihat atau dicetak kapan saja.',
+        title: 'Siap dikembangkan:',
+        description: 'Komponen dapat disesuaikan dan dikembangkan mengikuti kebutuhan produk.',
     },
 ];
 
@@ -76,7 +76,7 @@ export default function SectionCompareV2() {
                 <div className="section-compare-v2__grid">
                     <div className="section-compare-v2__column section-compare-v2__column--old">
                         <h3 className="section-compare-v2__title section-compare-v2__title--old">
-                            <XCircle size={20} strokeWidth={2.5} /> CARA LAMA (MELELAHKAN)
+                            <XCircle size={20} strokeWidth={2.5} /> TANPA DEALTECH UI
                         </h3>
                         <ul className="section-compare-v2__list">
                             {oldItems.map((item) => (
@@ -91,9 +91,9 @@ export default function SectionCompareV2() {
                     </div>
 
                     <div className="section-compare-v2__column section-compare-v2__column--new">
-                        <span className="section-compare-v2__badge">DENGAN SISTEM TERPADU</span>
+                        <span className="section-compare-v2__badge">DEALTECH UI COMPONENTS</span>
                         <h3 className="section-compare-v2__title section-compare-v2__title--new">
-                            <CheckCircle2 size={20} strokeWidth={2.5} /> CARA BARU (TERKENDALI)
+                            <CheckCircle2 size={20} strokeWidth={2.5} /> DENGAN DEALTECH UI
                         </h3>
                         <ul className="section-compare-v2__list">
                             {newItems.map((item) => (

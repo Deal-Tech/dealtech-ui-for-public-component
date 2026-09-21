@@ -17,53 +17,53 @@ import './card-list-v3.css';
 const features = [
     {
         icon: Users,
-        title: 'Data pelanggan terpusat',
-        text: 'Profil, kontak, kategori, dan riwayat aktivitas tersimpan dalam satu tempat.',
+        title: 'Komponen siap pakai',
+        text: 'Gunakan elemen dan section siap pakai tanpa membangun tampilan dari awal.',
     },
     {
         icon: Wallet,
-        title: 'Tagihan & pembayaran',
-        text: 'Tagihan dibuat otomatis lengkap dengan status lunas, cicilan, dan pembayaran tertunda.',
+        title: 'Variasi layout',
+        text: 'Pilih berbagai versi layout untuk menyesuaikan kebutuhan setiap halaman.',
     },
     {
         icon: Landmark,
-        title: 'Saldo & transaksi',
-        text: 'Catat pemasukan dan pengeluaran dengan saldo yang terhitung otomatis.',
+        title: 'Design responsif',
+        text: 'Setiap komponen tetap rapi dari layar desktop hingga perangkat mobile.',
     },
     {
         icon: ClipboardList,
-        title: 'Kehadiran & aktivitas',
-        text: 'Kehadiran, izin, dan aktivitas tim tercatat rapi dalam setiap periode.',
+        title: 'Styling terisolasi',
+        text: 'CSS setiap komponen tersusun mandiri agar mudah dipindahkan dan dirawat.',
     },
     {
         icon: BookOpen,
-        title: 'Tugas & alur kerja',
-        text: 'Kelola tugas, jadwal, progres, dan evaluasi kerja dalam satu alur.',
+        title: 'Struktur konsisten',
+        text: 'Penamaan file dan class dibuat konsisten untuk mempercepat pengembangan.',
     },
     {
         icon: Smartphone,
-        title: 'Portal mandiri',
-        text: 'Pengguna dapat memeriksa informasi dan transaksi sendiri melalui perangkat mereka.',
+        title: 'Mudah dikustomisasi',
+        text: 'Ubah warna, konten, dan detail visual agar sesuai dengan identitas brand.',
     },
     {
         icon: Library,
-        title: 'Dokumen & arsip',
-        text: 'Simpan dokumen penting dan temukan kembali informasi dengan lebih cepat.',
+        title: 'Aset siap digunakan',
+        text: 'Setiap section membawa aset lokal yang dibutuhkan untuk menjaga tampilannya.',
     },
     {
         icon: HeartPulse,
-        title: 'Layanan & dukungan',
-        text: 'Catat permintaan, tindak lanjut, dan status layanan secara terstruktur.',
+        title: 'Integrasi React',
+        text: 'Komponen TSX siap dipasang ke proyek React dengan struktur yang sederhana.',
     },
     {
         icon: LayoutDashboard,
-        title: 'Laporan siap pakai',
-        text: 'Laporan transaksi, aktivitas, dan data utama dapat dilihat kapan saja.',
+        title: 'Preview komponen',
+        text: 'Lihat setiap variasi langsung sebelum memilihnya untuk digunakan dalam proyek.',
     },
     {
         icon: ShieldCheck,
-        title: 'Hak akses pengguna',
-        text: 'Setiap anggota hanya melihat fitur dan data yang sesuai dengan tugasnya.',
+        title: 'Siap dikembangkan',
+        text: 'Jadikan setiap versi sebagai fondasi untuk membuat variasi design berikutnya.',
     },
 ];
 
@@ -92,8 +92,8 @@ export default function CardListV3() {
         <section ref={sectionRef} className="card-list-v3">
             <div className="card-list-v3__shell">
                 <h2 className="card-list-v3__heading">
-                    Satu Sistem untuk{' '}
-                    <span className="card-list-v3__heading-accent">Seluruh Kebutuhan Bisnis</span>
+                    Satu Library untuk{' '}
+                    <span className="card-list-v3__heading-accent">Seluruh Kebutuhan UI</span>
                 </h2>
 
                 <div className="card-list-v3__grid">

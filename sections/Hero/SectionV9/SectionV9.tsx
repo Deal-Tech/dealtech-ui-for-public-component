@@ -4,9 +4,9 @@ import { AlertCircle, Search } from 'lucide-react';
 import './section-v9.css';
 
 const filters = [
-    { label: 'Kategori', options: ['Semua', 'Operasional', 'Keuangan', 'Laporan'] },
-    { label: 'Periode', options: ['Semua', 'Hari Ini', 'Bulan Ini', 'Tahun Ini'] },
-    { label: 'Status', options: ['Semua', 'Aktif', 'Proses', 'Selesai'] },
+    { label: 'Kategori', options: ['Semua', 'Hero', 'Features', 'About', 'Review'] },
+    { label: 'Teknologi', options: ['Semua', 'React', 'TypeScript', 'CSS'] },
+    { label: 'Tampilan', options: ['Semua', 'Light', 'Dark', 'Responsif'] },
 ];
 
 export default function SectionV9() {
@@ -55,11 +55,11 @@ export default function SectionV9() {
 
                 <div className="hero-v9__visual hero-v9__reveal hero-v9__hidden">
                     <form className="hero-v9__finder" onSubmit={(event) => event.preventDefault()}>
-                        <h2>Cari Kebutuhan</h2>
+                        <h2>Cari Komponen</h2>
 
                         <label className="hero-v9__query">
                             <Search size={17} strokeWidth={2} aria-hidden="true" />
-                            <input type="search" placeholder="Nama layanan, kategori, atau kata kunci..." />
+                            <input type="search" placeholder="Nama komponen, kategori, atau kata kunci..." />
                         </label>
 
                         <div className="hero-v9__filters">
@@ -76,7 +76,7 @@ export default function SectionV9() {
                         </div>
 
                         <button type="submit">
-                            Cari Sekarang <Search size={15} strokeWidth={2.5} aria-hidden="true" />
+                            Cari Komponen <Search size={15} strokeWidth={2.5} aria-hidden="true" />
                         </button>
                     </form>
                 </div>

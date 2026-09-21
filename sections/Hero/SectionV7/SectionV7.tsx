@@ -5,9 +5,9 @@ import SearchV1 from '../../../elements/Search/SearchV1/SearchV1';
 import './section-v7.css';
 
 const metrics = [
-    { value: '10K+', label: 'Pengguna Aktif' },
-    { value: '350+', label: 'Tim Berkembang' },
-    { value: '99.9%', label: 'Waktu Aktif' },
+    { value: '10K+', label: 'Developer Aktif' },
+    { value: '350+', label: 'Komponen Publik' },
+    { value: '99.9%', label: 'Tampilan Responsif' },
 ];
 
 const dashboardImage = new URL('./assets/demo-dashboard.svg', import.meta.url).href;
@@ -58,9 +58,9 @@ export default function SectionV7() {
 
                         <div className="hero-v7__search hero-v7__reveal hero-v7__hidden">
                             <SearchV1
-                                placeholder="Masukkan email Anda"
-                                buttonLabel="Mulai Sekarang"
-                                name="email"
+                                placeholder="Cari komponen UI"
+                                buttonLabel="Cari Sekarang"
+                                name="component"
                                 onSubmit={(event) => event.preventDefault()}
                             />
                         </div>
@@ -78,7 +78,7 @@ export default function SectionV7() {
                     <div className="hero-v7__visual hero-v7__reveal hero-v7__hidden">
                         <img
                             src={dashboardImage}
-                            alt="Dashboard aplikasi dengan ringkasan angka, grafik, dan transaksi terbaru."
+                            alt="Preview komponen dashboard Dealtech UI."
                             width={1460}
                             height={1078}
                             decoding="async"

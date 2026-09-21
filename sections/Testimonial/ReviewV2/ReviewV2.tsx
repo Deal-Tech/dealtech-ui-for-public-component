@@ -6,15 +6,15 @@ import './review-v2.css';
 const reviews = [
     {
         name: 'A**** M. — Finance Manager',
-        text: 'Dulu rekap tagihan membutuhkan beberapa hari setiap awal bulan. Sekarang tim tinggal membuka laporan dan langsung mengetahui pembayaran yang belum selesai.',
+        text: 'Dulu setiap halaman dimulai dari nol. Sekarang kami memilih komponen yang sesuai lalu menyesuaikan konten dan warnanya.',
     },
     {
         name: 'R**** H. — Customer Support',
-        text: 'Pelanggan tidak lagi menghubungi admin hanya untuk menanyakan status transaksi. Mereka bisa memeriksanya sendiri, sehingga tim jauh lebih lega.',
+        text: 'Komponen yang responsif sejak awal membuat proses review lebih singkat dan mengurangi revisi tampilan mobile.',
     },
     {
         name: 'S**** F. — Operations Lead',
-        text: 'Data pelanggan, transaksi, aktivitas, dan laporan kini berada dalam satu sistem. Saat audit, semua informasi siap digunakan.',
+        text: 'Struktur file dan CSS yang konsisten memudahkan tim memindahkan section ke proyek tanpa mengubah design dasarnya.',
     },
     {
         name: 'D**** P. — Product Designer',
@@ -56,11 +56,11 @@ export default function ReviewV2() {
             <div className="review-v2__shell">
                 <h2 className="review-v2__heading">
                     Sudah Dipakai Berbagai Tim untuk{' '}
-                    <span className="review-v2__heading-accent">Berhenti Mencatat Manual</span>
+                    <span className="review-v2__heading-accent">Membangun UI Lebih Cepat</span>
                 </h2>
 
                 <p className="review-v2__subtitle">
-                    Dibangun bersama pengguna agar sesuai dengan kebutuhan operasional sehari-hari.
+                    Dibangun bersama developer dan designer untuk kebutuhan produk digital sehari-hari.
                 </p>
 
                 <div className="review-v2__masonry">

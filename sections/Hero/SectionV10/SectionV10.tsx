@@ -5,9 +5,9 @@ import SearchV2 from '../../../elements/Search/SearchV2/SearchV2';
 import './section-v10.css';
 
 const metrics = [
-    { value: '10K+', label: 'Pengguna Aktif' },
-    { value: '350+', label: 'Tim Berkembang' },
-    { value: '99.9%', label: 'Waktu Aktif' },
+    { value: '10K+', label: 'Developer Aktif' },
+    { value: '350+', label: 'Komponen Publik' },
+    { value: '99.9%', label: 'Tampilan Responsif' },
 ];
 
 export default function SectionV10() {

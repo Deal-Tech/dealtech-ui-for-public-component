@@ -4,10 +4,10 @@ import { AlertCircle } from 'lucide-react';
 import './section-v4.css';
 
 const stats = [
-    { value: '92%', label: 'Retensi Pelanggan', className: 'hero-v4__stat--retention' },
-    { value: '350+', label: 'Tim Aktif', className: 'hero-v4__stat--teams' },
-    { value: '18K+', label: 'Pengguna Aktif', className: 'hero-v4__stat--users' },
-    { value: '99.9%', label: 'Waktu Aktif', className: 'hero-v4__stat--uptime' },
+    { value: '92%', label: 'Komponen Responsif', className: 'hero-v4__stat--retention' },
+    { value: '350+', label: 'Komponen Publik', className: 'hero-v4__stat--teams' },
+    { value: '18K+', label: 'Developer Aktif', className: 'hero-v4__stat--users' },
+    { value: '99.9%', label: 'Konsistensi UI', className: 'hero-v4__stat--uptime' },
 ];
 
 export default function SectionV4() {
@@ -54,17 +54,17 @@ export default function SectionV4() {
                     </p>
 
                     <div className="hero-v4__actions hero-v4__reveal hero-v4__hidden">
-                        <a className="hero-v4__button" href="#harga">
-                            Daftar &amp; Coba Gratis
+                        <a className="hero-v4__button" href="#fitur">
+                            Jelajahi Komponen
                         </a>
                     </div>
                 </div>
 
                 <div className="hero-v4__stats hero-v4__reveal hero-v4__hidden">
                     <div className="hero-v4__stats-copy">
-                        <strong>10.000+ Tim</strong>
-                        <span>Mempercayai Kami</span>
-                        <p>Dari bisnis rintisan hingga tim yang terus berkembang.</p>
+                        <strong>10.000+ Developer</strong>
+                        <span>Memakai Dealtech UI</span>
+                        <p>Dari proyek pribadi hingga produk digital berskala besar.</p>
                     </div>
 
                     {stats.map((stat) => (

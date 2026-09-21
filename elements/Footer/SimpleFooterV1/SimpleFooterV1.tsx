@@ -10,9 +10,9 @@ export interface SimpleFooterV1Props {
 
 export default function SimpleFooterV1({
     year = new Date().getFullYear(),
-    brand = 'Your Brand',
+    brand = 'Dealtech UI',
     brandHref,
-    description = 'Business Management System',
+    description = 'For Public Components',
     rightsText = 'All Rights Reserved',
 }: SimpleFooterV1Props) {
     const brandName = brandHref ? <a href={brandHref}>{brand}</a> : brand;

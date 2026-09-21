@@ -4,10 +4,10 @@ import { AlertCircle } from 'lucide-react';
 import './section-v13.css';
 
 const stats = [
-    { value: '92%', label: 'Retensi Pengguna', className: 'hero-v13__stat--retention' },
+    { value: '92%', label: 'Kepuasan Developer', className: 'hero-v13__stat--retention' },
     { value: '350+', label: 'Komponen Aktif', className: 'hero-v13__stat--components' },
-    { value: '18K+', label: 'Pengguna Aktif', className: 'hero-v13__stat--users' },
-    { value: '99.9%', label: 'Waktu Aktif', className: 'hero-v13__stat--uptime' },
+    { value: '18K+', label: 'Developer Aktif', className: 'hero-v13__stat--users' },
+    { value: '99.9%', label: 'Tampilan Responsif', className: 'hero-v13__stat--uptime' },
 ];
 
 const officeImage = new URL('./assets/office-laptop.png', import.meta.url).href;
@@ -71,8 +71,8 @@ export default function SectionV13() {
                         </p>
 
                         <div className="hero-v13__actions hero-v13__reveal hero-v13__hidden">
-                            <a className="hero-v13__button hero-v13__button--primary" href="#harga">
-                                Daftar &amp; Coba Gratis
+                            <a className="hero-v13__button hero-v13__button--primary" href="#fitur">
+                                Jelajahi Komponen
                             </a>
                             <a className="hero-v13__button hero-v13__button--secondary" href="#fitur">
                                 Lihat Komponen

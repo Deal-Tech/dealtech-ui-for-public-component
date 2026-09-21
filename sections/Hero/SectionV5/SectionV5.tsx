@@ -4,9 +4,9 @@ import { AlertCircle } from 'lucide-react';
 import './section-v5.css';
 
 const metrics = [
-    { value: '10K+', label: 'Pengguna Aktif' },
-    { value: '350+', label: 'Tim Berkembang' },
-    { value: '99.9%', label: 'Waktu Aktif' },
+    { value: '10K+', label: 'Developer Aktif' },
+    { value: '350+', label: 'Komponen Publik' },
+    { value: '99.9%', label: 'Tampilan Responsif' },
 ];
 
 const dashboardImage = new URL('./assets/demo-dashboard.svg', import.meta.url).href;
@@ -55,11 +55,11 @@ export default function SectionV5() {
                     </p>
 
                     <div className="hero-v5__actions hero-v5__reveal hero-v5__hidden">
-                        <a className="hero-v5__button hero-v5__button--primary" href="#harga">
-                            Daftar &amp; Coba Gratis
+                        <a className="hero-v5__button hero-v5__button--primary" href="#fitur">
+                            Jelajahi Komponen
                         </a>
                         <a className="hero-v5__button hero-v5__button--secondary" href="#fitur">
-                            Lihat Fitur
+                            Lihat Dokumentasi
                         </a>
                     </div>
 
@@ -76,7 +76,7 @@ export default function SectionV5() {
                 <div className="hero-v5__visual hero-v5__reveal hero-v5__hidden">
                     <img
                         src={dashboardImage}
-                        alt="Dashboard aplikasi dengan ringkasan angka, grafik, dan transaksi terbaru."
+                        alt="Preview komponen dashboard Dealtech UI."
                         width={1460}
                         height={1078}
                         decoding="async"

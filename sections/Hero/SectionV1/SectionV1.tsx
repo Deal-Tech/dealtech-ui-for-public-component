@@ -7,13 +7,13 @@ import './section-v1.css';
 const demoImages = [
     {
         src: '/images/hero-section-v1/demo-dashboard.svg',
-        alt: 'Dashboard aplikasi: ringkasan angka utama, grafik tren bulanan, dan tabel transaksi terbaru.',
+        alt: 'Preview section dashboard dari koleksi Dealtech UI.',
         width: 1460,
         height: 1078,
     },
     {
         src: '/images/hero-section-v1/demo-portal.svg',
-        alt: 'Portal pengguna: kartu profil, ringkasan saldo, daftar tagihan beserta statusnya, dan riwayat aktivitas.',
+        alt: 'Preview section portal dari koleksi Dealtech UI.',
         width: 1460,
         height: 1078,
     },
@@ -26,16 +26,16 @@ const titleSuffix = 'For Public Components';
 const description =
     'Rancang halaman lebih cepat dengan komponen UI siap pakai yang responsif, konsisten, dan mudah disesuaikan untuk berbagai kebutuhan proyek.';
 
-const primaryCta = { label: 'Daftar & Coba Gratis', href: '#harga' };
-const secondaryCta = { label: 'Lihat Fitur', href: '#fitur' };
+const primaryCta = { label: 'Jelajahi Komponen', href: '#fitur' };
+const secondaryCta = { label: 'Lihat Dokumentasi', href: '#tentang' };
 
 const trust = [
-    'Gratis untuk 25 pengguna pertama',
-    'Tanpa instalasi, langsung dipakai',
-    'Impor data dari Excel',
+    'Komponen publik siap pakai',
+    'Responsif sejak awal',
+    'Mudah disesuaikan',
 ];
 
-const demoTitle = 'Beginilah tampilan sistemnya:';
+const demoTitle = 'Preview komponen Dealtech UI:';
 
 export default function SectionV1() {
     useEffect(() => {

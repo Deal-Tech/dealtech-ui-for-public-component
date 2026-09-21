@@ -10,8 +10,8 @@ const titleSuffix = 'For Public Components';
 const description =
     'Rancang halaman lebih cepat dengan komponen UI siap pakai yang responsif, konsisten, dan mudah disesuaikan untuk berbagai kebutuhan proyek.';
 
-const primaryCta = { label: 'Daftar & Coba Gratis', href: '#harga' };
-const secondaryCta = { label: 'Lihat Fitur', href: '#fitur' };
+const primaryCta = { label: 'Jelajahi Komponen', href: '#fitur' };
+const secondaryCta = { label: 'Lihat Dokumentasi', href: '#tentang' };
 const dashboardImage = new URL('./assets/demo-dashboard.svg', import.meta.url).href;
 
 export default function SectionV2() {
@@ -66,7 +66,7 @@ export default function SectionV2() {
                 <div className="hero-v2__visual hero-v2__reveal hero-v2__hidden">
                     <img
                         src={dashboardImage}
-                        alt="Dashboard aplikasi dengan ringkasan angka, grafik, dan transaksi terbaru."
+                        alt="Preview komponen dashboard Dealtech UI."
                         width={1460}
                         height={1078}
                         decoding="async"
