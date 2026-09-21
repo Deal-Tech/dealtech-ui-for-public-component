@@ -40,7 +40,8 @@ export default function SectionV6() {
 
                         <h1 className="hero-v6__title hero-v6__reveal hero-v6__hidden">
                             <span>Sederhanakan Design UI, Pakai</span>{' '}
-                            <span className="hero-v6__title-accent">Dealtech UI For Public Components</span>
+                            <span className="hero-v6__title-accent">Dealtech UI</span>{' '}
+                            <span>For Public Components</span>
                         </h1>
 
                         <p className="hero-v6__description hero-v6__reveal hero-v6__hidden">

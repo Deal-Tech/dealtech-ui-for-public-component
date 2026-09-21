@@ -44,7 +44,8 @@ export default function SectionV4() {
 
                     <h1 className="hero-v4__title hero-v4__reveal hero-v4__hidden">
                         <span>Sederhanakan Design UI, Pakai</span>{' '}
-                        <span className="hero-v4__title-accent">Dealtech UI For Public Components</span>
+                        <span className="hero-v4__title-accent">Dealtech UI</span>{' '}
+                        <span>For Public Components</span>
                     </h1>
 
                     <p className="hero-v4__description hero-v4__reveal hero-v4__hidden">

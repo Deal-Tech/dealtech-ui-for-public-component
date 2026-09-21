@@ -21,7 +21,8 @@ const demoImages = [
 
 const eyebrow = 'Versi 1';
 const title = 'Sederhanakan Design UI, Pakai';
-const titleAccent = 'Dealtech UI For Public Components';
+const titleAccent = 'Dealtech UI';
+const titleSuffix = 'For Public Components';
 const description =
     'Rancang halaman lebih cepat dengan komponen UI siap pakai yang responsif, konsisten, dan mudah disesuaikan untuk berbagai kebutuhan proyek.';
 
@@ -64,7 +65,8 @@ export default function SectionV1() {
                     </span>
 
                     <h1 className="home-hero__title sl-reveal sl-opacity-0">
-                        <span>{title}</span> <span className="home-hero__title-accent">{titleAccent}</span>
+                        <span>{title}</span> <span className="home-hero__title-accent">{titleAccent}</span>{' '}
+                        <span>{titleSuffix}</span>
                     </h1>
 
                     <p className="home-hero__description sl-reveal sl-opacity-0">{description}</p>

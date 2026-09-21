@@ -5,7 +5,8 @@ import './section-v2.css';
 
 const eyebrow = 'Versi 2';
 const title = 'Sederhanakan Design UI, Pakai';
-const titleAccent = 'Dealtech UI For Public Components';
+const titleAccent = 'Dealtech UI';
+const titleSuffix = 'For Public Components';
 const description =
     'Rancang halaman lebih cepat dengan komponen UI siap pakai yang responsif, konsisten, dan mudah disesuaikan untuk berbagai kebutuhan proyek.';
 
@@ -46,7 +47,8 @@ export default function SectionV2() {
                     </span>
 
                     <h1 className="hero-v2__title hero-v2__reveal hero-v2__hidden">
-                        <span>{title}</span> <span className="hero-v2__title-accent">{titleAccent}</span>
+                        <span>{title}</span> <span className="hero-v2__title-accent">{titleAccent}</span>{' '}
+                        <span>{titleSuffix}</span>
                     </h1>
 
                     <p className="hero-v2__description hero-v2__reveal hero-v2__hidden">{description}</p>
