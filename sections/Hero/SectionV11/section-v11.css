@@ -165,7 +165,7 @@
 .hero-v11__service-card {
   position: relative;
   z-index: 1;
-  width: min(100%, 390px);
+  width: 100%;
   border-radius: 18px;
   padding: 24px;
   background: #ffffff;
