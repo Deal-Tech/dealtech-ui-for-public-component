@@ -1,0 +1,79 @@
+import { useEffect, useRef } from 'react';
+import { AlertCircle } from 'lucide-react';
+
+import './section-v4.css';
+
+const stats = [
+    { value: '92%', label: 'Retensi Pelanggan', className: 'hero-v4__stat--retention' },
+    { value: '350+', label: 'Tim Aktif', className: 'hero-v4__stat--teams' },
+    { value: '18K+', label: 'Pengguna Aktif', className: 'hero-v4__stat--users' },
+    { value: '99.9%', label: 'Waktu Aktif', className: 'hero-v4__stat--uptime' },
+];
+
+export default function SectionV4() {
+    const sectionRef = useRef<HTMLElement>(null);
+
+    useEffect(() => {
+        const section = sectionRef.current;
+        if (!section) return;
+
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('hero-v4__visible');
+                        entry.target.classList.remove('hero-v4__hidden');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            },
+            { threshold: 0.12, rootMargin: '0px 0px -40px 0px' },
+        );
+
+        section.querySelectorAll('.hero-v4__reveal').forEach((element) => observer.observe(element));
+        return () => observer.disconnect();
+    }, []);
+
+    return (
+        <section ref={sectionRef} id="home" className="hero-v4">
+            <div className="hero-v4__shell">
+                <div className="hero-v4__content">
+                    <span className="hero-v4__eyebrow hero-v4__reveal hero-v4__hidden">
+                        <AlertCircle size={16} strokeWidth={2.5} aria-hidden="true" /> Versi 1.0
+                    </span>
+
+                    <h1 className="hero-v4__title hero-v4__reveal hero-v4__hidden">
+                        <span>Sederhanakan Operasional dalam</span>{' '}
+                        <span className="hero-v4__title-accent">Satu Dashboard</span>
+                    </h1>
+
+                    <p className="hero-v4__description hero-v4__reveal hero-v4__hidden">
+                        Data, transaksi, kehadiran, sampai laporan tercatat rapi dalam satu sistem. Tim berhenti
+                        merekap manual, dan pengguna bisa memantau sendiri dari HP.
+                    </p>
+
+                    <div className="hero-v4__actions hero-v4__reveal hero-v4__hidden">
+                        <a className="hero-v4__button" href="#harga">
+                            Daftar &amp; Coba Gratis
+                        </a>
+                    </div>
+                </div>
+
+                <div className="hero-v4__stats hero-v4__reveal hero-v4__hidden">
+                    <div className="hero-v4__stats-copy">
+                        <strong>10.000+ Tim</strong>
+                        <span>Mempercayai Kami</span>
+                        <p>Dari bisnis rintisan hingga tim yang terus berkembang.</p>
+                    </div>
+
+                    {stats.map((stat) => (
+                        <article className={`hero-v4__stat ${stat.className}`} key={stat.label}>
+                            <strong>{stat.value}</strong>
+                            <span>{stat.label}</span>
+                        </article>
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
+}
