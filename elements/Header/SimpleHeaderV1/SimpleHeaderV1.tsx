@@ -10,9 +10,9 @@ export interface SimpleHeaderV1Props {
 }
 
 export default function SimpleHeaderV1({
-    highlight = 'Playground',
+    highlight = 'Ini adalah Playground',
     description = 'dari Dealtech UI For Public Components.',
-    ctaLabel = 'GitHub',
+    ctaLabel = 'Coba Gratis',
     ctaHref = 'https://github.com/mrizky-fr/dealtech-ui-for-public-component',
 }: SimpleHeaderV1Props) {
     return (
