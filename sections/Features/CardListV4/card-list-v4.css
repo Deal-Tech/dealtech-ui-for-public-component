@@ -67,10 +67,14 @@
 
 .card-list-v4__icon {
   flex: 0 0 auto;
+  width: 42px;
+  height: 42px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #01498b;
+  border-radius: 50%;
+  background: #01498b;
+  color: #ffffff;
 }
 
 .card-list-v4__copy {
