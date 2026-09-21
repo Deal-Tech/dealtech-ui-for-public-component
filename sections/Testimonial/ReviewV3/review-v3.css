@@ -74,7 +74,7 @@
 }
 
 .review-v3__rating svg {
-  color: #00a878;
+  color: var(--review-v3-primary);
 }
 
 .review-v3__rating strong {
@@ -183,7 +183,7 @@
 .review-v3__stars {
   display: inline-flex;
   gap: 2px;
-  color: #00a878;
+  color: var(--review-v3-primary);
 }
 
 .review-v3__author {
@@ -212,15 +212,15 @@
 }
 
 .review-v3__avatar--2 {
-  background: #0e7490;
+  background: #1261a6;
 }
 
 .review-v3__avatar--3 {
-  background: #475569;
+  background: #2574b8;
 }
 
 .review-v3__avatar--4 {
-  background: #0369a1;
+  background: #3988c9;
 }
 
 .review-v3__author > span:last-child {
