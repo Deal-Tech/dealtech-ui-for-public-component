@@ -18,7 +18,7 @@
 }
 
 .hero-v6__surface {
-  width: min(calc(100% - 24px), 1440px);
+  width: 100%;
   margin: 0 auto;
   overflow: hidden;
   border-radius: 0 0 44px 44px;
@@ -221,7 +221,7 @@
   }
 
   .hero-v6__surface {
-    width: calc(100% - 12px);
+    width: 100%;
     border-radius: 0 0 26px 26px;
     box-shadow: 0 8px 0 rgba(1, 73, 139, 0.18);
   }
