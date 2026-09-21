@@ -37,7 +37,7 @@ Isi repo dibagi jadi tiga folder di akar, supaya langsung ketemu:
 | Folder | Isi | Contoh |
 |---|---|---|
 | [`elements/`](elements/) | Unit terkecil — satu tugas, satu tampilan. | Button, Badge, Input, Card, Avatar, Modal |
-| [`components/`](components/) | Gabungan beberapa element jadi satu blok utuh. | Hero, Pricing, Navbar, Footer, Testimonial, FAQ |
+| [`sections/`](sections/) | Gabungan beberapa element menjadi satu bagian halaman. | Hero, Features, About, Pricing, Testimonial, FAQ |
 | [`pages/`](pages/) | Halaman lengkap, hasil rangkaian beberapa komponen. | Landing page, Login, Dashboard, Pricing, 404 |
 
 ## Struktur Folder
@@ -45,15 +45,15 @@ Isi repo dibagi jadi tiga folder di akar, supaya langsung ketemu:
 ```
 dealtech-ui-for-public-component/
 ├── elements/      # unit terkecil (button, input, card, ...)
-├── components/    # blok halaman (hero, pricing, footer, ...)
+├── sections/      # bagian halaman (hero, pricing, testimonial, ...)
 └── pages/         # halaman utuh
 ```
 
-> Ketiga folder masih kosong. Isinya akan ditambahkan bertahap.
+> Koleksi akan terus ditambahkan secara bertahap.
 
 ## Cara Pakai
 
-1. Telusuri folder sesuai yang kamu cari — `elements`, `components`, atau `pages`.
+1. Telusuri folder sesuai yang kamu cari — `elements`, `sections`, atau `pages`.
 2. Buka folder komponennya, baca `README.md` di dalamnya (kalau ada) untuk catatan singkat.
 3. Salin file ke project kamu.
 4. Sesuaikan warna, teks, dan spacing dengan kebutuhan.
