@@ -172,18 +172,20 @@
   align-items: center;
   justify-content: center;
   padding: 26px 18px;
+  border-color: var(--review-v6-primary);
+  background: var(--review-v6-primary);
   text-align: center;
 }
 
 .review-v6__rating-card > span {
-  color: var(--review-v6-ink);
+  color: #ffffff;
   font-size: 0.8125rem;
   font-weight: 600;
 }
 
 .review-v6__rating-card > strong {
   margin-top: 10px;
-  color: var(--review-v6-ink);
+  color: #ffffff;
   font-size: clamp(3.75rem, 7vw, 5.25rem);
   line-height: 1;
   font-weight: 700;
@@ -194,12 +196,12 @@
   margin-top: 18px;
   display: inline-flex;
   gap: 4px;
-  color: var(--review-v6-primary);
+  color: #ffffff;
 }
 
 .review-v6__rating-card > small {
   margin-top: 10px;
-  color: var(--review-v6-muted);
+  color: rgba(255, 255, 255, 0.78);
   font-size: 0.6875rem;
 }
 
