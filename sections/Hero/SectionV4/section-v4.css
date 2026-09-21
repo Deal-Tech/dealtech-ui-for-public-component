@@ -207,6 +207,19 @@
   transform: translateY(-50%);
 }
 
+.hero-v4__stat--teams,
+.hero-v4__stat--uptime {
+  border-color: var(--hero-v4-primary);
+  background: var(--hero-v4-primary);
+}
+
+.hero-v4__stat--teams strong,
+.hero-v4__stat--teams span,
+.hero-v4__stat--uptime strong,
+.hero-v4__stat--uptime span {
+  color: #ffffff;
+}
+
 .hero-v4__stat--users {
   top: 30px;
   right: 24px;
