@@ -16,6 +16,30 @@ const reviews = [
         name: 'S**** F. — Operations Lead',
         text: 'Data pelanggan, transaksi, aktivitas, dan laporan kini berada dalam satu sistem. Saat audit, semua informasi siap digunakan.',
     },
+    {
+        name: 'D**** P. — Product Designer',
+        text: 'Komponen yang konsisten membuat proses menyusun halaman jauh lebih cepat dan hasil akhirnya terasa lebih rapi.',
+    },
+    {
+        name: 'N**** A. — Frontend Developer',
+        text: 'Strukturnya mudah dipahami dan responsif sejak awal. Penyesuaian warna serta konten juga sangat praktis.',
+    },
+    {
+        name: 'F**** R. — Project Manager',
+        text: 'Waktu pengerjaan antarmuka menjadi lebih terukur karena seluruh tim menggunakan pola komponen yang sama.',
+    },
+    {
+        name: 'I**** K. — Business Owner',
+        text: 'Kami dapat meluncurkan halaman baru lebih cepat tanpa mengorbankan konsistensi tampilan di setiap perangkat.',
+    },
+    {
+        name: 'L**** S. — UI Engineer',
+        text: 'Setiap komponen mudah dikembangkan kembali dan tidak menyulitkan saat kebutuhan produk mulai bertambah.',
+    },
+    {
+        name: 'M**** T. — Creative Lead',
+        text: 'Design tetap fleksibel mengikuti identitas brand, sementara fondasi layout sudah tertata dengan baik.',
+    },
 ];
 
 export default function ReviewV1() {

@@ -82,7 +82,7 @@
 .review-v1__track {
   min-width: 0;
   display: flex;
-  gap: 16px;
+  gap: 12px;
   overflow-x: auto;
   overflow-y: hidden;
   scroll-snap-type: x mandatory;

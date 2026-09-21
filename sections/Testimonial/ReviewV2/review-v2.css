@@ -76,7 +76,7 @@
 .review-v2__masonry {
   margin-top: 28px;
   columns: 3 280px;
-  column-gap: 16px;
+  column-gap: 12px;
 }
 
 .review-v2__card {
@@ -84,7 +84,7 @@
   display: inline-flex;
   flex-direction: column;
   gap: 12px;
-  margin: 0 0 16px;
+  margin: 0 0 12px;
   padding: 22px;
   break-inside: avoid;
   border: 1px solid var(--review-v2-line);
