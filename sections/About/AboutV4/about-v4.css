@@ -114,7 +114,6 @@
   border: 1px solid var(--about-v4-line);
   border-radius: 20px;
   background: #ffffff;
-  box-shadow: 0 22px 54px rgba(0, 36, 70, 0.12);
 }
 
 .about-v4__panel-label {
