@@ -1,0 +1,87 @@
+<div align="center">
+
+# DealTech UI — Public Components
+
+**A collection of ready-to-use UI components: Elements, Sections, and Pages.**
+
+Built by [tech.mudahdeal.com](https://tech.mudahdeal.com)
+
+[🇮🇩 Bahasa Indonesia](README.md) · 🇬🇧 **English**
+
+</div>
+
+---
+
+## About This Repo
+
+This repo holds UI components we picked and cleaned up ourselves, so anyone can use them — either as a **reference** while building something, or **copied straight** into your own project.
+
+No required install, no dependencies to lock you in. Take what you need, change it however you like.
+
+## What's Inside
+
+The repo is split into three top-level folders, so things are easy to find:
+
+| Folder | Contents | Examples |
+|---|---|---|
+| [`elements/`](elements/) | The smallest units — one job, one look. | Button, Badge, Input, Card, Avatar, Modal |
+| [`components/`](components/) | Several elements combined into one complete block. | Hero, Pricing, Navbar, Footer, Testimonial, FAQ |
+| [`pages/`](pages/) | Complete pages, assembled from multiple components. | Landing page, Login, Dashboard, Pricing, 404 |
+
+## Folder Structure
+
+```
+dealtech-ui-for-public-component/
+├── elements/      # smallest units (button, input, card, ...)
+├── components/    # page blocks (hero, pricing, footer, ...)
+└── pages/         # full pages
+```
+
+> All three folders are still empty. Content will be added over time.
+
+## How to Use
+
+1. Browse the folder that matches what you need — `elements`, `components`, or `pages`.
+2. Open the component folder and read its `README.md` (if present) for a short note.
+3. Copy the files into your project.
+4. Adjust colors, copy, and spacing to fit.
+
+No fork required, no credit required, no need to tell us.
+
+## Naming Conventions
+
+To keep things consistent and searchable:
+
+- Component folder names use `kebab-case` — e.g. `pricing-table`, `hero-split`.
+- One component = one folder, containing the component file plus its preview.
+- For variants, use a clear suffix: `hero-split`, `hero-centered`, `hero-video`.
+
+## Contributing
+
+Got a component worth sharing? Open a Pull Request. We only care about three things:
+
+- **Self-contained** — no dependency on another project's internal code.
+- **Tidy** — consistent naming, no dead code.
+- **Responsive** — looks reasonable on both small and large screens.
+
+## Disclaimer
+
+> **This repo is free to use without asking our permission.**
+>
+> You may copy it, modify it, and use it for personal or commercial purposes, with or without attribution. No request to send, no approval to wait for.
+>
+> This project exists purely out of a desire to create an easier environment and encourage sharing across the internet — so newcomers have a starting point, and experienced developers don't have to rewrite the same thing again.
+>
+> Components are provided **as is**, without warranty of any kind. Use is at your own risk. Please test them yourself before shipping to production.
+
+## License
+
+[MIT](LICENSE) — as free as it gets, in line with the spirit above.
+
+---
+
+<div align="center">
+
+Built and maintained by **[tech.mudahdeal.com](https://tech.mudahdeal.com)**
+
+</div>
