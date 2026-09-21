@@ -114,15 +114,15 @@
   overflow: hidden;
   border-radius: 24px;
   background:
-    radial-gradient(circle at 100% 0%, rgba(149, 126, 255, 0.22), transparent 38%),
-    linear-gradient(135deg, #f5f2ff 0%, #f7f8ff 52%, #eef7ff 100%);
+    radial-gradient(circle at 100% 0%, rgba(1, 73, 139, 0.2), transparent 38%),
+    linear-gradient(135deg, #eef7ff 0%, #f5f9fd 52%, #eaf4fc 100%);
 }
 
 .hero-v4__stats::before,
 .hero-v4__stats::after {
   position: absolute;
   content: '';
-  border: 1px solid rgba(112, 87, 255, 0.12);
+  border: 1px solid rgba(1, 73, 139, 0.12);
   border-radius: 50%;
 }
 
@@ -177,12 +177,12 @@
   border-radius: 14px;
   padding: 16px;
   background: rgba(255, 255, 255, 0.92);
-  box-shadow: 0 16px 40px rgba(72, 64, 128, 0.12);
+  box-shadow: 0 16px 40px rgba(1, 58, 111, 0.12);
   backdrop-filter: blur(8px);
 }
 
 .hero-v4__stat strong {
-  color: #7658f6;
+  color: var(--hero-v4-primary);
   font-size: 1.35rem;
   line-height: 1;
   font-weight: 800;
