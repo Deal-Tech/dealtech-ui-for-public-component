@@ -1,5 +1,7 @@
 /* ButtonV1 — pil, dua varian: primary dan outline. */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
 .btn-v1,
 .btn-v1-group {
   --btn-primary: #01498b;

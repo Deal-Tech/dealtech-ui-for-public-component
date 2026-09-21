@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
 .card-list-v1 {
   --card-list-v1-primary: #01498b;
   --card-list-v1-primary-soft: rgba(1, 73, 139, 0.08);

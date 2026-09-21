@@ -1,5 +1,7 @@
 /* Hero SectionV1 — berdiri sendiri, token diletakkan di section. */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
 .home-hero-section {
   --lp-primary: #01498b;
   --lp-primary-dark: #013a6f;
