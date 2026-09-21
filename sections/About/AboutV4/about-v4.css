@@ -149,7 +149,7 @@
 .about-v4__accordion-item summary {
   min-height: 58px;
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
   gap: 12px;
   padding: 0 16px;
@@ -160,17 +160,6 @@
 
 .about-v4__accordion-item summary::-webkit-details-marker {
   display: none;
-}
-
-.about-v4__accordion-icon {
-  width: 34px;
-  height: 34px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 9px;
-  background: var(--about-v4-primary);
-  color: #ffffff;
 }
 
 .about-v4__accordion-item summary strong {
@@ -189,7 +178,7 @@
 
 .about-v4__accordion-item p {
   margin: 0;
-  padding: 0 16px 16px 62px;
+  padding: 0 16px 16px;
   color: var(--about-v4-muted);
   font-size: 0.875rem;
   line-height: 1.6;

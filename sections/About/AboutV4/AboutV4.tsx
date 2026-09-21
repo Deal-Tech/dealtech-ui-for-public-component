@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { ChevronDown, Eye, Info, Target } from 'lucide-react';
+import { ChevronDown, Info } from 'lucide-react';
 
 import './about-v4.css';
 
@@ -8,13 +8,11 @@ const accordionItems = [
         title: 'Visi',
         content:
             'Menjadi referensi komponen UI publik yang membantu developer membangun produk digital dengan lebih cepat dan konsisten.',
-        Icon: Eye,
     },
     {
         title: 'Misi',
         content:
             'Menyediakan komponen yang responsif, mudah disesuaikan, terdokumentasi dengan jelas, dan siap digunakan untuk berbagai kebutuhan proyek.',
-        Icon: Target,
     },
 ];
 
@@ -72,12 +70,9 @@ export default function AboutV4() {
                     <h3>Visi dan Misi</h3>
 
                     <div className="about-v4__accordion">
-                        {accordionItems.map(({ title, content, Icon }, index) => (
+                        {accordionItems.map(({ title, content }, index) => (
                             <details className="about-v4__accordion-item" key={title} open={index === 0}>
                                 <summary>
-                                    <span className="about-v4__accordion-icon">
-                                        <Icon size={19} strokeWidth={2.1} aria-hidden="true" />
-                                    </span>
                                     <strong>{title}</strong>
                                     <ChevronDown size={18} strokeWidth={2.2} aria-hidden="true" />
                                 </summary>
