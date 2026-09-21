@@ -288,6 +288,12 @@
     display: none;
   }
 
+  .hero-v4__stats-copy strong,
+  .hero-v4__stats-copy span,
+  .hero-v4__stat strong {
+    font-weight: 700;
+  }
+
   .hero-v4__stat {
     width: 100px;
     min-height: 100px;
