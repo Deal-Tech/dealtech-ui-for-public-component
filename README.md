@@ -27,23 +27,25 @@ Isi repo dibagi jadi tiga folder di akar, supaya langsung ketemu:
 | Folder | Isi | Contoh |
 |---|---|---|
 | [`elements/`](elements/) | Unit terkecil — satu tugas, satu tampilan. | Button, Badge, Input, Card, Avatar, Modal |
-| [`components/`](components/) | Gabungan beberapa element jadi satu blok utuh. | Hero, Pricing, Navbar, Footer, Testimonial, FAQ |
+| [`sections/`](sections/) | Gabungan beberapa element jadi satu blok utuh, dikelompokkan per kategori. | Hero, Pricing, Navbar, Footer, Testimonial, FAQ |
 | [`pages/`](pages/) | Halaman lengkap, hasil rangkaian beberapa komponen. | Landing page, Login, Dashboard, Pricing, 404 |
 
 ## Struktur Folder
 
 ```
 dealtech-ui-for-public-component/
-├── elements/      # unit terkecil (button, input, card, ...)
-├── components/    # blok halaman (hero, pricing, footer, ...)
-└── pages/         # halaman utuh
+├── elements/            # unit terkecil (button, input, card, ...)
+├── sections/            # blok halaman, dikelompokkan per kategori
+│   └── Hero/
+│       └── SectionV1/   # satu varian = satu folder
+└── pages/               # halaman utuh
 ```
 
-> Ketiga folder masih kosong. Isinya akan ditambahkan bertahap.
+> Isinya masih sedikit dan akan ditambahkan bertahap.
 
 ## Cara Pakai
 
-1. Telusuri folder sesuai yang kamu cari — `elements`, `components`, atau `pages`.
+1. Telusuri folder sesuai yang kamu cari — `elements`, `sections`, atau `pages`.
 2. Buka folder komponennya, baca `README.md` di dalamnya (kalau ada) untuk catatan singkat.
 3. Salin file ke project kamu.
 4. Sesuaikan warna, teks, dan spacing dengan kebutuhan.
@@ -54,9 +56,10 @@ Tidak perlu fork, tidak perlu kredit, tidak perlu lapor.
 
 Supaya konsisten dan gampang dicari:
 
-- Nama folder komponen: `kebab-case` — contoh `pricing-table`, `hero-split`.
-- Satu komponen = satu folder, berisi file komponen + preview-nya.
-- Kalau ada beberapa varian, pakai sufiks jelas: `hero-split`, `hero-centered`, `hero-video`.
+- `elements/` dan `pages/`: nama folder `kebab-case` — contoh `pricing-table`, `login-page`.
+- `sections/`: dua tingkat `PascalCase` — kategori lalu varian, contoh `Hero/SectionV1`, `Pricing/SectionV2`.
+- Satu varian = satu folder, berisi file komponen + preview-nya.
+- Varian baru dalam kategori yang sama tinggal menambah nomor: `SectionV2`, `SectionV3`.
 
 ## Kontribusi
 

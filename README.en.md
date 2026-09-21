@@ -27,23 +27,25 @@ The repo is split into three top-level folders, so things are easy to find:
 | Folder | Contents | Examples |
 |---|---|---|
 | [`elements/`](elements/) | The smallest units — one job, one look. | Button, Badge, Input, Card, Avatar, Modal |
-| [`components/`](components/) | Several elements combined into one complete block. | Hero, Pricing, Navbar, Footer, Testimonial, FAQ |
+| [`sections/`](sections/) | Several elements combined into one complete block, grouped by category. | Hero, Pricing, Navbar, Footer, Testimonial, FAQ |
 | [`pages/`](pages/) | Complete pages, assembled from multiple components. | Landing page, Login, Dashboard, Pricing, 404 |
 
 ## Folder Structure
 
 ```
 dealtech-ui-for-public-component/
-├── elements/      # smallest units (button, input, card, ...)
-├── components/    # page blocks (hero, pricing, footer, ...)
-└── pages/         # full pages
+├── elements/            # smallest units (button, input, card, ...)
+├── sections/            # page blocks, grouped by category
+│   └── Hero/
+│       └── SectionV1/   # one variant = one folder
+└── pages/               # full pages
 ```
 
-> All three folders are still empty. Content will be added over time.
+> Still a small collection; more will be added over time.
 
 ## How to Use
 
-1. Browse the folder that matches what you need — `elements`, `components`, or `pages`.
+1. Browse the folder that matches what you need — `elements`, `sections`, or `pages`.
 2. Open the component folder and read its `README.md` (if present) for a short note.
 3. Copy the files into your project.
 4. Adjust colors, copy, and spacing to fit.
@@ -54,9 +56,10 @@ No fork required, no credit required, no need to tell us.
 
 To keep things consistent and searchable:
 
-- Component folder names use `kebab-case` — e.g. `pricing-table`, `hero-split`.
-- One component = one folder, containing the component file plus its preview.
-- For variants, use a clear suffix: `hero-split`, `hero-centered`, `hero-video`.
+- `elements/` and `pages/`: folder names use `kebab-case` — e.g. `pricing-table`, `login-page`.
+- `sections/`: two `PascalCase` levels — category then variant, e.g. `Hero/SectionV1`, `Pricing/SectionV2`.
+- One variant = one folder, containing the component file plus its preview.
+- A new variant in the same category just bumps the number: `SectionV2`, `SectionV3`.
 
 ## Contributing
 
