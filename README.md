@@ -6,6 +6,8 @@
 
 **Kumpulan komponen UI siap pakai: Elements, Sections, dan Pages.**
 
+`#PakaiAiTapiBerasaBukanAi`
+
 Dikembangkan oleh [tech.mudahdeal.com](https://tech.mudahdeal.com)
 
 🇮🇩 **Bahasa Indonesia** · [🇬🇧 English](README.en.md)
@@ -19,6 +21,14 @@ Dikembangkan oleh [tech.mudahdeal.com](https://tech.mudahdeal.com)
 Repo ini berisi komponen antarmuka (UI) yang kami pilih dan rapikan sendiri, supaya bisa dipakai siapa saja — entah sebagai **referensi** saat membangun sesuatu, atau **langsung disalin** ke dalam project kamu.
 
 Tidak ada instalasi wajib, tidak ada dependency yang mengikat. Ambil yang kamu butuhkan, ubah sesuka hati.
+
+### `#PakaiAiTapiBerasaBukanAi`
+
+Website hasil AI sering ketahuan: tata letak seragam, gaya itu-itu saja, rasanya bukan buatan orang. Masalahnya bukan AI-nya, tapi AI tidak punya acuan.
+
+Repo ini jadi acuan itu. Arahkan AI ke komponen di sini, dan hasilnya jadi lebih **mudah** — tidak perlu menjelaskan ulang dari nol — sekaligus lebih **konsisten**, karena semua bagian halaman berangkat dari kumpulan yang sama.
+
+Pakai AI, tapi hasil akhirnya tidak berasa AI.
 
 ## Isi Repo
 
