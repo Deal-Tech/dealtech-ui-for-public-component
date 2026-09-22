@@ -6,7 +6,7 @@
 
   box-sizing: border-box;
   width: 100%;
-  padding: clamp(54px, 7vw, 82px) 0 0;
+  padding: 0;
   background: #ffffff;
   font-family: 'Inter', sans-serif;
 }
@@ -264,10 +264,6 @@
 }
 
 @media (max-width: 700px) {
-  .cta-v4 {
-    padding: 42px 0 0;
-  }
-
   .cta-v4__surface {
     border-radius: 26px;
     box-shadow:
