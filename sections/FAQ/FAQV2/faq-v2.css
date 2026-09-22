@@ -121,8 +121,10 @@
 }
 
 .faq-v2__item--open button > span {
-  padding-bottom: 2.5px;
-  border-bottom: 1px dashed rgba(1, 73, 139, 0.22);
+  text-decoration: underline;
+  text-decoration-color: rgba(1, 73, 139, 0.4);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
 
 .faq-v2__answer {
