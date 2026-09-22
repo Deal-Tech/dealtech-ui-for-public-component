@@ -94,7 +94,7 @@ export default function PricelistV2() {
                                         </p>
                                         <a href="#kontak">
                                             {plan.cta}
-                                            <ArrowRight size={15} aria-hidden="true" />
+                                            <ArrowRight size={16} strokeWidth={2.4} aria-hidden="true" />
                                         </a>
                                     </div>
 

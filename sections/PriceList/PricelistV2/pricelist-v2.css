@@ -151,12 +151,14 @@
 }
 
 .pricelist-v2__card-header > span {
-  padding: 4px 7px;
+  padding: 4px 10px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.14);
   color: #ffffff;
-  font-size: 0.525rem;
+  font-size: 0.68rem;
   font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .pricelist-v2__card-body {
@@ -216,15 +218,14 @@
 
 .pricelist-v2__price-box a {
   width: 100%;
-  min-height: 34px;
-  margin-top: 10px;
-  display: flex;
+  height: 44px;
+  margin-top: 22px;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 7px;
-  padding: 7px 10px;
-  border: 1px solid var(--pricelist-v2-primary);
-  border-radius: 7px;
+  gap: 8px;
+  border: 0;
+  border-radius: 10px;
   background: var(--pricelist-v2-primary);
   color: #ffffff;
   font-size: 0.88rem;
@@ -239,7 +240,6 @@
 }
 
 .pricelist-v2__card--featured .pricelist-v2__price-box a {
-  border-color: #ffffff;
   background: #ffffff;
   color: #0f172a;
 }
