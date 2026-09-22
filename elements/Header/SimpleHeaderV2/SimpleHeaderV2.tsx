@@ -217,7 +217,7 @@ export default function SimpleHeaderV2({
             <div className={`simple-header-v2__overlay${drawerOpen ? ' is-open' : ''}`} onClick={closeDrawer} aria-hidden="true" />
             <aside id={`${id}-drawer`} className={`simple-header-v2__drawer${drawerOpen ? ' is-open' : ''}`} aria-hidden={!drawerOpen}>
                 <div className="simple-header-v2__drawer-head">
-                    <strong>{brand}</strong>
+                    <strong>Menu</strong>
                     <button type="button" onClick={closeDrawer} aria-label="Tutup menu"><X size={20} aria-hidden="true" /></button>
                 </div>
                 <nav aria-label="Menu seluler">
@@ -233,18 +233,24 @@ export default function SimpleHeaderV2({
                             </button>
                             {mobileMenu === item.label && (
                                 <div className="simple-header-v2__drawer-mega" id={`${id}-mobile-mega-${index}`}>
-                                    {item.mega.map((link) => (
-                                        <a
-                                            key={link.label}
-                                            href={link.href}
-                                            target={isExternal(link.href) ? '_blank' : undefined}
-                                            rel={isExternal(link.href) ? 'noreferrer' : undefined}
-                                            onClick={closeDrawer}
-                                        >
-                                            <strong>{link.label}</strong>
-                                            <small>{link.description}</small>
-                                        </a>
-                                    ))}
+                                    {item.mega.map((link) => {
+                                        const Icon = link.icon ?? Layers3;
+                                        return (
+                                            <a
+                                                key={link.label}
+                                                href={link.href}
+                                                target={isExternal(link.href) ? '_blank' : undefined}
+                                                rel={isExternal(link.href) ? 'noreferrer' : undefined}
+                                                onClick={closeDrawer}
+                                            >
+                                                <span className="simple-header-v2__drawer-mega-icon"><Icon size={18} aria-hidden="true" /></span>
+                                                <span className="simple-header-v2__drawer-mega-copy">
+                                                    <strong>{link.label}</strong>
+                                                    <small>{link.description}</small>
+                                                </span>
+                                            </a>
+                                        );
+                                    })}
                                     {item.megaFooter && (
                                         <a
                                             className="simple-header-v2__drawer-mega-all"
@@ -253,7 +259,7 @@ export default function SimpleHeaderV2({
                                             rel={isExternal(item.megaFooter.href) ? 'noreferrer' : undefined}
                                             onClick={closeDrawer}
                                         >
-                                            {item.megaFooter.label}
+                                            {item.megaFooter.label} <ArrowRight size={14} aria-hidden="true" />
                                         </a>
                                     )}
                                 </div>
