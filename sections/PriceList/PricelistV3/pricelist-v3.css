@@ -110,13 +110,13 @@
 
 .pricelist-v3__card-header {
   position: relative;
-  min-height: 76px;
+  min-height: 52px;
   overflow: hidden;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 10px;
-  padding: 18px 20px 28px;
+  padding: 9px 20px 14px;
   border: 1px solid #dfe3e8;
   border-bottom: 0;
   border-radius: 18px 18px 0 0;
