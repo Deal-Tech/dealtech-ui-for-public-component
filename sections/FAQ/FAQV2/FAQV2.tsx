@@ -86,7 +86,7 @@ export default function FAQV2() {
 
                         return (
                             <article
-                                className={`faq-v2__item faq-v2__reveal faq-v2__hidden${isOpen ? ' faq-v2__item--open' : ''}`}
+                                className={`faq-v2__item${isOpen ? ' faq-v2__item--open' : ''}`}
                                 key={faq.question}
                             >
                                 <button
