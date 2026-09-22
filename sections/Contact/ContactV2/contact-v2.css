@@ -124,10 +124,10 @@
   display: grid;
   gap: 16px;
   padding: clamp(24px, 4vw, 38px);
-  border: 1px solid rgba(1, 73, 139, 0.08);
+  border: 0;
   border-radius: 20px;
   background: #ffffff;
-  box-shadow: 0 22px 55px rgba(15, 23, 42, 0.1);
+  box-shadow: none;
 }
 
 .contact-v2__field-row {
