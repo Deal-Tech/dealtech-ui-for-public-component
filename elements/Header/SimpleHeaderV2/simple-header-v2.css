@@ -229,13 +229,15 @@
 .simple-header-v2__menu-button {
   display: none;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
+  justify-self: end;
   width: 40px;
   height: 40px;
-  border: 1px solid #c8d7e7;
-  border-radius: 10px;
-  background: #ffffff;
+  padding: 0;
+  border: 0;
+  background: transparent;
   color: var(--simple-header-v2-blue);
+  text-align: end;
   cursor: pointer;
 }
 
@@ -267,7 +269,6 @@
   display: flex;
   flex-direction: column;
   padding: 14px 12px;
-  border-right: 1px solid #e6ebf1;
   background: #ffffff;
   font-family: 'Inter', sans-serif;
   overflow-y: auto;
@@ -287,7 +288,6 @@
   align-items: center;
   justify-content: space-between;
   padding-bottom: 10px;
-  border-bottom: 1px solid #e6ebf1;
   color: #01498b;
   font-size: 0.95rem;
 }
@@ -360,6 +360,7 @@
 .simple-header-v2__drawer-mega a {
   display: flex;
   align-items: flex-start;
+  justify-content: space-between;
   gap: 11px;
   padding: 10px 6px;
   border-radius: 10px;
@@ -373,6 +374,7 @@
 
 .simple-header-v2__drawer-mega-icon {
   flex: 0 0 34px;
+  order: 2;
   width: 34px;
   height: 34px;
   display: inline-flex;
@@ -385,6 +387,7 @@
 
 .simple-header-v2__drawer-mega-copy {
   min-width: 0;
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 2px;
@@ -407,7 +410,6 @@
   gap: 7px;
   margin-top: 4px;
   padding: 10px 6px 4px;
-  border-top: 1px solid #e6ebf1;
   border-radius: 0;
   color: #01498b;
   font-size: 0.8125rem;
