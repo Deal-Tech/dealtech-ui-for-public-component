@@ -88,11 +88,6 @@ export default function ContactV2() {
                 </div>
 
                 <form className="contact-v2__form" onSubmit={(event) => event.preventDefault()}>
-                    <div className="contact-v2__form-header">
-                        <h2>Kirim Pesan</h2>
-                        <p>Isi formulir berikut dan kami akan segera menghubungimu.</p>
-                    </div>
-
                     <div className="contact-v2__field-row">
                         <label className="contact-v2__field">
                             <span>Nama</span>
