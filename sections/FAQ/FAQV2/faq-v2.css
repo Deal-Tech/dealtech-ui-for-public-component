@@ -118,6 +118,10 @@
 .faq-v2__item--open button {
   min-height: 0;
   padding-bottom: 2.5px;
+}
+
+.faq-v2__item--open button > span {
+  padding-bottom: 2.5px;
   border-bottom: 1px dashed rgba(1, 73, 139, 0.22);
 }
 
