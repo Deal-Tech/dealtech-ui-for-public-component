@@ -118,6 +118,7 @@
 .faq-v2__item--open button {
   min-height: 0;
   padding-bottom: 2.5px;
+  border-bottom: 1px dashed rgba(1, 73, 139, 0.22);
 }
 
 .faq-v2__answer {
@@ -136,7 +137,7 @@
 
 .faq-v2__answer p {
   margin: 0;
-  padding: 0 24px 11px;
+  padding: 4px 24px 11px;
   color: var(--faq-v2-muted);
   font-size: 0.875rem;
   line-height: 1.65;
@@ -191,7 +192,7 @@
   }
 
   .faq-v2__answer p {
-    padding: 0 18px 9px;
+    padding: 4px 18px 9px;
     font-size: 0.8125rem;
   }
 }
