@@ -22,8 +22,8 @@
 
 .simple-footer-v2__grid {
   display: grid;
-  grid-template-columns: 1.15fr 1fr 1fr;
-  gap: clamp(28px, 5vw, 64px);
+  grid-template-columns: 1.7fr 1fr 1fr;
+  gap: clamp(28px, 4vw, 48px);
 }
 
 .simple-footer-v2__grid > div {
@@ -36,7 +36,7 @@
 }
 
 .simple-footer-v2__brand img {
-  width: min(240px, 100%);
+  width: min(480px, 100%);
   height: auto;
   display: block;
 }
@@ -61,15 +61,15 @@
 }
 
 .simple-footer-v2__repo {
-  min-height: 38px;
+  min-height: 40px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 7px;
-  padding: 0 12px;
-  border-radius: 7px;
-  background: #066aca;
-  color: #ffffff;
+  padding: 0 16px;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #01498b;
   font-size: 0.8125rem;
   font-weight: 700;
   text-decoration: none;
@@ -77,8 +77,8 @@
 }
 
 .simple-footer-v2__repo:hover {
-  background: #0556a3;
-  transform: translateY(-2px);
+  background: #eaf3fc;
+  transform: translateY(-1px);
 }
 
 .simple-footer-v2__links-column {

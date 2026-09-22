@@ -171,7 +171,7 @@ export default function SimpleHeaderV2({
 
                     <div className="simple-header-v2__actions">
                         <a className="simple-header-v2__cta" href={ctaHref}>
-                            {ctaLabel}
+                            {ctaLabel} <ArrowRight size={17} aria-hidden="true" />
                         </a>
                     </div>
 
@@ -246,7 +246,7 @@ export default function SimpleHeaderV2({
                     ) : null)}
                 </nav>
                 <a className="simple-header-v2__drawer-cta" href={ctaHref} onClick={closeDrawer}>
-                    {ctaLabel}
+                    {ctaLabel} <ArrowRight size={17} aria-hidden="true" />
                 </a>
             </aside>
         </>
