@@ -4,7 +4,6 @@
   --faq-v2-primary: #01498b;
   --faq-v2-ink: #111111;
   --faq-v2-muted: #4b5563;
-  --faq-v2-line: #d8e6f2;
 
   box-sizing: border-box;
   width: 100%;
@@ -76,16 +75,15 @@
 
 .faq-v2__item {
   overflow: hidden;
-  border: 1px solid var(--faq-v2-line);
+  border: 0;
   border-radius: 18px;
-  background: rgba(255, 255, 255, 0.96);
-  box-shadow: 0 10px 28px rgba(1, 73, 139, 0.06);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  background: #f6f7f9;
+  box-shadow: none;
+  transition: background 0.2s ease;
 }
 
 .faq-v2__item--open {
-  border-color: #8ec3f1;
-  box-shadow: 0 14px 34px rgba(1, 73, 139, 0.1);
+  background: #f0f3f6;
 }
 
 .faq-v2__item button {
