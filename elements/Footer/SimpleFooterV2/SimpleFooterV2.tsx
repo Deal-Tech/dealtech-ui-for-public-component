@@ -83,9 +83,6 @@ export default function SimpleFooterV2({
                         <a className="simple-footer-v2__cta" href="/playground">
                             Buka Playground <ArrowRight size={17} aria-hidden="true" />
                         </a>
-                        <p className="simple-footer-v2__credit">
-                            Dikembangkan oleh <a href="https://tech.mudahdeal.com/" target="_blank" rel="noreferrer">tech.mudahdeal.com</a>
-                        </p>
                     </div>
                 </div>
 
@@ -97,7 +94,9 @@ export default function SimpleFooterV2({
 
                 <div className="simple-footer-v2__bottom">
                     <p>&copy; {year} {brand}. Lisensi MIT.</p>
-                    <a href={repositoryUrl} target="_blank" rel="noreferrer">Lihat di GitHub</a>
+                    <p className="simple-footer-v2__credit">
+                        Dikembangkan oleh <a href="https://tech.mudahdeal.com/" target="_blank" rel="noreferrer">tech.mudahdeal.com</a>
+                    </p>
                 </div>
             </div>
         </footer>

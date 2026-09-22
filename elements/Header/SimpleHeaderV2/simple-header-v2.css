@@ -38,7 +38,7 @@
 }
 
 .simple-header-v2__brand img {
-  width: clamp(352px, 36vw, 440px);
+  width: clamp(176px, 18vw, 220px);
   height: auto;
   display: block;
   filter: brightness(0);
@@ -392,10 +392,6 @@
   .simple-header-v2__inner {
     width: calc(100% - 28px);
     min-height: 64px;
-  }
-
-  .simple-header-v2__brand img {
-    width: min(352px, calc(100vw - 104px));
   }
 }
 
