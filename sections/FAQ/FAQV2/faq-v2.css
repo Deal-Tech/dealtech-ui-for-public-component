@@ -9,11 +9,7 @@
   box-sizing: border-box;
   width: 100%;
   padding: clamp(48px, 7vw, 84px) 0;
-  background-color: #f8fbfe;
-  background-image:
-    linear-gradient(rgba(1, 73, 139, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(1, 73, 139, 0.03) 1px, transparent 1px);
-  background-size: 72px 72px;
+  background: #ffffff;
   font-family: 'Inter', sans-serif;
 }
 
@@ -170,7 +166,6 @@
 @media (max-width: 520px) {
   .faq-v2 {
     padding: 40px 0;
-    background-size: 52px 52px;
   }
 
   .faq-v2__shell {
