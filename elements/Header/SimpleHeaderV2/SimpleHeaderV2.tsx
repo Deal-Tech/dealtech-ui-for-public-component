@@ -53,8 +53,22 @@ const defaultNavItems: SimpleHeaderV2NavItem[] = [
         ],
         megaFooter: { label: 'Lihat semua komponen', href: repositoryUrl },
     },
-    { label: 'Playground', href: '/playground' },
-    { label: 'Dokumentasi', href: `${repositoryUrl}#readme` },
+    {
+        label: 'Playground',
+        megaColumns: 1,
+        mega: [
+            { label: 'For Admin', description: 'Jelajahi starter admin versi terbaru.', href: `${adminRepositoryUrl}/tree/main/templates/starter-v3.0`, icon: LayoutTemplate },
+            { label: 'For Public Components', description: 'Coba variasi komponen publik.', href: '/playground', icon: BookOpen },
+        ],
+    },
+    {
+        label: 'Dokumentasi',
+        megaColumns: 1,
+        mega: [
+            { label: 'For Admin', description: 'Panduan CLI dan starter admin.', href: `${adminRepositoryUrl}#readme`, icon: BookOpen },
+            { label: 'For Public Components', description: 'Panduan komponen UI publik.', href: `${repositoryUrl}#readme`, icon: BookOpen },
+        ],
+    },
 ];
 
 const isExternal = (href: string) => /^https?:\/\//.test(href);
