@@ -1,5 +1,5 @@
 import { useEffect, useId, useRef, useState } from 'react';
-import { ArrowRight, BookOpen, ChevronDown, Layers3, LayoutTemplate, Menu, PanelsTopLeft, X } from 'lucide-react';
+import { ArrowRight, BookOpen, ChevronDown, Layers3, LayoutTemplate, PanelsTopLeft, TextAlignEnd, X } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
 import './simple-header-v2.css';
@@ -209,7 +209,7 @@ export default function SimpleHeaderV2({
                         aria-controls={`${id}-drawer`}
                         onClick={() => setDrawerOpen(true)}
                     >
-                        <Menu size={22} aria-hidden="true" />
+                        <TextAlignEnd size={22} aria-hidden="true" />
                     </button>
                 </div>
             </header>
