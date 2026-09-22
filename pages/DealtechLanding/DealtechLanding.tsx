@@ -1,26 +1,26 @@
 import { useEffect, useRef } from 'react';
-import { Layers3 } from 'lucide-react';
+import { Info, Layers3 } from 'lucide-react';
 
 import SimpleFooterV2 from '../../elements/Footer/SimpleFooterV2/SimpleFooterV2';
 import SimpleHeaderV2 from '../../elements/Header/SimpleHeaderV2/SimpleHeaderV2';
 
 import './dealtech-landing.css';
+import './about-v1.css';
 
 const dashboardImage = new URL('./assets/demo-dashboard.svg', import.meta.url).href;
 
 export default function DealtechLanding() {
-    const sectionRef = useRef<HTMLElement>(null);
+    const heroRef = useRef<HTMLElement>(null);
+    const aboutRef = useRef<HTMLElement>(null);
 
     useEffect(() => {
-        const section = sectionRef.current;
-        if (!section) return;
-
         const observer = new IntersectionObserver(
             (entries) => {
                 entries.forEach((entry) => {
                     if (entry.isIntersecting) {
-                        entry.target.classList.add('hero-v6__visible');
-                        entry.target.classList.remove('hero-v6__hidden');
+                        const prefix = entry.target.classList.contains('about-v1__reveal') ? 'about-v1' : 'hero-v6';
+                        entry.target.classList.add(`${prefix}__visible`);
+                        entry.target.classList.remove(`${prefix}__hidden`);
                         observer.unobserve(entry.target);
                     }
                 });
@@ -28,7 +28,9 @@ export default function DealtechLanding() {
             { threshold: 0.12, rootMargin: '0px 0px -40px 0px' },
         );
 
-        section.querySelectorAll('.hero-v6__reveal').forEach((element) => observer.observe(element));
+        [heroRef.current, aboutRef.current].forEach((section) => {
+            section?.querySelectorAll('.hero-v6__reveal, .about-v1__reveal').forEach((element) => observer.observe(element));
+        });
         return () => observer.disconnect();
     }, []);
 
@@ -36,7 +38,7 @@ export default function DealtechLanding() {
         <div className="dealtech-landing-page">
             <SimpleHeaderV2 />
             <main className="dealtech-landing-page__main">
-                <section ref={sectionRef} id="home" className="hero-v6">
+                <section ref={heroRef} id="home" className="hero-v6">
                     <div className="hero-v6__surface">
                         <div className="hero-v6__shell">
                             <div className="hero-v6__content">
@@ -74,6 +76,41 @@ export default function DealtechLanding() {
                                     decoding="async"
                                 />
                             </div>
+                        </div>
+                    </div>
+                </section>
+                <section ref={aboutRef} id="tentang" className="about-v1">
+                    <div className="about-v1__shell">
+                        <div className="about-v1__content">
+                            <span className="about-v1__eyebrow about-v1__reveal about-v1__hidden">
+                                <Info size={16} strokeWidth={2.5} aria-hidden="true" /> Terbuka untuk Semua
+                            </span>
+
+                            <h2 className="about-v1__title about-v1__reveal about-v1__hidden">
+                                Siapa Pun Bisa Memakai,{' '}
+                                <span className="about-v1__title-accent">Bahkan Mengembangkan</span>
+                            </h2>
+
+                            <p className="about-v1__description about-v1__reveal about-v1__hidden">
+                                Dealtech UI bebas dipakai dan disesuaikan oleh siapa saja. Punya ide, perbaikan, atau
+                                komponen baru? Kembangkan bersama kami dengan mengirim pull request.
+                            </p>
+
+                            <div className="about-v1__action about-v1__reveal about-v1__hidden">
+                                <a className="about-v1__button" href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/pulls" target="_blank" rel="noreferrer">
+                                    Kirim Pull Request
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className="about-v1__visual about-v1__reveal about-v1__hidden">
+                            <img
+                                src={dashboardImage}
+                                alt="Kumpulan komponen antarmuka Dealtech UI."
+                                width={1460}
+                                height={1078}
+                                decoding="async"
+                            />
                         </div>
                     </div>
                 </section>
