@@ -51,9 +51,11 @@ export default function PricelistV2() {
                     Pilih koleksi Dealtech UI yang sesuai dan tingkatkan akses kapan saja saat proyek berkembang.
                 </p>
 
-                <div className="pricelist-v2__billing" aria-label="Periode pembayaran">
+                <div className="pricelist-v2__billing" role="tablist" aria-label="Periode pembayaran">
                     <button
                         type="button"
+                        role="tab"
+                        aria-selected={billing === 'monthly'}
                         className={billing === 'monthly' ? 'pricelist-v2__billing-active' : ''}
                         onClick={() => setBilling('monthly')}
                     >
@@ -61,6 +63,8 @@ export default function PricelistV2() {
                     </button>
                     <button
                         type="button"
+                        role="tab"
+                        aria-selected={billing === 'yearly'}
                         className={billing === 'yearly' ? 'pricelist-v2__billing-active' : ''}
                         onClick={() => setBilling('yearly')}
                     >

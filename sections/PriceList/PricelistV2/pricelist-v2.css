@@ -59,46 +59,68 @@
 }
 
 .pricelist-v2__billing {
-  width: fit-content;
+  width: min(100%, 320px);
+  min-height: 50px;
   margin: 24px auto 0;
   display: flex;
   align-items: center;
   gap: 4px;
-  padding: 4px;
-  border: 1px solid var(--pricelist-v2-line);
-  border-radius: 9px;
+  padding: 5px;
+  border: 1px solid rgba(1, 58, 111, 0.12);
+  border-radius: 999px;
   background: #ffffff;
+  box-shadow: 0 12px 30px rgba(0, 28, 55, 0.16);
 }
 
 .pricelist-v2__billing button {
-  position: relative;
-  min-height: 32px;
-  padding: 6px 14px;
+  min-width: 0;
+  height: 40px;
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 0 18px;
   border: 0;
-  border-radius: 6px;
+  border-radius: 999px;
   background: transparent;
-  color: var(--pricelist-v2-muted);
+  color: #64748b;
   font-family: inherit;
-  font-size: 0.6875rem;
-  font-weight: 600;
+  font-size: 0.8125rem;
+  font-weight: 700;
   cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 
-.pricelist-v2__billing .pricelist-v2__billing-active {
-  background: #e7f2ff;
+.pricelist-v2__billing button:hover {
+  background: #f1f5f9;
   color: var(--pricelist-v2-primary);
 }
 
-.pricelist-v2__billing button span {
-  position: absolute;
-  top: -9px;
-  right: -6px;
-  padding: 2px 5px;
-  border-radius: 999px;
+.pricelist-v2__billing .pricelist-v2__billing-active {
   background: var(--pricelist-v2-primary);
   color: #ffffff;
-  font-size: 0.45rem;
+}
+
+.pricelist-v2__billing .pricelist-v2__billing-active:hover {
+  background: var(--pricelist-v2-primary-dark);
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.pricelist-v2__billing button span {
+  padding: 3px 6px;
+  border-radius: 999px;
+  background: #e7f2ff;
+  color: var(--pricelist-v2-primary);
+  font-size: 0.5625rem;
   font-weight: 700;
+  line-height: 1;
+}
+
+.pricelist-v2__billing .pricelist-v2__billing-active span {
+  background: rgba(255, 255, 255, 0.18);
+  color: #ffffff;
 }
 
 .pricelist-v2__grid {

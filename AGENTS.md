@@ -14,6 +14,8 @@ Repo komponen UI publik dari tech.mudahdeal.com.
 
 - Satu komponen berada dalam satu folder.
 - Komponen harus mandiri dan responsif.
+- Section tidak boleh mengimpor element.
+- Terapkan pola serupa secara mandiri.
 - Gunakan ikon `lucide-react` bila diperlukan.
 - Gunakan font `Inter` dan aksen biru.
 - Selaraskan `README.md` dan `README.en.md`.
