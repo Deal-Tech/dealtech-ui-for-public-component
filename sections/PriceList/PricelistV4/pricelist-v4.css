@@ -63,7 +63,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 34px 20px 22px;
+  padding: 26px 18px 18px;
   border: 1px solid #dce6f0;
   border-radius: 18px;
   background: #ffffff;
@@ -106,7 +106,7 @@
 }
 
 .pricelist-v4__price {
-  margin: 20px 0 0;
+  margin: 14px 0 0;
   color: var(--pricelist-v4-primary);
   font-size: clamp(1.4rem, 2.3vw, 1.8rem);
   line-height: 1.2;
@@ -116,7 +116,7 @@
 
 .pricelist-v4__price span {
   display: block;
-  margin-top: 5px;
+  margin-top: 4px;
   color: #64748b;
   font-size: 0.75rem;
   font-weight: 500;
@@ -125,7 +125,7 @@
 
 .pricelist-v4__description {
   flex: 1;
-  margin: 16px 0 22px;
+  margin: 10px 0 16px;
   color: #4b5563;
   font-size: 0.8125rem;
   line-height: 1.55;
@@ -244,10 +244,6 @@
 
   .pricelist-v4__grid {
     gap: 26px;
-  }
-
-  .pricelist-v4__card {
-    padding-top: 28px;
   }
 }
 
