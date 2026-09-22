@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+.cta-v1 {
+  --cta-v1-primary: #01498b;
+  --cta-v1-primary-dark: #013a6f;
+  --cta-v1-ink: #111111;
+  --cta-v1-muted: #4b5563;
+
+  width: 100%;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.cta-v1,
+.cta-v1 *,
+.cta-v1 *::before,
+.cta-v1 *::after {
+  box-sizing: border-box;
+}
+
+.cta-v1__opacity-0 {
+  opacity: 0;
+}
+
+.cta-v1__reveal {
+  will-change: opacity;
+}
+
+.cta-v1__fade-in {
+  animation: ctaV1FadeIn 0.5s ease forwards;
+}
+
+@keyframes ctaV1FadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cta-v1__inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(44px, 6vw, 72px) clamp(20px, 4vw, 40px);
+  background: #ffffff;
+}
+
+.cta-v1__content {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 940px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cta-v1__title {
+  margin: 0;
+  color: var(--cta-v1-ink);
+  font-size: clamp(1.5rem, 3.1vw, 2.25rem);
+  line-height: 1.28;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.cta-v1__title-accent {
+  padding: 2px 10px;
+  border-radius: 6px;
+  background: var(--cta-v1-primary);
+  color: #ffffff;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.cta-v1__description {
+  max-width: 720px;
+  margin: 12px 0 0;
+  color: var(--cta-v1-muted);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.cta-v1__actions {
+  margin-top: 26px;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-v1__button {
+  min-width: 240px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+  border: 1px solid var(--cta-v1-primary);
+  border-radius: 999px;
+  background: var(--cta-v1-primary);
+  color: #ffffff;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.cta-v1__button:hover {
+  border-color: var(--cta-v1-primary-dark);
+  background: var(--cta-v1-primary-dark);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 640px) {
+  .cta-v1__inner {
+    padding: 36px 18px 32px;
+  }
+
+  .cta-v1__actions,
+  .cta-v1__button {
+    width: 100%;
+  }
+
+  .cta-v1__button {
+    min-width: 0;
+  }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cta-v1__fade-in {
+    animation: none;
+    opacity: 1;
+  }
+}
