@@ -38,7 +38,7 @@
 }
 
 .simple-header-v2__brand img {
-  width: clamp(176px, 18vw, 220px);
+  width: clamp(220px, 22.5vw, 275px);
   height: auto;
   display: block;
   filter: brightness(0);
