@@ -53,20 +53,30 @@
   line-height: 1.65;
 }
 
-.simple-footer-v2__social {
-  width: 36px;
-  height: 36px;
+.simple-footer-v2__repos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.simple-footer-v2__repo {
+  min-height: 38px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  gap: 7px;
+  padding: 0 12px;
   border-radius: 7px;
   background: #066aca;
   color: #ffffff;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-decoration: none;
   transition: background 0.2s ease, transform 0.2s ease;
 }
 
-.simple-footer-v2__social:hover {
+.simple-footer-v2__repo:hover {
   background: #0556a3;
   transform: translateY(-2px);
 }
@@ -201,7 +211,7 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .simple-footer-v2__social,
+  .simple-footer-v2__repo,
   .simple-footer-v2__cta {
     transition: none;
   }

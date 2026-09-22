@@ -46,15 +46,14 @@ export default function SimpleFooterV2({
                             <img src={logoUrl} alt={brand} />
                         </a>
                         <p className="simple-footer-v2__description">{description}</p>
-                        <a
-                            className="simple-footer-v2__social"
-                            href={repositoryUrl}
-                            target="_blank"
-                            rel="noreferrer"
-                            aria-label="Dealtech UI di GitHub"
-                        >
-                            <Github size={18} aria-hidden="true" />
-                        </a>
+                        <div className="simple-footer-v2__repos">
+                            <a className="simple-footer-v2__repo" href="https://github.com/Deal-Tech/dealtech-ui" target="_blank" rel="noreferrer">
+                                <Github size={16} aria-hidden="true" /> UI Admin
+                            </a>
+                            <a className="simple-footer-v2__repo" href={repositoryUrl} target="_blank" rel="noreferrer">
+                                <Github size={16} aria-hidden="true" /> UI For Public
+                            </a>
+                        </div>
                     </div>
 
                     <div className="simple-footer-v2__links-column">

@@ -192,7 +192,6 @@
   gap: 10px;
 }
 
-.simple-header-v2__github,
 .simple-header-v2__cta {
   min-height: 40px;
   display: inline-flex;
@@ -206,15 +205,6 @@
   text-decoration: none;
   white-space: nowrap;
   transition: background 0.2s ease, transform 0.2s ease;
-}
-
-.simple-header-v2__github {
-  border: 1px solid #c8d7e7;
-  color: var(--simple-header-v2-blue);
-}
-
-.simple-header-v2__github:hover {
-  background: #eef6ff;
 }
 
 .simple-header-v2__cta {

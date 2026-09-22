@@ -1,5 +1,5 @@
 import { useEffect, useId, useRef, useState } from 'react';
-import { ArrowRight, BookOpen, ChevronDown, Github, Layers3, LayoutTemplate, Menu, PanelsTopLeft, X } from 'lucide-react';
+import { ArrowRight, BookOpen, ChevronDown, Layers3, LayoutTemplate, Menu, PanelsTopLeft, X } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
 import './simple-header-v2.css';
@@ -51,7 +51,7 @@ export default function SimpleHeaderV2({
     brand = 'Dealtech UI',
     brandHref = '/',
     navItems = defaultNavItems,
-    ctaLabel = 'Jelajahi Komponen',
+    ctaLabel = 'Lihat Komponen',
     ctaHref = '/playground',
 }: SimpleHeaderV2Props) {
     const headerRef = useRef<HTMLElement>(null);
@@ -170,11 +170,8 @@ export default function SimpleHeaderV2({
                     </nav>
 
                     <div className="simple-header-v2__actions">
-                        <a className="simple-header-v2__github" href={repositoryUrl} target="_blank" rel="noreferrer">
-                            <Github size={17} aria-hidden="true" /> GitHub
-                        </a>
                         <a className="simple-header-v2__cta" href={ctaHref}>
-                            {ctaLabel} <ArrowRight size={17} aria-hidden="true" />
+                            {ctaLabel}
                         </a>
                     </div>
 
@@ -249,7 +246,7 @@ export default function SimpleHeaderV2({
                     ) : null)}
                 </nav>
                 <a className="simple-header-v2__drawer-cta" href={ctaHref} onClick={closeDrawer}>
-                    {ctaLabel} <ArrowRight size={17} aria-hidden="true" />
+                    {ctaLabel}
                 </a>
             </aside>
         </>
