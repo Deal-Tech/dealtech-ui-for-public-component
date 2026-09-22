@@ -111,6 +111,12 @@
   transition: transform 0.25s ease;
 }
 
+.faq-v2__item button > span {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
 .faq-v2__item--open button svg {
   transform: rotate(180deg);
 }
@@ -118,13 +124,6 @@
 .faq-v2__item--open button {
   min-height: 0;
   padding-bottom: 2.5px;
-}
-
-.faq-v2__item--open button > span {
-  text-decoration: underline;
-  text-decoration-color: rgba(1, 73, 139, 0.4);
-  text-decoration-thickness: 1px;
-  text-underline-offset: 4px;
 }
 
 .faq-v2__answer {
