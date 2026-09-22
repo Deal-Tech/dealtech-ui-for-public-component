@@ -88,12 +88,12 @@
 
 .faq-v2__item button {
   width: 100%;
-  min-height: 72px;
+  min-height: 52px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding: 20px 24px;
+  padding: 10px 24px;
   border: 0;
   background: transparent;
   color: #1f2937;
@@ -115,6 +115,11 @@
   transform: rotate(180deg);
 }
 
+.faq-v2__item--open button {
+  min-height: 0;
+  padding-bottom: 2.5px;
+}
+
 .faq-v2__answer {
   display: grid;
   grid-template-rows: 0fr;
@@ -131,7 +136,7 @@
 
 .faq-v2__answer p {
   margin: 0;
-  padding: 0 24px 22px;
+  padding: 0 24px 11px;
   color: var(--faq-v2-muted);
   font-size: 0.875rem;
   line-height: 1.65;
@@ -175,13 +180,18 @@
   }
 
   .faq-v2__item button {
-    min-height: 64px;
-    padding: 18px;
+    min-height: 50px;
+    padding: 9px 18px;
     font-size: 0.875rem;
   }
 
+  .faq-v2__item--open button {
+    min-height: 0;
+    padding-bottom: 2.5px;
+  }
+
   .faq-v2__answer p {
-    padding: 0 18px 18px;
+    padding: 0 18px 9px;
     font-size: 0.8125rem;
   }
 }
