@@ -101,7 +101,9 @@ export default function PricelistV2() {
                                     <ul>
                                         {plan.features.map((feature) => (
                                             <li key={feature}>
-                                                <Check size={14} strokeWidth={2.5} aria-hidden="true" />
+                                                <span className="pricelist-v2__check" aria-hidden="true">
+                                                    <Check size={11} strokeWidth={3.5} />
+                                                </span>
                                                 {feature}
                                             </li>
                                         ))}
