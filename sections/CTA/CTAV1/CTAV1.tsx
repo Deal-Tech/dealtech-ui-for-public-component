@@ -26,14 +26,12 @@ export default function CTAV1() {
             <div className="cta-v1__inner">
                 <div className="cta-v1__content">
                     <h2 className="cta-v1__title cta-v1__reveal cta-v1__opacity-0">
-                        <span>Sederhanakan Design UI, Pakai</span>{' '}
-                        <span className="cta-v1__title-accent">Dealtech UI</span>{' '}
-                        <span>For Public Components</span>
+                        <span>Siap Bangun UI </span>
+                        <span className="cta-v1__title-accent">Lebih Cepat?</span>
                     </h2>
 
                     <p className="cta-v1__description cta-v1__reveal cta-v1__opacity-0">
-                        Rancang halaman lebih cepat dengan komponen UI siap pakai yang responsif, konsisten, dan mudah
-                        disesuaikan untuk berbagai kebutuhan proyek.
+                        Pilih komponen siap pakai, salin ke proyek, lalu sesuaikan tanpa perlu memulai dari nol.
                     </p>
 
                     <div className="cta-v1__actions cta-v1__reveal cta-v1__opacity-0">
