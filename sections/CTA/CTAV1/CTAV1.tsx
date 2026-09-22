@@ -1,27 +1,6 @@
 import { useEffect } from 'react';
-import { CheckCircle2 } from 'lucide-react';
 
 import './cta-v1.css';
-
-const dashboardImage = new URL('./assets/demo-dashboard.svg', import.meta.url).href;
-const portalImage = new URL('./assets/demo-portal.svg', import.meta.url).href;
-
-const demoImages = [
-    {
-        src: dashboardImage,
-        alt: 'Preview dashboard dari koleksi Dealtech UI.',
-        width: 1460,
-        height: 1078,
-    },
-    {
-        src: portalImage,
-        alt: 'Preview portal dari koleksi Dealtech UI.',
-        width: 1460,
-        height: 1078,
-    },
-];
-
-const trust = ['Komponen publik siap pakai', 'Responsif sejak awal', 'Mudah disesuaikan'];
 
 export default function CTAV1() {
     useEffect(() => {
@@ -61,32 +40,6 @@ export default function CTAV1() {
                         <a className="cta-v1__button" href="#fitur">
                             Jelajahi Komponen
                         </a>
-                    </div>
-
-                    <ul className="cta-v1__trust cta-v1__reveal cta-v1__opacity-0">
-                        {trust.map((item) => (
-                            <li key={item}>
-                                <CheckCircle2 size={15} strokeWidth={2.5} aria-hidden="true" />
-                                {item}
-                            </li>
-                        ))}
-                    </ul>
-
-                    <div className="cta-v1__demo cta-v1__reveal cta-v1__opacity-0">
-                        <p className="cta-v1__demo-title">Preview komponen Dealtech UI:</p>
-                        <div className="cta-v1__demo-list">
-                            {demoImages.map((image) => (
-                                <img
-                                    key={image.src}
-                                    src={image.src}
-                                    alt={image.alt}
-                                    width={image.width}
-                                    height={image.height}
-                                    loading="lazy"
-                                    decoding="async"
-                                />
-                            ))}
-                        </div>
                     </div>
                 </div>
             </div>
