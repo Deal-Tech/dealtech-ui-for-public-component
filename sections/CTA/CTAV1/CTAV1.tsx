@@ -26,8 +26,8 @@ export default function CTAV1() {
             <div className="cta-v1__inner">
                 <div className="cta-v1__content">
                     <h2 className="cta-v1__title cta-v1__reveal cta-v1__opacity-0">
-                        <span>Siap Bangun UI </span>
-                        <span className="cta-v1__title-accent">Lebih Cepat?</span>
+                        <span>Siap Bangun UI Lebih Cepat untuk </span>
+                        <span className="cta-v1__title-accent">Proyek Berikutnya?</span>
                     </h2>
 
                     <p className="cta-v1__description cta-v1__reveal cta-v1__opacity-0">
