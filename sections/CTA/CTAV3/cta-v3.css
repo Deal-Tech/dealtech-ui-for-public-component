@@ -6,7 +6,7 @@
 
   box-sizing: border-box;
   width: 100%;
-  padding: clamp(108px, 12vw, 144px) 0 0;
+  padding: clamp(108px, 12vw, 144px) 0 clamp(52px, 7vw, 82px);
   background: #ffffff;
   font-family: 'Inter', sans-serif;
 }
@@ -145,11 +145,13 @@
 .cta-v3__visual img {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -52px;
   z-index: 1;
   display: block;
   width: min(100%, 350px);
   height: auto;
+  -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 93%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 0%, #000 93%, transparent 100%);
   filter: drop-shadow(0 24px 24px rgba(0, 28, 55, 0.34));
 }
 
@@ -216,7 +218,7 @@
 
 @media (max-width: 700px) {
   .cta-v3 {
-    padding: 54px 0 0;
+    padding: 54px 0 42px;
   }
 
   .cta-v3__surface {
@@ -240,13 +242,13 @@
   }
 
   .cta-v3__visual {
-    min-height: 330px;
+    min-height: 420px;
   }
 
   .cta-v3__visual img {
     right: 50%;
     bottom: 0;
-    width: min(78vw, 280px);
+    width: min(70vw, 260px);
     transform: translateX(50%);
   }
 
