@@ -18,14 +18,6 @@ const resourceLinks = [
     { label: 'Tentang DealTech', href: 'https://tech.mudahdeal.com/' },
 ];
 
-const sectionLinks = [
-    { label: 'Hero', href: `${repositoryUrl}/tree/main/sections/Hero` },
-    { label: 'Features', href: `${repositoryUrl}/tree/main/sections/Features` },
-    { label: 'Pricing', href: `${repositoryUrl}/tree/main/sections/PriceList` },
-    { label: 'FAQ', href: `${repositoryUrl}/tree/main/sections/FAQ` },
-    { label: 'Contact', href: `${repositoryUrl}/tree/main/sections/Contact` },
-];
-
 export interface SimpleFooterV2Props {
     brand?: string;
     description?: string;
@@ -85,12 +77,6 @@ export default function SimpleFooterV2({
                         </a>
                     </div>
                 </div>
-
-                <nav className="simple-footer-v2__sections" aria-label="Kategori section">
-                    {sectionLinks.map((link) => (
-                        <a key={link.label} href={link.href} target="_blank" rel="noreferrer">{link.label}</a>
-                    ))}
-                </nav>
 
                 <div className="simple-footer-v2__bottom">
                     <p>&copy; {year} {brand}. Lisensi MIT.</p>
