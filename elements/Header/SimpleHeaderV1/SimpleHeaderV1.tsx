@@ -13,7 +13,7 @@ export default function SimpleHeaderV1({
     highlight = 'Ini adalah Playground',
     description = 'dari Dealtech UI For Public Components.',
     ctaLabel = 'Coba Gratis',
-    ctaHref = 'https://github.com/mrizky-fr/dealtech-ui-for-public-component',
+    ctaHref = 'https://github.com/Deal-Tech/dealtech-ui-for-public-component',
 }: SimpleHeaderV1Props) {
     return (
         <header className="simple-header-v1">
