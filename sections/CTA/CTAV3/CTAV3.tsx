@@ -38,6 +38,10 @@ export default function CTAV3() {
                             <span className="cta-v3__title-accent">Proyek Berikutnya?</span>
                         </h2>
 
+                        <p className="cta-v3__description cta-v3__reveal cta-v3__hidden">
+                            Pilih komponen siap pakai, salin ke proyek, lalu sesuaikan tanpa perlu memulai dari nol.
+                        </p>
+
                         <div className="cta-v3__actions cta-v3__reveal cta-v3__hidden">
                             <a className="cta-v3__button cta-v3__button--primary" href="#fitur">
                                 Jelajahi Komponen
