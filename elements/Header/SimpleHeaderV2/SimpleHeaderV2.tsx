@@ -5,6 +5,7 @@ import type { LucideIcon } from 'lucide-react';
 import './simple-header-v2.css';
 
 const repositoryUrl = 'https://github.com/Deal-Tech/dealtech-ui-for-public-component';
+const adminRepositoryUrl = 'https://github.com/Deal-Tech/dealtech-ui';
 const logoUrl = 'https://ik.imagekit.io/sja4kckbn/AsetDealTech/panel%20dealtechui.png';
 
 export interface SimpleHeaderV2MegaLink {
@@ -18,6 +19,7 @@ export interface SimpleHeaderV2NavItem {
     label: string;
     href?: string;
     mega?: SimpleHeaderV2MegaLink[];
+    megaColumns?: 1 | 2;
     megaFooter?: { label: string; href: string };
 }
 
@@ -32,7 +34,17 @@ export interface SimpleHeaderV2Props {
 const defaultNavItems: SimpleHeaderV2NavItem[] = [
     { label: 'Beranda', href: '/' },
     {
-        label: 'Komponen',
+        label: 'For Admin',
+        megaColumns: 1,
+        mega: [
+            { label: 'Versi 1.0', description: 'Starter admin dengan Tailwind inline.', href: `${adminRepositoryUrl}/tree/main/templates/starter`, icon: PanelsTopLeft },
+            { label: 'Versi 2.0 Next', description: 'Starter dengan token dan CSS per komponen.', href: `${adminRepositoryUrl}/tree/main/templates/starter-v2.0-next`, icon: Layers3 },
+            { label: 'Versi 3.0', description: 'Starter dengan tema dan shell terbaru.', href: `${adminRepositoryUrl}/tree/main/templates/starter-v3.0`, icon: LayoutTemplate },
+        ],
+        megaFooter: { label: 'Lihat semua template', href: `${adminRepositoryUrl}/tree/main/templates` },
+    },
+    {
+        label: 'For Public Components',
         mega: [
             { label: 'Elements', description: 'Elemen UI dasar yang siap disalin.', href: `${repositoryUrl}/tree/main/elements`, icon: PanelsTopLeft },
             { label: 'Sections', description: 'Bagian halaman yang berdiri sendiri.', href: `${repositoryUrl}/tree/main/sections`, icon: Layers3 },
@@ -122,7 +134,7 @@ export default function SimpleHeaderV2({
                                     {item.label}
                                     <ChevronDown size={15} aria-hidden="true" />
                                 </button>
-                                <div className="simple-header-v2__mega" id={`${id}-mega-${index}`}>
+                                <div className="simple-header-v2__mega" data-columns={item.megaColumns ?? 2} id={`${id}-mega-${index}`}>
                                     <div className="simple-header-v2__mega-grid">
                                         {item.mega.map((link) => {
                                             const Icon = link.icon ?? Layers3;

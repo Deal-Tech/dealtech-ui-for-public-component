@@ -126,6 +126,14 @@
   gap: 4px;
 }
 
+.simple-header-v2__mega[data-columns='1'] {
+  width: min(360px, calc(100vw - 32px));
+}
+
+.simple-header-v2__mega[data-columns='1'] .simple-header-v2__mega-grid {
+  grid-template-columns: 1fr;
+}
+
 .simple-header-v2__mega-grid > a {
   display: flex;
   align-items: flex-start;
