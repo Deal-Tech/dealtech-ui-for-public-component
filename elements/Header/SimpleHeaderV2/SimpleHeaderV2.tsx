@@ -5,6 +5,7 @@ import type { LucideIcon } from 'lucide-react';
 import './simple-header-v2.css';
 
 const repositoryUrl = 'https://github.com/Deal-Tech/dealtech-ui-for-public-component';
+const logoUrl = 'https://ik.imagekit.io/sja4kckbn/AsetDealTech/panel%20dealtechui.png';
 
 export interface SimpleHeaderV2MegaLink {
     label: string;
@@ -96,8 +97,7 @@ export default function SimpleHeaderV2({
             <header ref={headerRef} className="simple-header-v2">
                 <div className="simple-header-v2__inner">
                     <a className="simple-header-v2__brand" href={brandHref} aria-label={brand}>
-                        <span>{brand}</span>
-                        <small>For Public Components</small>
+                        <img src={logoUrl} alt={brand} />
                     </a>
 
                     <nav className="simple-header-v2__nav" aria-label="Menu utama">

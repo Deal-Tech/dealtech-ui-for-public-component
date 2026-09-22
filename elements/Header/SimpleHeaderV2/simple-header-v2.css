@@ -33,27 +33,15 @@
 }
 
 .simple-header-v2__brand {
-  display: inline-flex;
-  flex-direction: column;
-  gap: 2px;
-  color: var(--simple-header-v2-blue);
+  display: inline-block;
   text-decoration: none;
-  white-space: nowrap;
 }
 
-.simple-header-v2__brand span {
-  font-size: 1.25rem;
-  line-height: 1.1;
-  font-weight: 800;
-  letter-spacing: -0.04em;
-}
-
-.simple-header-v2__brand small {
-  color: #64748b;
-  font-size: 0.625rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+.simple-header-v2__brand img {
+  width: clamp(176px, 18vw, 220px);
+  height: auto;
+  display: block;
+  filter: brightness(0);
 }
 
 .simple-header-v2__nav {
@@ -414,10 +402,6 @@
   .simple-header-v2__inner {
     width: calc(100% - 28px);
     min-height: 64px;
-  }
-
-  .simple-header-v2__brand span {
-    font-size: 1.125rem;
   }
 }
 

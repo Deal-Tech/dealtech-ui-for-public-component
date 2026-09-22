@@ -31,21 +31,18 @@
 }
 
 .simple-footer-v2__brand {
-  color: #ffffff;
-  font-size: 1.35rem;
-  line-height: 1.2;
-  font-weight: 800;
-  letter-spacing: -0.04em;
+  display: inline-block;
   text-decoration: none;
 }
 
-.simple-footer-v2__tagline {
-  margin: 4px 0 18px;
-  color: #71bbff;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+.simple-footer-v2__brand img {
+  width: min(240px, 100%);
+  height: auto;
+  display: block;
+}
+
+.simple-footer-v2__brand-column .simple-footer-v2__description {
+  margin-top: 18px;
 }
 
 .simple-footer-v2__description,

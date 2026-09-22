@@ -3,6 +3,7 @@ import { ArrowRight, Github } from 'lucide-react';
 import './simple-footer-v2.css';
 
 const repositoryUrl = 'https://github.com/Deal-Tech/dealtech-ui-for-public-component';
+const logoUrl = 'https://ik.imagekit.io/sja4kckbn/AsetDealTech/panel%20dealtechui.png';
 
 const componentLinks = [
     { label: 'Playground', href: '/playground' },
@@ -41,8 +42,9 @@ export default function SimpleFooterV2({
             <div className="simple-footer-v2__inner">
                 <div className="simple-footer-v2__grid">
                     <div className="simple-footer-v2__brand-column">
-                        <a className="simple-footer-v2__brand" href="/">{brand}</a>
-                        <p className="simple-footer-v2__tagline">For Public Components</p>
+                        <a className="simple-footer-v2__brand" href="/" aria-label={brand}>
+                            <img src={logoUrl} alt={brand} />
+                        </a>
                         <p className="simple-footer-v2__description">{description}</p>
                         <a
                             className="simple-footer-v2__social"
