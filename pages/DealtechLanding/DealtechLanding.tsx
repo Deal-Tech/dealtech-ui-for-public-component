@@ -3,12 +3,28 @@ import { GitPullRequest, Github, Info, Layers3 } from 'lucide-react';
 
 import SimpleFooterV2 from '../../elements/Footer/SimpleFooterV2/SimpleFooterV2';
 import SimpleHeaderV2 from '../../elements/Header/SimpleHeaderV2/SimpleHeaderV2';
+import AboutV6 from '../../sections/About/AboutV6/AboutV6';
 
 import './dealtech-landing.css';
 import './about-v1.css';
 
 const dashboardImage = new URL('./assets/demo-dashboard.svg', import.meta.url).href;
 const aboutImage = new URL('../../sections/About/AboutV1/assets/demo-dashboard.svg', import.meta.url).href;
+
+const testedModels = [
+    {
+        title: 'Gemini',
+        description: 'Berhasil memahami panduan dan menerapkan struktur komponen dengan baik.',
+    },
+    {
+        title: 'Claude',
+        description: 'Berhasil mengikuti pola desain dan menghasilkan section yang dapat digunakan.',
+    },
+    {
+        title: 'Codex',
+        description: 'Berhasil membaca aturan proyek dan menjaga implementasi tetap konsisten.',
+    },
+];
 
 export default function DealtechLanding() {
     const heroRef = useRef<HTMLElement>(null);
@@ -115,6 +131,13 @@ export default function DealtechLanding() {
                         </div>
                     </div>
                 </section>
+                <AboutV6
+                    id="pengujian-model"
+                    title="Sudah Kami Uji pada 3 Model dengan Kemampuan Paling Dasar dan"
+                    titleAccent="Hasilnya Work!"
+                    description="Gemini, Claude, dan Codex dapat mengikuti panduan komponen dengan baik. Artinya, struktur dan instruksi Dealtech UI tetap mudah dipahami tanpa menghabiskan banyak token hanya untuk urusan tampilan."
+                    benefits={testedModels}
+                />
             </main>
             <SimpleFooterV2 description="Kumpulan komponen UI siap pakai untuk dashboard admin dan halaman publik yang responsif, konsisten, dan mudah disesuaikan." />
         </div>

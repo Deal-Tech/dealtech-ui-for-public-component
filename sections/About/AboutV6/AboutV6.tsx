@@ -5,7 +5,20 @@ import './about-v6.css';
 
 const dashboardImage = new URL('./assets/dashboard-preview.svg', import.meta.url).href;
 
-const benefits = [
+type AboutV6Benefit = {
+    title: string;
+    description: string;
+};
+
+type AboutV6Props = {
+    id?: string;
+    title?: string;
+    titleAccent?: string;
+    description?: string;
+    benefits?: AboutV6Benefit[];
+};
+
+const defaultBenefits = [
     {
         title: 'Bangun Lebih Cepat',
         description: 'Gunakan komponen siap pakai agar fokus tetap pada pengalaman dan kebutuhan produk.',
@@ -20,7 +33,13 @@ const benefits = [
     },
 ];
 
-export default function AboutV6() {
+export default function AboutV6({
+    id,
+    title = 'Dibuat untuk Membantu Kamu',
+    titleAccent = 'Berkembang',
+    description = 'Dealtech UI memberi fondasi yang kamu butuhkan untuk fokus pada hal penting dan menghasilkan antarmuka berkualitas tanpa memulai semuanya dari awal.',
+    benefits = defaultBenefits,
+}: AboutV6Props = {}) {
     const sectionRef = useRef<HTMLElement>(null);
 
     useEffect(() => {
@@ -45,7 +64,7 @@ export default function AboutV6() {
     }, []);
 
     return (
-        <section ref={sectionRef} className="about-v6">
+        <section ref={sectionRef} id={id} className="about-v6">
             <div className="about-v6__shell">
                 <div className="about-v6__visual about-v6__reveal about-v6__hidden">
                     <span className="about-v6__visual-shape" aria-hidden="true" />
@@ -66,13 +85,11 @@ export default function AboutV6() {
                     </a>
 
                     <h2 className="about-v6__title about-v6__reveal about-v6__hidden">
-                        Dibuat untuk Membantu Kamu{' '}
-                        <span className="about-v6__title-accent">Berkembang</span>
+                        {title} <span className="about-v6__title-accent">{titleAccent}</span>
                     </h2>
 
                     <p className="about-v6__description about-v6__reveal about-v6__hidden">
-                        Dealtech UI memberi fondasi yang kamu butuhkan untuk fokus pada hal penting dan menghasilkan
-                        antarmuka berkualitas tanpa memulai semuanya dari awal.
+                        {description}
                     </p>
 
                     <div className="about-v6__benefits">
