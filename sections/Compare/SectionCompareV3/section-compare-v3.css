@@ -46,8 +46,8 @@
   margin: 16px auto 0;
   text-align: center;
   color: var(--compare-v3-muted);
-  font-size: 1.0625rem;
-  line-height: 1.65;
+  font-size: 0.9375rem;
+  line-height: 1.6;
 }
 
 .section-compare-v3__grid {
