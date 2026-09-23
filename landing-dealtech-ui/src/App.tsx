@@ -11,6 +11,7 @@ import AboutV5 from '../../sections/About/AboutV5/AboutV5';
 import AboutV6 from '../../sections/About/AboutV6/AboutV6';
 import SectionCompareV1 from '../../sections/Compare/SectionCompareV1/SectionCompareV1';
 import SectionCompareV2 from '../../sections/Compare/SectionCompareV2/SectionCompareV2';
+import SectionCompareV3 from '../../sections/Compare/SectionCompareV3/SectionCompareV3';
 import ContactV1 from '../../sections/Contact/ContactV1/ContactV1';
 import ContactV2 from '../../sections/Contact/ContactV2/ContactV2';
 import ContactV3 from '../../sections/Contact/ContactV3/ContactV3';
@@ -77,7 +78,7 @@ const heroSections = [
 ];
 const featureSections = [CardListV1, CardListV2, CardListV3, CardListV4];
 const aboutSections = [AboutV1, AboutV2, AboutV3, AboutV4, AboutV5, AboutV6];
-const compareSections = [SectionCompareV1, SectionCompareV2];
+const compareSections = [SectionCompareV1, SectionCompareV2, SectionCompareV3];
 const reviewSections = [ReviewV1, ReviewV2, ReviewV3, ReviewV4, ReviewV5, ReviewV6, ReviewV7];
 const pricelistSections = [PricelistV1, PricelistV2, PricelistV3, PricelistV4, PricelistV5];
 const serviceSections = [ServiceV1, ServiceV2, ServiceV3];
