@@ -52,7 +52,8 @@ Isi repo dibagi jadi tiga folder di akar, supaya langsung ketemu:
 dealtech-ui-for-public-component/
 ├── elements/      # unit terkecil (button, input, card, ...)
 ├── sections/      # bagian halaman (hero, pricing, testimonial, ...)
-└── pages/         # halaman utuh
+├── pages/         # halaman utuh
+└── landing-dealtech-ui/ # landing production dan playground
 ```
 
 > Koleksi akan terus ditambahkan secara bertahap.

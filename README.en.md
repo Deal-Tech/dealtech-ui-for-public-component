@@ -50,7 +50,8 @@ The repo is split into three top-level folders, so things are easy to find:
 dealtech-ui-for-public-component/
 ├── elements/      # smallest units (button, input, card, ...)
 ├── sections/      # page blocks (hero, pricing, testimonial, ...)
-└── pages/         # full pages
+├── pages/         # full pages
+└── landing-dealtech-ui/ # production landing and playground
 ```
 
 > The collection will continue to grow over time.

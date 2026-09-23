@@ -32,5 +32,10 @@ Thumbs.db
 # Skills
 skills/
 
-# Local playground
-/dealtech-ui/
+# Landing workspace
+/landing-dealtech-ui/.chrome-profile/
+/landing-dealtech-ui/.edge-profile/
+/landing-dealtech-ui/about-v5-check*.png
+/landing-dealtech-ui/about-v5-isolated.png
+/landing-dealtech-ui/about-v5-mobile.png
+/landing-dealtech-ui/hero-v2-check.png
