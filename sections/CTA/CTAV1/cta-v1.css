@@ -46,11 +46,12 @@
 .cta-v1__inner {
   position: relative;
   overflow: hidden;
-  width: 100%;
+  width: min(1160px, calc(100% - 44px));
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: clamp(44px, 6vw, 72px) clamp(20px, 4vw, 40px);
+  padding: 36px 0 32px;
   background: #ffffff;
 }
 
@@ -121,7 +122,8 @@
 
 @media (max-width: 640px) {
   .cta-v1__inner {
-    padding: 36px 18px 32px;
+    width: min(1160px, calc(100% - 36px));
+    padding: 36px 0 32px;
   }
 
   .cta-v1__actions,

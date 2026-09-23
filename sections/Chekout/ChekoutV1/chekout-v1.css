@@ -13,7 +13,7 @@
 
   box-sizing: border-box;
   width: 100%;
-  padding: clamp(16px, 3vw, 24px);
+  padding: 36px 0 32px;
   background: #ffffff;
   color: var(--chekout-v1-text);
   font-family: 'Inter', sans-serif;
@@ -33,7 +33,7 @@
 }
 
 .chekout-v1__shell {
-  width: min(1160px, 100%);
+  width: min(1160px, calc(100% - 44px));
   margin: 0 auto;
 }
 
@@ -465,8 +465,12 @@
 }
 
 @media (max-width: 639px) {
+  .chekout-v1__shell {
+    width: min(1160px, calc(100% - 36px));
+  }
+
   .chekout-v1 {
-    padding: 10px;
+    padding: 36px 0 32px;
   }
 
   .chekout-v1__card-body {

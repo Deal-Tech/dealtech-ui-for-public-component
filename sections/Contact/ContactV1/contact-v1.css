@@ -8,7 +8,7 @@
 
   box-sizing: border-box;
   width: 100%;
-  padding: clamp(48px, 7vw, 84px) 0;
+  padding: 36px 0 32px;
   background: #ffffff;
   font-family: 'Inter', sans-serif;
 }
@@ -286,7 +286,7 @@
 
 @media (max-width: 620px) {
   .contact-v1 {
-    padding: 40px 0;
+    padding: 36px 0 32px;
   }
 
   .contact-v1__shell {

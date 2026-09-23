@@ -6,7 +6,6 @@
 
   box-sizing: border-box;
   width: 100%;
-  padding-bottom: 14px;
   background: #ffffff;
   font-family: 'Inter', sans-serif;
 }
@@ -55,7 +54,7 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
-  padding: clamp(54px, 6vw, 84px) 0;
+  padding: 36px 0 32px;
 }
 
 .hero-v13__content {
@@ -256,7 +255,7 @@
   .hero-v13__shell {
     min-height: 0;
     align-items: flex-start;
-    padding: 48px 0 430px;
+    padding: 36px 0 32px;
   }
 
   .hero-v13__content {
@@ -293,7 +292,7 @@
 
   .hero-v13__shell {
     width: min(calc(100% - 36px), 1160px);
-    padding: 36px 0 390px;
+    padding: 36px 0 32px;
   }
 
   .hero-v13__actions {

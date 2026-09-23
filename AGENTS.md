@@ -25,6 +25,23 @@ Repo komponen UI publik dari tech.mudahdeal.com.
 - Komentar maksimal lima kata.
 - Jangan menumpuk komentar.
 
+## Spacing section
+
+- Ikuti spacing Hero untuk seluruh section.
+- Padding semua section: `36px 0 32px` pada seluruh ukuran layar.
+- Jangan gunakan `clamp` atau padding vertikal berbeda antar breakpoint.
+- Container desktop: `min(1160px, calc(100% - 44px))`.
+- Container mobile: `min(1160px, calc(100% - 36px))`.
+- Gap dua kolom utama: `clamp(36px, 5vw, 72px)`.
+- Gap ikon dan teks kecil: `7px`.
+- Jarak eyebrow ke judul: `12px`.
+- Jarak judul ke deskripsi: `16px`.
+- Jarak deskripsi ke tombol: `26px`.
+- Jarak header ke konten utama: `clamp(34px, 5vw, 50px)`; mobile `32px`.
+- Gap antarkartu: `10px`; mobile `8px`.
+- Padding kartu standar: `22px 20px 18px`; mobile `19px 16px`.
+- Ubah ukuran hanya jika struktur referensi memang membutuhkan.
+
 ## Commit
 
 - Auto commit setelah perubahan selesai.

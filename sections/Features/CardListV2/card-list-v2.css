@@ -3,7 +3,7 @@
 .card-list-v2 {
   box-sizing: border-box;
   width: 100%;
-  padding: clamp(26px, 4vw, 46px) 0;
+  padding: 36px 0 32px;
   background: #ffffff;
   font-family: 'Inter', sans-serif;
 }

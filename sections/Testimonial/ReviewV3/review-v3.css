@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
-  padding: clamp(34px, 5vw, 68px) 0;
+  padding: 36px 0 32px;
   background: #ffffff;
   font-family: 'Inter', sans-serif;
   opacity: 0;
