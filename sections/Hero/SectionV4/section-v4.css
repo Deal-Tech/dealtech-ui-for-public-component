@@ -344,6 +344,6 @@
 
 @media (max-width: 640px) {
   .hero-v4__shell {
-    padding-inline: 10px;
+    padding-inline: 4px;
   }
 }

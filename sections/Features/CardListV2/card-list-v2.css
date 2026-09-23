@@ -110,6 +110,6 @@
 
 @media (max-width: 640px) {
   .card-list-v2 {
-    padding-inline: 10px;
+    padding-inline: 4px;
   }
 }
