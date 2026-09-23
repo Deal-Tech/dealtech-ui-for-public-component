@@ -80,7 +80,7 @@
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
-  margin-top: clamp(34px, 5vw, 52px);
+  margin-top: clamp(17px, 2.5vw, 26px);
 }
 
 .service-v2__card {
@@ -178,7 +178,7 @@
 .service-v2__action {
   display: flex;
   justify-content: center;
-  margin-top: clamp(34px, 5vw, 52px);
+  margin-top: clamp(17px, 2.5vw, 26px);
 }
 
 .service-v2__button {
@@ -242,7 +242,7 @@
   .service-v2__grid {
     grid-template-columns: 1fr;
     gap: 8px;
-    margin-top: 32px;
+    margin-top: 16px;
   }
 
   .service-v2__card {
@@ -256,7 +256,7 @@
   }
 
   .service-v2__action {
-    margin-top: 32px;
+    margin-top: 16px;
   }
 
   .service-v2__button {

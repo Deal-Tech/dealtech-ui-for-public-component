@@ -79,7 +79,7 @@
 .service-v3__header-action {
   display: flex;
   justify-content: center;
-  margin-top: clamp(34px, 5vw, 50px);
+  margin-top: clamp(17px, 2.5vw, 25px);
 }
 
 .service-v3__button {
@@ -109,7 +109,7 @@
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
-  margin-top: clamp(34px, 5vw, 50px);
+  margin-top: clamp(17px, 2.5vw, 25px);
   scroll-margin-top: 24px;
 }
 
@@ -231,7 +231,7 @@
   .service-v3__grid {
     grid-template-columns: 1fr;
     gap: 8px;
-    margin-top: 32px;
+    margin-top: 16px;
   }
 
   .service-v3__card {
@@ -240,7 +240,7 @@
   }
 
   .service-v3__header-action {
-    margin-top: 32px;
+    margin-top: 16px;
   }
 }
 
