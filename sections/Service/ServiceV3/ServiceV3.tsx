@@ -101,12 +101,6 @@ export default function ServiceV3() {
                             Pilih dukungan yang paling sesuai untuk mempercepat dan merapikan pengembangan produkmu.
                         </p>
                     </div>
-
-                    <div className="service-v3__header-action service-v3__reveal service-v3__hidden">
-                        <a className="service-v3__button" href="#service-v3-list">
-                            Lihat Semua Layanan
-                        </a>
-                    </div>
                 </div>
 
                 <div className="service-v3__grid" id="service-v3-list">
@@ -117,12 +111,11 @@ export default function ServiceV3() {
                             style={{ '--service-v3-delay': `${index * 60}ms` } as CSSProperties}
                             key={title}
                         >
-                            <div className="service-v3__card-heading">
-                                <span className="service-v3__card-icon">
-                                    <Icon size={23} strokeWidth={1.9} aria-hidden="true" />
-                                </span>
-                                <h3>{title}</h3>
-                            </div>
+                            <span className="service-v3__card-icon">
+                                <Icon size={23} strokeWidth={1.9} aria-hidden="true" />
+                            </span>
+
+                            <h3>{title}</h3>
 
                             <p>{description}</p>
 
@@ -133,6 +126,12 @@ export default function ServiceV3() {
                             </div>
                         </article>
                     ))}
+                </div>
+
+                <div className="service-v3__header-action service-v3__reveal service-v3__hidden">
+                    <a className="service-v3__button" href="#service-v3-list">
+                        Lihat Semua Layanan
+                    </a>
                 </div>
             </div>
         </section>

@@ -22,6 +22,10 @@ Repo ini berisi komponen antarmuka (UI) yang kami pilih dan rapikan sendiri, sup
 
 Tidak ada instalasi wajib, tidak ada dependency yang mengikat. Ambil yang kamu butuhkan, ubah sesuka hati.
 
+Setiap section dikustomisasi satu per satu, bukan dibuat massal dari template generik. Layout, spacing, warna, dan responsivitasnya sudah dirapikan agar punya karakter sendiri sekaligus tetap konsisten dengan koleksi DealTech UI.
+
+Untuk workflow berbasis AI, cukup berikan section yang dipilih sebagai acuan. AI dapat langsung fokus pada integrasi, konten, dan kebutuhan produk tanpa menghabiskan banyak token hanya untuk merancang UI dari nol.
+
 ### `#PakaiAiTapiBerasaBukanAi`
 
 Website hasil AI sering ketahuan: tata letak seragam, gaya itu-itu saja, rasanya bukan buatan orang. Masalahnya bukan AI-nya, tapi AI tidak punya acuan.
@@ -48,7 +52,8 @@ Isi repo dibagi jadi tiga folder di akar, supaya langsung ketemu:
 dealtech-ui-for-public-component/
 ├── elements/      # unit terkecil (button, input, card, ...)
 ├── sections/      # bagian halaman (hero, pricing, testimonial, ...)
-└── pages/         # halaman utuh
+├── pages/         # halaman utuh
+└── landing-dealtech-ui/ # landing production dan playground
 ```
 
 > Koleksi akan terus ditambahkan secara bertahap.

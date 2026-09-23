@@ -22,7 +22,6 @@
 
 .service-v1__shell {
   width: min(1160px, calc(100% - 44px));
-  min-height: 590px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
@@ -141,7 +140,7 @@
   height: 46px;
   display: grid;
   place-items: center;
-  margin-bottom: 18px;
+  margin-bottom: 6.75px;
   border-radius: 12px;
   background: var(--service-v1-primary-soft);
   color: var(--service-v1-primary);
@@ -162,7 +161,7 @@
 }
 
 .service-v1__card p {
-  margin: 7px 0 0;
+  margin: 2.625px 0 0;
   color: var(--service-v1-muted);
   font-size: 0.75rem;
   line-height: 1.55;

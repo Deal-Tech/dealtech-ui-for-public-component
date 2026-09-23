@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { Info, Layers3 } from 'lucide-react';
+import { GitPullRequest, Github, Info, Layers3 } from 'lucide-react';
 
 import SimpleFooterV2 from '../../elements/Footer/SimpleFooterV2/SimpleFooterV2';
 import SimpleHeaderV2 from '../../elements/Header/SimpleHeaderV2/SimpleHeaderV2';
@@ -8,6 +8,7 @@ import './dealtech-landing.css';
 import './about-v1.css';
 
 const dashboardImage = new URL('./assets/demo-dashboard.svg', import.meta.url).href;
+const aboutImage = new URL('../../sections/About/AboutV1/assets/demo-dashboard.svg', import.meta.url).href;
 
 export default function DealtechLanding() {
     const heroRef = useRef<HTMLElement>(null);
@@ -59,10 +60,10 @@ export default function DealtechLanding() {
 
                                 <div className="hero-v6__actions hero-v6__reveal hero-v6__hidden">
                                     <a className="hero-v6__button hero-v6__button--primary" href="https://github.com/Deal-Tech/dealtech-ui" target="_blank" rel="noreferrer">
-                                        UI Admin
+                                        <Github size={18} aria-hidden="true" /> UI Admin
                                     </a>
                                     <a className="hero-v6__button hero-v6__button--secondary" href="https://github.com/Deal-Tech/dealtech-ui-for-public-component" target="_blank" rel="noreferrer">
-                                        UI For Public
+                                        <Github size={18} aria-hidden="true" /> UI For Public
                                     </a>
                                 </div>
                             </div>
@@ -98,14 +99,14 @@ export default function DealtechLanding() {
 
                             <div className="about-v1__action about-v1__reveal about-v1__hidden">
                                 <a className="about-v1__button" href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/pulls" target="_blank" rel="noreferrer">
-                                    Kirim Pull Request
+                                    <GitPullRequest size={18} aria-hidden="true" /> Kirim Pull Request
                                 </a>
                             </div>
                         </div>
 
                         <div className="about-v1__visual about-v1__reveal about-v1__hidden">
                             <img
-                                src={dashboardImage}
+                                src={aboutImage}
                                 alt="Kumpulan komponen antarmuka Dealtech UI."
                                 width={1460}
                                 height={1078}

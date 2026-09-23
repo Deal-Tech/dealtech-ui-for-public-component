@@ -8,7 +8,7 @@ Repo komponen UI publik dari tech.mudahdeal.com.
 - `sections/` berisi blok halaman siap pakai.
 - `pages/` berisi halaman lengkap.
 - Setiap komponen memakai React TSX, CSS mandiri, dan `preview.tsx`.
-- `dealtech-ui/` adalah playground Vite lokal dan tidak dilacak Git.
+- `landing-dealtech-ui/` adalah aplikasi Vite untuk landing production dan playground.
 
 ## Aturan kode
 

@@ -22,6 +22,10 @@ This repo holds UI components we picked and cleaned up ourselves, so anyone can 
 
 No required install, no dependencies to lock you in. Take what you need, change it however you like.
 
+Every section is customized individually instead of being mass-produced from a generic template. Its layout, spacing, colors, and responsive behavior are refined to retain a distinct character while staying consistent with the DealTech UI collection.
+
+For AI-assisted workflows, simply provide the selected section as a reference. Your AI can focus on integration, content, and product requirements without spending excessive tokens designing the UI from scratch.
+
 ### `#PakaiAiTapiBerasaBukanAi`
 
 AI-built websites are easy to spot: the same layouts, the same look, nothing that feels made by a person. The problem isn't the AI — it's that the AI has nothing to work from.
@@ -37,7 +41,7 @@ The repo is split into three top-level folders, so things are easy to find:
 | Folder | Contents | Examples |
 |---|---|---|
 | [`elements/`](elements/) | The smallest units — one job, one look. | Button, Badge, Input, Card, Avatar, Modal |
-| [`components/`](components/) | Several elements combined into one complete block. | Hero, Pricing, Navbar, Footer, Testimonial, FAQ |
+| [`sections/`](sections/) | Several elements combined into one complete page block. | Hero, Features, About, Pricing, Testimonial, FAQ |
 | [`pages/`](pages/) | Complete pages, assembled from multiple components. | Landing page, Login, Dashboard, Pricing, 404 |
 
 ## Folder Structure
@@ -45,15 +49,16 @@ The repo is split into three top-level folders, so things are easy to find:
 ```
 dealtech-ui-for-public-component/
 ├── elements/      # smallest units (button, input, card, ...)
-├── components/    # page blocks (hero, pricing, footer, ...)
-└── pages/         # full pages
+├── sections/      # page blocks (hero, pricing, testimonial, ...)
+├── pages/         # full pages
+└── landing-dealtech-ui/ # production landing and playground
 ```
 
-> All three folders are still empty. Content will be added over time.
+> The collection will continue to grow over time.
 
 ## How to Use
 
-1. Browse the folder that matches what you need — `elements`, `components`, or `pages`.
+1. Browse the folder that matches what you need — `elements`, `sections`, or `pages`.
 2. Open the component folder and read its `README.md` (if present) for a short note.
 3. Copy the files into your project.
 4. Adjust colors, copy, and spacing to fit.
