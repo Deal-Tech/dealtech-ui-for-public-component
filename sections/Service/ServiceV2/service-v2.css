@@ -85,7 +85,7 @@
 
 .service-v2__card {
   min-width: 0;
-  min-height: 268px;
+  min-height: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -109,7 +109,7 @@
   height: 48px;
   display: grid;
   place-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 6.75px;
   border-radius: 50%;
   background: var(--service-v2-primary-soft);
   color: var(--service-v2-primary);
@@ -124,7 +124,7 @@
 }
 
 .service-v2__card p {
-  margin: 9px 0 20px;
+  margin: 2.625px 0 6.75px;
   color: var(--service-v2-muted);
   font-size: 0.8125rem;
   line-height: 1.6;
@@ -134,7 +134,7 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  margin-top: auto;
+  margin-top: 0;
   color: var(--service-v2-primary);
   font-size: 0.8125rem;
   font-weight: 700;
