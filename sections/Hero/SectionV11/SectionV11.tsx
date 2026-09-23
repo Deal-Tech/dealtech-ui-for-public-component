@@ -87,18 +87,6 @@ export default function SectionV11() {
                 </div>
             </div>
 
-            <svg
-                className="hero-v11__shape"
-                viewBox="0 0 1440 100"
-                preserveAspectRatio="none"
-                aria-hidden="true"
-            >
-                <path
-                    className="hero-v11__shape-shadow"
-                    d="M0 3H530C620 3 625 65 720 65C815 65 820 3 910 3H1440V100H0Z"
-                />
-                <path d="M0 12H530C620 12 625 74 720 74C815 74 820 12 910 12H1440V100H0Z" />
-            </svg>
         </section>
     );
 }

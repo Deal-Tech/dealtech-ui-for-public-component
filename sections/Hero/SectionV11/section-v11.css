@@ -246,22 +246,6 @@
   transition: transform 0.2s ease;
 }
 
-.hero-v11__shape {
-  position: absolute;
-  z-index: 1;
-  right: 0;
-  bottom: -1px;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  fill: #ffffff;
-  pointer-events: none;
-}
-
-.hero-v11__shape-shadow {
-  fill: rgba(202, 216, 226, 0.8);
-}
-
 .hero-v11__hidden {
   opacity: 0;
 }
@@ -330,9 +314,6 @@
     padding: 18px;
   }
 
-  .hero-v11__shape {
-    height: 70px;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
