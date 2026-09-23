@@ -10,6 +10,34 @@ Repo komponen UI publik dari tech.mudahdeal.com.
 - Setiap komponen memakai React TSX, CSS mandiri, dan `preview.tsx`.
 - `landing-dealtech-ui/` adalah aplikasi Vite untuk landing production dan playground.
 
+## Peta komponen
+
+Perbarui peta ini setiap kali komponen ditambah, dipindah, atau dihapus.
+
+### Elements
+
+- `Button/`: `ButtonV1`.
+- `Card/`: `PriceCardV1`.
+- `Footer/`: `SimpleFooterV1`, `SimpleFooterV2`.
+- `Header/`: `SimpleHeaderV1`, `SimpleHeaderV2`.
+- `Search/`: `SearchV1`, `SearchV2`.
+- `TabButtons/`: `StyleV1`.
+- `text/`: `HeadingStrokeV1`, `ParagrafV1`.
+
+### Sections
+
+- `About/`: `AboutV1` sampai `AboutV6`.
+- `Chekout/`: `ChekoutV1`.
+- `Compare/`: `SectionCompareV1` sampai `SectionCompareV3`.
+- `Contact/`: `ContactV1` sampai `ContactV5`.
+- `CTA/`: `CTAV1` sampai `CTAV6`.
+- `FAQ/`: `FAQV1` sampai `FAQV5`.
+- `Features/`: `CardListV1` sampai `CardListV4`.
+- `Hero/`: `SectionV1` sampai `SectionV13`.
+- `PriceList/`: `PricelistV1` sampai `PricelistV5`.
+- `Service/`: `ServiceV1` sampai `ServiceV3`.
+- `Testimonial/`: `ReviewV1` sampai `ReviewV7`.
+
 ## Aturan kode
 
 - Satu komponen berada dalam satu folder.
