@@ -27,7 +27,7 @@
   grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
   align-items: center;
   gap: clamp(36px, 5vw, 72px);
-  padding: clamp(48px, 6vw, 84px) 0;
+  padding: 36px 0 32px;
 }
 
 .hero-v4__content {
@@ -177,7 +177,7 @@
   border-radius: 14px;
   padding: 16px;
   background: rgba(255, 255, 255, 0.92);
-  box-shadow: 0 16px 40px rgba(1, 58, 111, 0.12);
+  box-shadow: 0 16px 40px rgba(1, 58, 111, 0.1);
   backdrop-filter: blur(8px);
 }
 
@@ -258,7 +258,7 @@
     min-height: 0;
     grid-template-columns: 1fr;
     gap: 36px;
-    padding: 48px 0 40px;
+    padding: 36px 0 32px;
   }
 
   .hero-v4__title {
@@ -339,5 +339,11 @@
   .hero-v4__visible {
     animation: none;
     opacity: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-v4__shell {
+    padding-inline: 2px;
   }
 }

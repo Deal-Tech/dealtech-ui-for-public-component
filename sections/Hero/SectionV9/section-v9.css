@@ -27,7 +27,7 @@
   grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
   align-items: center;
   gap: clamp(36px, 5vw, 72px);
-  padding: clamp(48px, 6vw, 84px) 0;
+  padding: 36px 0 32px;
 }
 
 .hero-v9__content {
@@ -94,7 +94,7 @@
   border: 1px solid rgba(1, 73, 139, 0.14);
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.97);
-  box-shadow: 0 22px 50px rgba(0, 28, 55, 0.22);
+  box-shadow: 0 22px 50px rgba(0, 28, 55, 0.1);
 }
 
 .hero-v9__finder h2 {
@@ -226,7 +226,7 @@
     min-height: 0;
     grid-template-columns: 1fr;
     gap: 36px;
-    padding: 48px 0 40px;
+    padding: 36px 0 32px;
   }
 
   .hero-v9__title {
@@ -260,5 +260,11 @@
   .hero-v9__visible {
     animation: none;
     opacity: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-v9__shell {
+    padding-inline: 2px;
   }
 }

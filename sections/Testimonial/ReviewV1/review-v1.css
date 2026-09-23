@@ -12,8 +12,8 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: clamp(24px, 3vw, 42px) 0;
-  background: var(--review-v1-surface);
+  padding: 36px 0 32px;
+  background: #ffffff;
   font-family: 'Inter', sans-serif;
   opacity: 0;
   will-change: opacity;
@@ -156,5 +156,11 @@
   .review-v1--visible {
     animation: none;
     opacity: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .review-v1 {
+    padding-inline: 2px;
   }
 }

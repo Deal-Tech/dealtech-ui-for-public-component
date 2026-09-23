@@ -10,8 +10,8 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
-  padding: clamp(34px, 5vw, 68px) 0;
-  background: #f7f8fa;
+  padding: 36px 0 32px;
+  background: #ffffff;
   font-family: 'Inter', sans-serif;
   opacity: 0;
   will-change: opacity;
@@ -304,5 +304,11 @@
   .review-v3--visible {
     animation: none;
     opacity: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .review-v3 {
+    padding-inline: 2px;
   }
 }

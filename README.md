@@ -40,6 +40,8 @@ Isi repo dibagi jadi tiga folder di akar, supaya langsung ketemu:
 | [`sections/`](sections/) | Gabungan beberapa element menjadi satu bagian halaman. | Hero, Features, About, Pricing, Testimonial, FAQ |
 | [`pages/`](pages/) | Halaman lengkap, hasil rangkaian beberapa komponen. | Landing page, Login, Dashboard, Pricing, 404 |
 
+> Beberapa bagian yang digunakan di `sections/` mungkin tidak tersedia di `elements/`. Folder `elements/` hanya menyimpan elemen dasar, sedangkan setiap section menyertakan kebutuhannya sendiri agar dapat berdiri sendiri tanpa bergantung pada komponen di `elements/`.
+
 ## Struktur Folder
 
 ```

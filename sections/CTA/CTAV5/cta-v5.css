@@ -22,8 +22,8 @@
   overflow: hidden;
   background: var(--cta-v5-primary);
   box-shadow:
-    0 12px 0 rgba(1, 73, 139, 0.18),
-    0 -12px 0 rgba(1, 73, 139, 0.18);
+    0 12px 0 rgba(1, 73, 139, 0.1),
+    0 -12px 0 rgba(1, 73, 139, 0.1);
 }
 
 .cta-v5__surface::before {
@@ -44,7 +44,7 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
-  padding: 50px 0;
+  padding: 36px 0 32px;
 }
 
 .cta-v5__content {
@@ -155,14 +155,14 @@
 @media (max-width: 700px) {
   .cta-v5__surface {
     box-shadow:
-      0 8px 0 rgba(1, 73, 139, 0.18),
-      0 -8px 0 rgba(1, 73, 139, 0.18);
+      0 8px 0 rgba(1, 73, 139, 0.1),
+      0 -8px 0 rgba(1, 73, 139, 0.1);
   }
 
   .cta-v5__shell {
     width: min(calc(100% - 36px), 1160px);
     min-height: 0;
-    padding: 38px 0 42px;
+    padding: 36px 0 32px;
   }
 
   .cta-v5__content {
@@ -185,5 +185,11 @@
   .cta-v5__visible {
     animation: none;
     opacity: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .cta-v5__shell {
+    padding-inline: 2px;
   }
 }

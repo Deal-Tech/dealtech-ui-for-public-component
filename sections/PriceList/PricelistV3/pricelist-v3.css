@@ -12,8 +12,8 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: clamp(36px, 5vw, 66px) 0;
-  background: #f6f8fb;
+  padding: 36px 0 32px;
+  background: #ffffff;
   font-family: 'Inter', sans-serif;
 }
 
@@ -40,7 +40,7 @@
   border: 1px solid rgba(1, 58, 111, 0.12);
   border-radius: 999px;
   background: #ffffff;
-  box-shadow: 0 12px 30px rgba(0, 28, 55, 0.16);
+  box-shadow: 0 12px 30px rgba(0, 28, 55, 0.1);
 }
 
 .pricelist-v3__billing button {
@@ -168,7 +168,7 @@
 
 .pricelist-v3__card--featured .pricelist-v3__card-body {
   border-color: #cbd8e5;
-  box-shadow: 0 18px 38px rgba(15, 23, 42, 0.14);
+  box-shadow: 0 18px 38px rgba(15, 23, 42, 0.1);
 }
 
 .pricelist-v3__description {
@@ -279,5 +279,11 @@
   .pricelist-v3__billing button {
     padding: 0 14px;
     font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .pricelist-v3 {
+    padding-inline: 2px;
   }
 }

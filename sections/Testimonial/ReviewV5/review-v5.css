@@ -7,7 +7,7 @@
 
   box-sizing: border-box;
   width: 100%;
-  padding: clamp(42px, 6vw, 78px) 0;
+  padding: 36px 0 32px;
   overflow: hidden;
   background: #ffffff;
   font-family: 'Inter', sans-serif;
@@ -194,7 +194,7 @@
 
 @media (max-width: 520px) {
   .review-v5 {
-    padding: 36px 0;
+    padding: 36px 0 32px;
   }
 
   .review-v5__shell {
@@ -218,5 +218,11 @@
 
   .review-v5--visible {
     animation: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .review-v5 {
+    padding-inline: 2px;
   }
 }

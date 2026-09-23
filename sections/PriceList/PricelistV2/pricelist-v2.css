@@ -12,8 +12,8 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: clamp(36px, 5vw, 66px) 0;
-  background: #f6f8fb;
+  padding: 36px 0 32px;
+  background: #ffffff;
   font-family: 'Inter', sans-serif;
 }
 
@@ -69,7 +69,7 @@
   border: 1px solid rgba(1, 58, 111, 0.12);
   border-radius: 999px;
   background: #ffffff;
-  box-shadow: 0 12px 30px rgba(0, 28, 55, 0.16);
+  box-shadow: 0 12px 30px rgba(0, 28, 55, 0.1);
 }
 
 .pricelist-v2__billing button {
@@ -143,7 +143,7 @@
   border-color: #0f172a;
   background: #0f172a;
   transform: translateY(-12px);
-  box-shadow: 0 18px 38px rgba(15, 23, 42, 0.2);
+  box-shadow: 0 18px 38px rgba(15, 23, 42, 0.1);
 }
 
 .pricelist-v2__card-header {
@@ -332,5 +332,11 @@
 
   .pricelist-v2__heading {
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .pricelist-v2 {
+    padding-inline: 2px;
   }
 }

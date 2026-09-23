@@ -6,7 +6,6 @@
 
   box-sizing: border-box;
   width: 100%;
-  padding-bottom: 14px;
   background: #ffffff;
   font-family: 'Inter', sans-serif;
 }
@@ -24,7 +23,7 @@
   overflow: hidden;
   border-radius: 0 0 44px 44px;
   background: var(--hero-v13-primary);
-  box-shadow: 0 12px 0 rgba(1, 73, 139, 0.18);
+  box-shadow: 0 12px 0 rgba(1, 73, 139, 0.1);
 }
 
 .hero-v13__photo {
@@ -55,7 +54,7 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
-  padding: clamp(54px, 6vw, 84px) 0;
+  padding: 36px 0 32px;
 }
 
 .hero-v13__content {
@@ -172,7 +171,7 @@
   border-radius: 14px;
   padding: 15px;
   background: rgba(255, 255, 255, 0.94);
-  box-shadow: 0 16px 40px rgba(0, 28, 55, 0.2);
+  box-shadow: 0 16px 40px rgba(0, 28, 55, 0.1);
   backdrop-filter: blur(8px);
 }
 
@@ -256,7 +255,7 @@
   .hero-v13__shell {
     min-height: 0;
     align-items: flex-start;
-    padding: 48px 0 430px;
+    padding: 36px 0 32px;
   }
 
   .hero-v13__content {
@@ -288,12 +287,12 @@
 
   .hero-v13__surface {
     border-radius: 0 0 26px 26px;
-    box-shadow: 0 8px 0 rgba(1, 73, 139, 0.18);
+    box-shadow: 0 8px 0 rgba(1, 73, 139, 0.1);
   }
 
   .hero-v13__shell {
     width: min(calc(100% - 36px), 1160px);
-    padding: 36px 0 390px;
+    padding: 36px 0 32px;
   }
 
   .hero-v13__actions {
@@ -341,5 +340,11 @@
   .hero-v13__visible {
     animation: none;
     opacity: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-v13__shell {
+    padding-inline: 2px;
   }
 }

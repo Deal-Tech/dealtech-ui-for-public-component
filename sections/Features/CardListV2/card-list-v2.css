@@ -3,7 +3,7 @@
 .card-list-v2 {
   box-sizing: border-box;
   width: 100%;
-  padding: clamp(26px, 4vw, 46px) 0;
+  padding: 36px 0 32px;
   background: #ffffff;
   font-family: 'Inter', sans-serif;
 }
@@ -105,5 +105,11 @@
 
   .card-list-v2__item:last-child {
     padding-bottom: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .card-list-v2 {
+    padding-inline: 2px;
   }
 }
