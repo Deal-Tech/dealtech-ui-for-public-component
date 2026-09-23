@@ -22,7 +22,6 @@
 
 .service-v1__shell {
   width: min(1160px, calc(100% - 44px));
-  min-height: 590px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
