@@ -31,29 +31,14 @@
 }
 
 .simple-footer-v2__brand {
-  display: inline-flex;
-  align-items: center;
+  display: inline-block;
   text-decoration: none;
-}
-
-.simple-footer-v2__brand--mark {
-  gap: 12px;
-  color: #ffffff;
-  font-size: 1.125rem;
-  font-weight: 800;
-  letter-spacing: -0.02em;
 }
 
 .simple-footer-v2__brand img {
   width: min(300px, 100%);
   height: auto;
   display: block;
-}
-
-.simple-footer-v2__brand--mark img {
-  width: 52px;
-  height: 48px;
-  object-fit: contain;
 }
 
 .simple-footer-v2__brand-column .simple-footer-v2__description {

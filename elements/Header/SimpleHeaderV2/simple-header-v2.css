@@ -33,17 +33,8 @@
 }
 
 .simple-header-v2__brand {
-  display: inline-flex;
-  align-items: center;
+  display: inline-block;
   text-decoration: none;
-}
-
-.simple-header-v2__brand--mark {
-  gap: 10px;
-  color: #111111;
-  font-size: 1rem;
-  font-weight: 800;
-  letter-spacing: -0.02em;
 }
 
 .simple-header-v2__brand img {
@@ -51,13 +42,6 @@
   height: auto;
   display: block;
   filter: brightness(0);
-}
-
-.simple-header-v2__brand--mark img {
-  width: 42px;
-  height: 42px;
-  object-fit: contain;
-  filter: none;
 }
 
 .simple-header-v2__nav {
