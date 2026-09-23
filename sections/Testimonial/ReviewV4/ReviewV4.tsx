@@ -78,7 +78,7 @@ export default function ReviewV4() {
                 <header className="review-v4__header">
                     <span className="review-v4__badge">
                         <UsersRound size={13} aria-hidden="true" />
-                        Dipercaya tim digital
+                        ReviewV4
                     </span>
                     <h2 className="review-v4__heading">
                         Disukai tim, <span>terbukti lewat hasil</span>

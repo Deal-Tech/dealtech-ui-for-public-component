@@ -40,7 +40,7 @@ export default function SectionV5() {
             <div className="hero-v5__shell">
                 <div className="hero-v5__content">
                     <span className="hero-v5__eyebrow hero-v5__reveal hero-v5__hidden">
-                        <AlertCircle size={16} strokeWidth={2.5} aria-hidden="true" /> Versi 5
+                        <AlertCircle size={16} strokeWidth={2.5} aria-hidden="true" /> SectionV5
                     </span>
 
                     <h1 className="hero-v5__title hero-v5__reveal hero-v5__hidden">

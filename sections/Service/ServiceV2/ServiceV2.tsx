@@ -90,7 +90,7 @@ export default function ServiceV2() {
             <div className="service-v2__shell">
                 <div className="service-v2__header">
                     <span className="service-v2__eyebrow service-v2__reveal service-v2__hidden">
-                        <Sparkles size={16} strokeWidth={2.4} aria-hidden="true" /> Layanan Dealtech UI
+                        <Sparkles size={16} strokeWidth={2.4} aria-hidden="true" /> ServiceV2
                     </span>
 
                     <h2 className="service-v2__title service-v2__reveal service-v2__hidden">

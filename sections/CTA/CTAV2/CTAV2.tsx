@@ -25,6 +25,7 @@ export default function CTAV2() {
         <section className="cta-v2">
             <div className="cta-v2__inner">
                 <div className="cta-v2__content cta-v2__reveal cta-v2__opacity-0">
+                    <span className="cta-v2__eyebrow">CTAV2</span>
                     <h2 className="cta-v2__title">
                         <span>Siap Bangun UI Lebih Cepat untuk </span>
                         <span className="cta-v2__title-accent">Proyek Berikutnya?</span>

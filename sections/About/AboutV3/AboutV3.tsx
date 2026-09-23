@@ -47,7 +47,7 @@ export default function AboutV3() {
             <div className="about-v3__shell">
                 <div className="about-v3__content">
                     <span className="about-v3__eyebrow about-v3__reveal about-v3__hidden">
-                        <Info size={16} strokeWidth={2.5} aria-hidden="true" /> Tentang Dealtech UI
+                        <Info size={16} strokeWidth={2.5} aria-hidden="true" /> AboutV3
                     </span>
 
                     <h2 className="about-v3__title about-v3__reveal about-v3__hidden">

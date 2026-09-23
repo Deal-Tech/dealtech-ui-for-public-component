@@ -128,6 +128,7 @@ export default function ReviewV6() {
 
     return (
         <section ref={sectionRef} className="review-v6">
+            <span className="review-v6__eyebrow">ReviewV6</span>
             <div className="review-v6__shell">
                 {columns.map((column, columnIndex) => (
                     <div className="review-v6__column" key={columnIndex}>

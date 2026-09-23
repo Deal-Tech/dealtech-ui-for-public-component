@@ -42,7 +42,7 @@ export default function ContactV1() {
                 <header className="contact-v1__header contact-v1__reveal contact-v1__hidden">
                     <span className="contact-v1__eyebrow">
                         <MessageCircle size={15} strokeWidth={2.4} aria-hidden="true" />
-                        Kontak
+                        ContactV1
                     </span>
                     <h2 className="contact-v1__heading">
                         Hubungi <span>Tim Kami</span>

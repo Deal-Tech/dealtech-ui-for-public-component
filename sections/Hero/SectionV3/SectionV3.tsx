@@ -3,7 +3,7 @@ import { AlertCircle } from 'lucide-react';
 
 import './section-v3.css';
 
-const eyebrow = 'Versi 3';
+const eyebrow = 'SectionV3';
 const title = 'Sederhanakan Design UI, Pakai';
 const titleAccent = 'Dealtech UI';
 const titleSuffix = 'For Public Components';

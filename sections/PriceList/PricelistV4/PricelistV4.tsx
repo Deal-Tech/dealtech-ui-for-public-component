@@ -64,6 +64,7 @@ export default function PricelistV4() {
     return (
         <section id="harga" className="pricelist-v4">
             <div className="pricelist-v4__shell">
+                <span className="pricelist-v4__eyebrow">PricelistV4</span>
                 <h2 className="pricelist-v4__heading">
                     Pilih Akses Sesuai <span>Kebutuhan Proyek Anda</span>
                 </h2>

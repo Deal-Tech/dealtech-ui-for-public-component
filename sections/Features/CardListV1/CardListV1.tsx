@@ -91,6 +91,7 @@ export default function CardListV1() {
     return (
         <section ref={sectionRef} className="card-list-v1">
             <div className="card-list-v1__shell">
+                <span className="card-list-v1__eyebrow">CardListV1</span>
                 <h2 className="card-list-v1__heading">
                     Satu Library untuk{' '}
                     <span className="card-list-v1__heading-accent">Seluruh Kebutuhan UI</span>

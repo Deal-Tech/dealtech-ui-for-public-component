@@ -28,6 +28,7 @@ const features = [
 export default function CardListV2() {
     return (
         <section className="card-list-v2" aria-label="Keunggulan Dealtech UI">
+            <span className="card-list-v2__eyebrow">CardListV2</span>
             <div className="card-list-v2__shell">
                 {features.map(({ title, description, Icon }) => (
                     <article className="card-list-v2__item" key={title}>

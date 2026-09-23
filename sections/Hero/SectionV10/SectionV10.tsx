@@ -44,7 +44,7 @@ export default function SectionV10() {
             <div className="hero-v10__surface">
                 <div className="hero-v10__shell">
                     <span className="hero-v10__eyebrow hero-v10__reveal hero-v10__hidden">
-                        <AlertCircle size={16} strokeWidth={2.5} aria-hidden="true" /> Versi 10
+                        <AlertCircle size={16} strokeWidth={2.5} aria-hidden="true" /> SectionV10
                     </span>
 
                     <h1 className="hero-v10__title hero-v10__reveal hero-v10__hidden">

@@ -255,6 +255,7 @@ export default function ChekoutV1({
     return (
         <section className="chekout-v1">
             <div className="chekout-v1__shell">
+                <span className="chekout-v1__eyebrow">ChekoutV1</span>
                 <div className="chekout-v1__page">
                     <div className="chekout-v1__bar" role="note">
                         {step === 'checkout' ? (

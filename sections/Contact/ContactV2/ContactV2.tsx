@@ -39,6 +39,7 @@ export default function ContactV2() {
             <div className="contact-v2__shell contact-v2__reveal contact-v2__hidden">
                 <div className="contact-v2__info">
                     <div>
+                        <span className="contact-v2__eyebrow">ContactV2</span>
                         <h2>Mari Terhubung</h2>
                         <p>Ceritakan kebutuhan proyekmu. Tim kami siap membantu menemukan solusi yang tepat.</p>
                     </div>

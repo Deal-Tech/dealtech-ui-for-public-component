@@ -16,6 +16,22 @@
   box-sizing: border-box;
 }
 
+.pricelist-v5__eyebrow {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  margin: 0 auto 12px;
+  padding: 5px 13px;
+  border: 1px solid rgba(1, 73, 139, 0.14);
+  border-radius: 999px;
+  background: rgba(1, 73, 139, 0.08);
+  color: var(--pricelist-v5-primary);
+  font-size: 0.75rem;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
 .pricelist-v5__shell {
   width: min(1280px, calc(100% - 44px));
   margin: 0 auto;

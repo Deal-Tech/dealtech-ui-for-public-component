@@ -62,7 +62,7 @@ export default function AboutV6() {
 
                 <div className="about-v6__content">
                     <span className="about-v6__eyebrow about-v6__reveal about-v6__hidden">
-                        <Sparkles size={16} strokeWidth={2.4} aria-hidden="true" /> Kenapa Dealtech UI
+                        <Sparkles size={16} strokeWidth={2.4} aria-hidden="true" /> AboutV6
                     </span>
 
                     <h2 className="about-v6__title about-v6__reveal about-v6__hidden">

@@ -13,6 +13,7 @@ export default function CardListV4() {
         <section className="card-list-v4" aria-label="Statistik Dealtech UI">
             <div className="card-list-v4__shell">
                 <div className="card-list-v4__intro">
+                    <span className="card-list-v4__eyebrow">CardListV4</span>
                     <span>Dipercaya oleh</span>
                     <strong>Ribuan Developer dan Tim Produk</strong>
                 </div>

@@ -130,6 +130,7 @@ export default function ReviewV5() {
         <section ref={sectionRef} className="review-v5">
             <div className="review-v5__shell">
                 <header className="review-v5__header">
+                    <span className="review-v5__eyebrow">ReviewV5</span>
                     <h2>
                         Jangan hanya percaya kata kami.
                         <span>Dengarkan para pengguna</span>

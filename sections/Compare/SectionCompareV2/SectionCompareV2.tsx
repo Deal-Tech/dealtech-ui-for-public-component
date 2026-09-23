@@ -91,7 +91,7 @@ export default function SectionCompareV2() {
                     </div>
 
                     <div className="section-compare-v2__column section-compare-v2__column--new">
-                        <span className="section-compare-v2__badge">DEALTECH UI COMPONENTS</span>
+                        <span className="section-compare-v2__badge">SectionCompareV2</span>
                         <h3 className="section-compare-v2__title section-compare-v2__title--new">
                             <CheckCircle2 size={20} strokeWidth={2.5} /> DENGAN DEALTECH UI
                         </h3>
