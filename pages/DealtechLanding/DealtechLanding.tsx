@@ -1,14 +1,33 @@
 import { useEffect, useRef } from 'react';
-import { GitPullRequest, Github, Info, Layers3 } from 'lucide-react';
+import { Check, Code2, GitPullRequest, Github, Info, Layers3, Sparkles, SunMedium } from 'lucide-react';
 
 import SimpleFooterV2 from '../../elements/Footer/SimpleFooterV2/SimpleFooterV2';
 import SimpleHeaderV2 from '../../elements/Header/SimpleHeaderV2/SimpleHeaderV2';
 
+import '../../sections/About/AboutV6/about-v6.css';
 import './dealtech-landing.css';
 import './about-v1.css';
 
-const dashboardImage = new URL('./assets/demo-dashboard.svg', import.meta.url).href;
-const aboutImage = new URL('../../sections/About/AboutV1/assets/demo-dashboard.svg', import.meta.url).href;
+const dashboardImage = new URL('./assets/hero-components-v2.png', import.meta.url).href;
+const aboutImage = new URL('./assets/open-source-collaboration-v2.png', import.meta.url).href;
+
+const testedModels = [
+    {
+        title: 'Gemini',
+        Icon: Sparkles,
+        variant: 'gemini',
+    },
+    {
+        title: 'Claude',
+        Icon: SunMedium,
+        variant: 'claude',
+    },
+    {
+        title: 'Codex',
+        Icon: Code2,
+        variant: 'codex',
+    },
+];
 
 export default function DealtechLanding() {
     const heroRef = useRef<HTMLElement>(null);
@@ -71,11 +90,58 @@ export default function DealtechLanding() {
                             <div className="hero-v6__visual hero-v6__reveal hero-v6__hidden">
                                 <img
                                     src={dashboardImage}
-                                    alt="Preview dashboard Dealtech UI."
-                                    width={1460}
-                                    height={1078}
+                                    alt="Ekosistem komponen Dealtech UI untuk dashboard admin dan halaman publik."
+                                    width={1448}
+                                    height={1086}
                                     decoding="async"
                                 />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="pengujian-model" className="about-v6 model-test">
+                    <div className="about-v6__shell">
+                        <div className="about-v6__visual model-test__visual">
+                            <span className="about-v6__visual-shape" aria-hidden="true" />
+                            <div className="about-v6__visual-frame model-test__visual-frame" aria-label="Model AI yang telah diuji">
+                                {testedModels.map(({ title, Icon, variant }) => (
+                                    <div className={`model-test__brand model-test__brand--${variant}`} key={title}>
+                                        <span className="model-test__brand-icon">
+                                            <Icon size={28} strokeWidth={2.2} aria-hidden="true" />
+                                        </span>
+                                        <strong>{title}</strong>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+
+                        <div className="about-v6__content">
+                            <span className="about-v6__eyebrow">
+                                <Sparkles size={16} strokeWidth={2.4} aria-hidden="true" /> HASIL UJI MODEL
+                            </span>
+
+                            <h2 className="about-v6__title">
+                                Sudah Kami Uji pada 3 Model dengan Kemampuan Paling Dasar dan{' '}
+                                <span className="about-v6__title-accent">Hasilnya Work!</span>
+                            </h2>
+
+                            <p className="about-v6__description">
+                                Gemini, Claude, dan Codex dapat mengikuti panduan komponen dengan baik. Artinya,
+                                struktur dan instruksi Dealtech UI tetap mudah dipahami tanpa menghabiskan banyak token
+                                hanya untuk urusan tampilan.
+                            </p>
+
+                            <div className="about-v6__benefits model-test__checklist">
+                                {testedModels.map(({ title }) => (
+                                    <div className="about-v6__benefit" key={title}>
+                                        <span className="about-v6__benefit-icon">
+                                            <Check size={14} strokeWidth={3} aria-hidden="true" />
+                                        </span>
+                                        <span className="about-v6__benefit-copy">
+                                            <strong>{title}</strong>
+                                        </span>
+                                    </div>
+                                ))}
                             </div>
                         </div>
                     </div>
@@ -107,9 +173,9 @@ export default function DealtechLanding() {
                         <div className="about-v1__visual about-v1__reveal about-v1__hidden">
                             <img
                                 src={aboutImage}
-                                alt="Kumpulan komponen antarmuka Dealtech UI."
-                                width={1460}
-                                height={1078}
+                                alt="Ilustrasi kolaborasi open-source dan alur pull request Dealtech UI."
+                                width={1448}
+                                height={1086}
                                 decoding="async"
                             />
                         </div>

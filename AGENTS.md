@@ -10,6 +10,34 @@ Repo komponen UI publik dari tech.mudahdeal.com.
 - Setiap komponen memakai React TSX, CSS mandiri, dan `preview.tsx`.
 - `landing-dealtech-ui/` adalah aplikasi Vite untuk landing production dan playground.
 
+## Peta komponen
+
+Perbarui peta ini setiap kali komponen ditambah, dipindah, atau dihapus.
+
+### Elements
+
+- `Button/`: `ButtonV1`.
+- `Card/`: `PriceCardV1`.
+- `Footer/`: `SimpleFooterV1`, `SimpleFooterV2`.
+- `Header/`: `SimpleHeaderV1`, `SimpleHeaderV2`.
+- `Search/`: `SearchV1`, `SearchV2`.
+- `TabButtons/`: `StyleV1`.
+- `text/`: `HeadingStrokeV1`, `ParagrafV1`.
+
+### Sections
+
+- `About/`: `AboutV1` sampai `AboutV6`.
+- `Chekout/`: `ChekoutV1`.
+- `Compare/`: `SectionCompareV1` sampai `SectionCompareV3`.
+- `Contact/`: `ContactV1` sampai `ContactV5`.
+- `CTA/`: `CTAV1` sampai `CTAV6`.
+- `FAQ/`: `FAQV1` sampai `FAQV5`.
+- `Features/`: `CardListV1` sampai `CardListV4`.
+- `Hero/`: `SectionV1` sampai `SectionV13`.
+- `PriceList/`: `PricelistV1` sampai `PricelistV5`.
+- `Service/`: `ServiceV1` sampai `ServiceV3`.
+- `Testimonial/`: `ReviewV1` sampai `ReviewV7`.
+
 ## Aturan kode
 
 - Satu komponen berada dalam satu folder.
@@ -25,13 +53,23 @@ Repo komponen UI publik dari tech.mudahdeal.com.
 - Komentar maksimal lima kata.
 - Jangan menumpuk komentar.
 
+## Badge section
+
+- Setiap section wajib memiliki badge nama dengan format `KATEGORI/NAMA_FOLDER`.
+- Tampilkan teks badge dengan huruf kapital di playground.
+- Badge wajib tanpa border dan memakai ikon informasi yang seragam.
+- Badge wajib berupa tautan langsung ke folder section di repository.
+- Gunakan URL lengkap `https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/KATEGORI/NAMA_FOLDER`.
+- Buka tautan pada tab baru dengan `target="_blank"` dan `rel="noreferrer"`.
+
 ## Spacing section
 
 - Ikuti spacing Hero untuk seluruh section.
-- Padding dasar semua section: `36px 0 32px`.
+- Padding section desktop dan tablet di atas 640px: `45px 0`.
+- Padding section mobile maksimal 640px: `36px 0 32px`.
 - Pada mobile maksimal 640px, beri `padding-inline: 2px` jika masih `0`.
 - Jangan tambah padding mobile jika padding horizontal sudah ada.
-- Jangan gunakan `clamp` atau padding vertikal berbeda antar breakpoint.
+- Jangan gunakan `clamp` untuk padding vertikal section atau ukuran selain dua standar di atas.
 - Container desktop: `min(1160px, calc(100% - 44px))`.
 - Container mobile: `min(1160px, calc(100% - 36px))`.
 - Gap dua kolom utama: `clamp(36px, 5vw, 72px)`.

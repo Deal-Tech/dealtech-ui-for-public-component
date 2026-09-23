@@ -48,9 +48,9 @@ export default function SectionV12() {
 
                 <div className="hero-v12__shell">
                     <div className="hero-v12__content">
-                        <span className="hero-v12__eyebrow hero-v12__reveal hero-v12__hidden">
-                            <AlertCircle size={16} strokeWidth={2.5} aria-hidden="true" /> Versi 12
-                        </span>
+                        <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/Hero/SectionV12" target="_blank" rel="noreferrer" className="hero-v12__eyebrow hero-v12__reveal hero-v12__hidden">
+                            <AlertCircle size={16} strokeWidth={2.5} aria-hidden="true" /> Hero/SectionV12
+                        </a>
 
                         <h1 className="hero-v12__title hero-v12__reveal hero-v12__hidden">
                             <span>Sederhanakan Design UI, Pakai</span>{' '}

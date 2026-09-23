@@ -7,7 +7,7 @@
 
   box-sizing: border-box;
   width: 100%;
-  padding: 36px 0 32px;
+  padding: 45px 0;
   background: #ffffff;
   font-family: 'Inter', sans-serif;
 }
@@ -28,6 +28,7 @@
 }
 
 .faq-v2__eyebrow {
+  text-decoration: none;
   display: inline-flex;
   align-items: center;
   gap: 7px;
@@ -216,6 +217,7 @@
 
 @media (max-width: 640px) {
   .faq-v2 {
+    padding-block: 36px 32px;
     padding-inline: 2px;
   }
 }

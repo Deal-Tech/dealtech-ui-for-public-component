@@ -89,9 +89,9 @@ export default function ServiceV2() {
         <section ref={sectionRef} className="service-v2">
             <div className="service-v2__shell">
                 <div className="service-v2__header">
-                    <span className="service-v2__eyebrow service-v2__reveal service-v2__hidden">
-                        <Sparkles size={16} strokeWidth={2.4} aria-hidden="true" /> Layanan Dealtech UI
-                    </span>
+                    <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/Service/ServiceV2" target="_blank" rel="noreferrer" className="service-v2__eyebrow service-v2__reveal service-v2__hidden">
+                        <Sparkles size={16} strokeWidth={2.4} aria-hidden="true" /> Service/ServiceV2
+                    </a>
 
                     <h2 className="service-v2__title service-v2__reveal service-v2__hidden">
                         Layanan UI untuk{' '}

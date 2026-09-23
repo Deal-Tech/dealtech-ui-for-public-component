@@ -39,9 +39,9 @@ export default function AboutV2() {
         <section ref={sectionRef} className="about-v2">
             <div className="about-v2__shell">
                 <div className="about-v2__content">
-                    <span className="about-v2__eyebrow about-v2__reveal about-v2__hidden">
-                        <Info size={16} strokeWidth={2.5} aria-hidden="true" /> Tentang Dealtech UI
-                    </span>
+                    <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/About/AboutV2" target="_blank" rel="noreferrer" className="about-v2__eyebrow about-v2__reveal about-v2__hidden">
+                        <Info size={16} strokeWidth={2.5} aria-hidden="true" /> About/AboutV2
+                    </a>
 
                     <h2 className="about-v2__title about-v2__reveal about-v2__hidden">
                         Komponen Publik untuk{' '}

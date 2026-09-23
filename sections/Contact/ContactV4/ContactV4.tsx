@@ -43,6 +43,7 @@ export default function ContactV4() {
                 <div className="contact-v4__content">
                     <div className="contact-v4__info">
                         <div>
+                            <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/Contact/ContactV4" target="_blank" rel="noreferrer" className="contact-v4__eyebrow">Contact/ContactV4</a>
                             <h2>Mari Terhubung</h2>
                             <p>Ceritakan kebutuhan proyekmu. Tim kami siap membantu menemukan solusi yang tepat.</p>
                         </div>

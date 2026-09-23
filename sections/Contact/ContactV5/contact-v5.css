@@ -8,7 +8,7 @@
 
   box-sizing: border-box;
   width: 100%;
-  padding: 36px 0 32px;
+  padding: 45px 0;
   background: #ffffff;
   font-family: 'Inter', sans-serif;
 }
@@ -39,6 +39,7 @@
 }
 
 .contact-v5__info-badge {
+  text-decoration: none;
   align-self: flex-start;
   margin-bottom: 12px;
   padding: 5px 10px;
@@ -288,6 +289,7 @@
 
 @media (max-width: 640px) {
   .contact-v5 {
+    padding-block: 36px 32px;
     padding-inline: 2px;
   }
 }

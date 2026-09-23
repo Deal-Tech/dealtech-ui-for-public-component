@@ -44,9 +44,9 @@ export default function AboutV4() {
         <section ref={sectionRef} className="about-v4">
             <div className="about-v4__shell">
                 <div className="about-v4__content">
-                    <span className="about-v4__eyebrow about-v4__reveal about-v4__hidden">
-                        <Info size={16} strokeWidth={2.5} aria-hidden="true" /> Tentang Dealtech UI
-                    </span>
+                    <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/About/AboutV4" target="_blank" rel="noreferrer" className="about-v4__eyebrow about-v4__reveal about-v4__hidden">
+                        <Info size={16} strokeWidth={2.5} aria-hidden="true" /> About/AboutV4
+                    </a>
 
                     <h2 className="about-v4__title about-v4__reveal about-v4__hidden">
                         Komponen Publik untuk{' '}

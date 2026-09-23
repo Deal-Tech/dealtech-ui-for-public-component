@@ -38,6 +38,7 @@ export default function CTAV4() {
             <div className="cta-v4__surface">
                 <div className="cta-v4__shell">
                     <div className="cta-v4__content">
+                        <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/CTA/CTAV4" target="_blank" rel="noreferrer" className="cta-v4__eyebrow">CTA/CTAV4</a>
                         <h2 className="cta-v4__title cta-v4__reveal cta-v4__hidden">
                             <span>Siap Bangun UI Lebih Cepat untuk </span>
                             <span className="cta-v4__title-accent">Proyek Berikutnya?</span>

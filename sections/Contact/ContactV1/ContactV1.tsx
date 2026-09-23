@@ -40,10 +40,10 @@ export default function ContactV1() {
         <section ref={sectionRef} className="contact-v1">
             <div className="contact-v1__shell">
                 <header className="contact-v1__header contact-v1__reveal contact-v1__hidden">
-                    <span className="contact-v1__eyebrow">
+                    <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/Contact/ContactV1" target="_blank" rel="noreferrer" className="contact-v1__eyebrow">
                         <MessageCircle size={15} strokeWidth={2.4} aria-hidden="true" />
-                        Kontak
-                    </span>
+                        Contact/ContactV1
+                    </a>
                     <h2 className="contact-v1__heading">
                         Hubungi <span>Tim Kami</span>
                     </h2>

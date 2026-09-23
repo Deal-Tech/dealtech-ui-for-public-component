@@ -43,6 +43,7 @@ export default function PricelistV2() {
     return (
         <section className="pricelist-v2">
             <div className="pricelist-v2__shell">
+                <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/PriceList/PricelistV2" target="_blank" rel="noreferrer" className="pricelist-v2__eyebrow">PriceList/PricelistV2</a>
                 <h2 className="pricelist-v2__heading">
                     Pilih Akses Sesuai{' '}
                     <span>Kebutuhan Proyek Anda</span>

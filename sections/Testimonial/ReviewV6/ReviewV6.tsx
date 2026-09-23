@@ -128,6 +128,7 @@ export default function ReviewV6() {
 
     return (
         <section ref={sectionRef} className="review-v6">
+            <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/Testimonial/ReviewV6" target="_blank" rel="noreferrer" className="review-v6__eyebrow">Testimonial/ReviewV6</a>
             <div className="review-v6__shell">
                 {columns.map((column, columnIndex) => (
                     <div className="review-v6__column" key={columnIndex}>

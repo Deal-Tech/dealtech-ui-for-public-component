@@ -91,6 +91,7 @@ export default function CardListV1() {
     return (
         <section ref={sectionRef} className="card-list-v1">
             <div className="card-list-v1__shell">
+                <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/Features/CardListV1" target="_blank" rel="noreferrer" className="card-list-v1__eyebrow">Features/CardListV1</a>
                 <h2 className="card-list-v1__heading">
                     Satu Library untuk{' '}
                     <span className="card-list-v1__heading-accent">Seluruh Kebutuhan UI</span>

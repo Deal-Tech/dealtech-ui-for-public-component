@@ -34,9 +34,9 @@ export default function SectionV6() {
             <div className="hero-v6__surface">
                 <div className="hero-v6__shell">
                     <div className="hero-v6__content">
-                        <span className="hero-v6__eyebrow hero-v6__reveal hero-v6__hidden">
-                            <AlertCircle size={16} strokeWidth={2.5} aria-hidden="true" /> Versi 6
-                        </span>
+                        <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/Hero/SectionV6" target="_blank" rel="noreferrer" className="hero-v6__eyebrow hero-v6__reveal hero-v6__hidden">
+                            <AlertCircle size={16} strokeWidth={2.5} aria-hidden="true" /> Hero/SectionV6
+                        </a>
 
                         <h1 className="hero-v6__title hero-v6__reveal hero-v6__hidden">
                             <span>Sederhanakan Design UI, Pakai</span>{' '}

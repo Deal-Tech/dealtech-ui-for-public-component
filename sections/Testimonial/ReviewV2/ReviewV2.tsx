@@ -54,6 +54,7 @@ export default function ReviewV2() {
     return (
         <section ref={sectionRef} className="review-v2">
             <div className="review-v2__shell">
+                <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/Testimonial/ReviewV2" target="_blank" rel="noreferrer" className="review-v2__eyebrow">Testimonial/ReviewV2</a>
                 <h2 className="review-v2__heading">
                     Sudah Dipakai Berbagai Tim untuk{' '}
                     <span className="review-v2__heading-accent">Membangun UI Lebih Cepat</span>

@@ -76,10 +76,10 @@ export default function ReviewV4() {
         <section ref={sectionRef} className="review-v4">
             <div className="review-v4__shell">
                 <header className="review-v4__header">
-                    <span className="review-v4__badge">
+                    <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/Testimonial/ReviewV4" target="_blank" rel="noreferrer" className="review-v4__badge">
                         <UsersRound size={13} aria-hidden="true" />
-                        Dipercaya tim digital
-                    </span>
+                        Testimonial/ReviewV4
+                    </a>
                     <h2 className="review-v4__heading">
                         Disukai tim, <span>terbukti lewat hasil</span>
                     </h2>

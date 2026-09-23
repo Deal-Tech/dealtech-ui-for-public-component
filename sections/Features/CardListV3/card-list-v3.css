@@ -9,7 +9,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 36px 0 32px;
+  padding: 45px 0;
   background: #ffffff;
   font-family: 'Inter', sans-serif;
   opacity: 0;
@@ -20,6 +20,23 @@
 .card-list-v3 *::before,
 .card-list-v3 *::after {
   box-sizing: border-box;
+}
+
+.card-list-v3__eyebrow {
+  text-decoration: none;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  margin: 0 auto 12px;
+  padding: 5px 13px;
+  border: 1px solid rgba(1, 73, 139, 0.14);
+  border-radius: 999px;
+  background: rgba(1, 73, 139, 0.08);
+  color: var(--card-list-v3-primary);
+  font-size: 0.75rem;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.04em;
 }
 
 .card-list-v3--visible {
@@ -135,6 +152,7 @@
 
 @media (max-width: 640px) {
   .card-list-v3 {
+    padding-block: 36px 32px;
     padding-inline: 2px;
   }
 }

@@ -5,9 +5,18 @@ import LandingPage from './LandingPage';
 import './app.css';
 
 const Playground = lazy(() => import('./App'));
-const isPlayground = window.location.pathname.replace(/\/+$/, '') === '/playground';
+const AdminPlayground = lazy(() => import('./admin-playground/AdminPlayground'));
+const currentPath = window.location.pathname.replace(/\/+$/, '') || '/';
+const isPlayground = currentPath === '/playground';
+const isAdminPlayground = currentPath === '/playground-admin' || currentPath.startsWith('/playground-admin/');
 
-const pageMetadata = isPlayground
+const pageMetadata = isAdminPlayground
+    ? {
+        title: 'Admin Playground — Dealtech UI',
+        description: 'Jelajahi komponen dan halaman dashboard admin dari Dealtech UI.',
+        url: `https://ui.mudahdeal.com${currentPath}`,
+    }
+    : isPlayground
     ? {
         title: 'Playground Komponen — Dealtech UI',
         description: 'Jelajahi dan bandingkan variasi komponen UI React dari Dealtech UI.',
@@ -34,7 +43,11 @@ setMetaContent('meta[name="twitter:description"]', pageMetadata.description);
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
-        {isPlayground ? (
+        {isAdminPlayground ? (
+            <Suspense fallback={<div className="dealtech-loading">Memuat Admin Playground...</div>}>
+                <AdminPlayground />
+            </Suspense>
+        ) : isPlayground ? (
             <Suspense fallback={<div className="dealtech-loading">Memuat playground...</div>}>
                 <Playground />
             </Suspense>

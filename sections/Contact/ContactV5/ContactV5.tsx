@@ -31,7 +31,7 @@ export default function ContactV5() {
         <section ref={sectionRef} className="contact-v5">
             <div className="contact-v5__shell contact-v5__reveal contact-v5__hidden">
                 <aside className="contact-v5__info">
-                    <span className="contact-v5__info-badge">Kontak Kami</span>
+                    <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/Contact/ContactV5" target="_blank" rel="noreferrer" className="contact-v5__info-badge">Contact/ContactV5</a>
                     <h2>Butuh Informasi Lebih Lanjut?</h2>
                     <p>
                         Ceritakan kebutuhanmu dan temukan solusi terbaik bersama tim kami.

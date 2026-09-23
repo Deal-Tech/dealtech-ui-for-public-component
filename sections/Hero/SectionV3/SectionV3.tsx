@@ -3,7 +3,7 @@ import { AlertCircle } from 'lucide-react';
 
 import './section-v3.css';
 
-const eyebrow = 'Versi 3';
+const eyebrow = 'Hero/SectionV3';
 const title = 'Sederhanakan Design UI, Pakai';
 const titleAccent = 'Dealtech UI';
 const titleSuffix = 'For Public Components';
@@ -43,9 +43,9 @@ export default function SectionV3() {
         <section ref={sectionRef} id="home" className="hero-v3">
             <div className="hero-v3__shell">
                 <div className="hero-v3__content">
-                    <span className="hero-v3__eyebrow hero-v3__reveal hero-v3__hidden">
+                    <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/Hero/SectionV3" target="_blank" rel="noreferrer" className="hero-v3__eyebrow hero-v3__reveal hero-v3__hidden">
                         <AlertCircle size={16} strokeWidth={2.5} aria-hidden="true" /> {eyebrow}
-                    </span>
+                    </a>
 
                     <h1 className="hero-v3__title hero-v3__reveal hero-v3__hidden">
                         <span>{title}</span> <span className="hero-v3__title-accent">{titleAccent}</span>{' '}

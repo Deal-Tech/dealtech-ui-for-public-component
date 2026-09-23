@@ -17,6 +17,23 @@
   box-sizing: border-box;
 }
 
+.cta-v4__eyebrow {
+  text-decoration: none;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  margin: 0 0 12px;
+  padding: 5px 13px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  font-size: 0.75rem;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
 .cta-v4__surface {
   position: relative;
   width: 100%;
@@ -49,7 +66,7 @@
   grid-template-columns: minmax(0, 1.05fr) minmax(340px, 0.75fr);
   align-items: center;
   gap: clamp(34px, 5vw, 70px);
-  padding: 36px 0 32px;
+  padding: 45px 0;
 }
 
 .cta-v4__content {
@@ -275,7 +292,7 @@
     width: min(calc(100% - 36px), 1160px);
     grid-template-columns: 1fr;
     gap: 30px;
-    padding: 36px 0 32px;
+    padding: 45px 0;
   }
 
   .cta-v4__content {
@@ -333,6 +350,7 @@
 
 @media (max-width: 640px) {
   .cta-v4__shell {
+    padding-block: 36px 32px;
     padding-inline: 2px;
   }
 }

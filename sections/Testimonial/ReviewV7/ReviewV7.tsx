@@ -65,6 +65,7 @@ export default function ReviewV7() {
     return (
         <section ref={sectionRef} className="review-v7">
             <div className="review-v7__shell">
+                <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/Testimonial/ReviewV7" target="_blank" rel="noreferrer" className="review-v7__eyebrow">Testimonial/ReviewV7</a>
                 <h2 className="review-v7__heading">
                     Sudah Dipakai Berbagai Tim untuk{' '}
                     <span>Membangun UI Lebih Cepat</span>
