@@ -12,6 +12,8 @@ type AboutV6Benefit = {
 
 type AboutV6Props = {
     id?: string;
+    badgeLabel?: string;
+    badgeHref?: string | null;
     title?: string;
     titleAccent?: string;
     description?: string;
@@ -35,6 +37,8 @@ const defaultBenefits = [
 
 export default function AboutV6({
     id,
+    badgeLabel = 'About/AboutV6',
+    badgeHref = 'https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/About/AboutV6',
     title = 'Dibuat untuk Membantu Kamu',
     titleAccent = 'Berkembang',
     description = 'Dealtech UI memberi fondasi yang kamu butuhkan untuk fokus pada hal penting dan menghasilkan antarmuka berkualitas tanpa memulai semuanya dari awal.',
@@ -80,9 +84,15 @@ export default function AboutV6({
                 </div>
 
                 <div className="about-v6__content">
-                    <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/About/AboutV6" target="_blank" rel="noreferrer" className="about-v6__eyebrow about-v6__reveal about-v6__hidden">
-                        <Sparkles size={16} strokeWidth={2.4} aria-hidden="true" /> About/AboutV6
-                    </a>
+                    {badgeHref ? (
+                        <a href={badgeHref} target="_blank" rel="noreferrer" className="about-v6__eyebrow about-v6__reveal about-v6__hidden">
+                            <Sparkles size={16} strokeWidth={2.4} aria-hidden="true" /> {badgeLabel}
+                        </a>
+                    ) : (
+                        <span className="about-v6__eyebrow about-v6__reveal about-v6__hidden">
+                            <Sparkles size={16} strokeWidth={2.4} aria-hidden="true" /> {badgeLabel}
+                        </span>
+                    )}
 
                     <h2 className="about-v6__title about-v6__reveal about-v6__hidden">
                         {title} <span className="about-v6__title-accent">{titleAccent}</span>

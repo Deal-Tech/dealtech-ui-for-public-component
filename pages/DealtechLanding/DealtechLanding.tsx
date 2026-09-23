@@ -96,6 +96,15 @@ export default function DealtechLanding() {
                         </div>
                     </div>
                 </section>
+                <AboutV6
+                    id="pengujian-model"
+                    badgeLabel="HASIL UJI MODEL"
+                    badgeHref={null}
+                    title="Sudah Kami Uji pada 3 Model dengan Kemampuan Paling Dasar dan"
+                    titleAccent="Hasilnya Work!"
+                    description="Gemini, Claude, dan Codex dapat mengikuti panduan komponen dengan baik. Artinya, struktur dan instruksi Dealtech UI tetap mudah dipahami tanpa menghabiskan banyak token hanya untuk urusan tampilan."
+                    benefits={testedModels}
+                />
                 <section ref={aboutRef} id="tentang" className="about-v1">
                     <div className="about-v1__shell">
                         <div className="about-v1__content">
@@ -131,13 +140,6 @@ export default function DealtechLanding() {
                         </div>
                     </div>
                 </section>
-                <AboutV6
-                    id="pengujian-model"
-                    title="Sudah Kami Uji pada 3 Model dengan Kemampuan Paling Dasar dan"
-                    titleAccent="Hasilnya Work!"
-                    description="Gemini, Claude, dan Codex dapat mengikuti panduan komponen dengan baik. Artinya, struktur dan instruksi Dealtech UI tetap mudah dipahami tanpa menghabiskan banyak token hanya untuk urusan tampilan."
-                    benefits={testedModels}
-                />
             </main>
             <SimpleFooterV2 description="Kumpulan komponen UI siap pakai untuk dashboard admin dan halaman publik yang responsif, konsisten, dan mudah disesuaikan." />
         </div>
