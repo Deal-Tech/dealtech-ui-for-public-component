@@ -3,12 +3,13 @@
 .hero-v11 {
   --hero-v11-primary: #01498b;
   --hero-v11-primary-dark: #013a6f;
+  --hero-v11-primary-soft: rgba(1, 73, 139, 0.08);
 
   position: relative;
   box-sizing: border-box;
   width: 100%;
   overflow: hidden;
-  background: var(--hero-v11-primary);
+  background: #ffffff;
   font-family: 'Inter', sans-serif;
 }
 
@@ -45,10 +46,10 @@
   gap: 7px;
   margin-bottom: 12px;
   padding: 5px 13px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(1, 73, 139, 0.18);
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
+  background: var(--hero-v11-primary-soft);
+  color: var(--hero-v11-primary);
   font-size: 0.875rem;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -57,7 +58,7 @@
 
 .hero-v11__title {
   margin: 0;
-  color: #ffffff;
+  color: #111111;
   font-size: clamp(2.15rem, 4vw, 3.05rem);
   line-height: 1.24;
   font-weight: 700;
@@ -65,8 +66,8 @@
 }
 
 .hero-v11__title-accent {
-  color: var(--hero-v11-primary);
-  background: #ffffff;
+  color: #ffffff;
+  background: var(--hero-v11-primary);
   padding: 2px 10px;
   border-radius: 6px;
   -webkit-box-decoration-break: clone;
@@ -76,7 +77,7 @@
 .hero-v11__description {
   margin: 16px 0 0;
   max-width: 620px;
-  color: rgba(255, 255, 255, 0.76);
+  color: #4b5563;
   font-size: 1.0625rem;
   line-height: 1.6;
 }
@@ -108,23 +109,24 @@
 }
 
 .hero-v11__button--primary {
-  border: 1px solid #ffffff;
-  background: #ffffff;
-  color: var(--hero-v11-primary);
-}
-
-.hero-v11__button--primary:hover {
-  background: #eef7ff;
-}
-
-.hero-v11__button--secondary {
-  border: 1px solid rgba(255, 255, 255, 0.75);
-  background: transparent;
+  border: 1px solid var(--hero-v11-primary);
+  background: var(--hero-v11-primary);
   color: #ffffff;
 }
 
+.hero-v11__button--primary:hover {
+  border-color: var(--hero-v11-primary-dark);
+  background: var(--hero-v11-primary-dark);
+}
+
+.hero-v11__button--secondary {
+  border: 1px solid rgba(1, 73, 139, 0.32);
+  background: transparent;
+  color: var(--hero-v11-primary);
+}
+
 .hero-v11__button--secondary:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--hero-v11-primary-soft);
 }
 
 .hero-v11__visual {
@@ -139,7 +141,7 @@
   border-radius: 24px;
   padding: 28px;
   background: linear-gradient(145deg, #0276c9 0%, #01498b 56%, #013a6f 100%);
-  box-shadow: 0 28px 70px rgba(0, 28, 55, 0.28);
+  box-shadow: 0 28px 70px rgba(0, 28, 55, 0.1);
 }
 
 .hero-v11__orb {
@@ -169,7 +171,7 @@
   border-radius: 18px;
   padding: 24px;
   background: #ffffff;
-  box-shadow: 0 24px 50px rgba(0, 28, 55, 0.24);
+  box-shadow: 0 24px 50px rgba(0, 28, 55, 0.1);
 }
 
 .hero-v11__service-card h2 {

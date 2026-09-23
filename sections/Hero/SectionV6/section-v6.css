@@ -23,7 +23,7 @@
   overflow: hidden;
   border-radius: 0 0 44px 44px;
   background: var(--hero-v6-primary);
-  box-shadow: 0 12px 0 rgba(1, 73, 139, 0.18);
+  box-shadow: 0 12px 0 rgba(1, 73, 139, 0.1);
 }
 
 .hero-v6__shell {
@@ -139,7 +139,7 @@
   border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 28px 70px rgba(0, 28, 55, 0.28);
+  box-shadow: 0 28px 70px rgba(0, 28, 55, 0.1);
   transform: perspective(1200px) rotateY(-3deg) rotateX(1deg);
 }
 
@@ -223,7 +223,7 @@
   .hero-v6__surface {
     width: 100%;
     border-radius: 0 0 26px 26px;
-    box-shadow: 0 8px 0 rgba(1, 73, 139, 0.18);
+    box-shadow: 0 8px 0 rgba(1, 73, 139, 0.1);
   }
 
   .hero-v6__shell {

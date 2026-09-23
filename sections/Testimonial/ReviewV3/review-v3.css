@@ -11,7 +11,7 @@
   justify-content: center;
   overflow: hidden;
   padding: clamp(34px, 5vw, 68px) 0;
-  background: #f7f8fa;
+  background: #ffffff;
   font-family: 'Inter', sans-serif;
   opacity: 0;
   will-change: opacity;

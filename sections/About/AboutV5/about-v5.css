@@ -11,7 +11,7 @@
 
   box-sizing: border-box;
   width: 100%;
-  background: #f7f9fb;
+  background: #ffffff;
   font-family: 'Inter', sans-serif;
 }
 
@@ -173,7 +173,7 @@
 .about-v5__feature--highlighted .about-v5__feature-icon {
   background: var(--about-v5-primary);
   color: #ffffff;
-  box-shadow: 0 10px 24px rgba(1, 73, 139, 0.2);
+  box-shadow: 0 10px 24px rgba(1, 73, 139, 0.1);
 }
 
 .about-v5__feature--highlighted .about-v5__feature-copy strong {

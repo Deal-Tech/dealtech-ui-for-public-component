@@ -11,7 +11,7 @@
   display: flex;
   justify-content: center;
   padding: clamp(24px, 3vw, 42px) 0;
-  background: #f6f8fb;
+  background: #ffffff;
   font-family: 'Inter', sans-serif;
   opacity: 0;
   will-change: opacity;

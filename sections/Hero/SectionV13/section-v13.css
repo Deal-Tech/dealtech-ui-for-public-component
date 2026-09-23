@@ -24,7 +24,7 @@
   overflow: hidden;
   border-radius: 0 0 44px 44px;
   background: var(--hero-v13-primary);
-  box-shadow: 0 12px 0 rgba(1, 73, 139, 0.18);
+  box-shadow: 0 12px 0 rgba(1, 73, 139, 0.1);
 }
 
 .hero-v13__photo {
@@ -172,7 +172,7 @@
   border-radius: 14px;
   padding: 15px;
   background: rgba(255, 255, 255, 0.94);
-  box-shadow: 0 16px 40px rgba(0, 28, 55, 0.2);
+  box-shadow: 0 16px 40px rgba(0, 28, 55, 0.1);
   backdrop-filter: blur(8px);
 }
 
@@ -288,7 +288,7 @@
 
   .hero-v13__surface {
     border-radius: 0 0 26px 26px;
-    box-shadow: 0 8px 0 rgba(1, 73, 139, 0.18);
+    box-shadow: 0 8px 0 rgba(1, 73, 139, 0.1);
   }
 
   .hero-v13__shell {

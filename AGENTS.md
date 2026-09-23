@@ -18,6 +18,8 @@ Repo komponen UI publik dari tech.mudahdeal.com.
 - Terapkan pola serupa secara mandiri.
 - Gunakan ikon `lucide-react` bila diperlukan.
 - Gunakan font `Inter` dan aksen biru.
+- Background utama setiap section harus putih.
+- Opasitas `box-shadow` dan `drop-shadow` pada elemen section maksimal 10% (`0.1`).
 - Selaraskan `README.md` dan `README.en.md`.
 - Komentar hanya bila perlu.
 - Komentar maksimal lima kata.

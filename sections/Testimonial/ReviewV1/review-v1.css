@@ -13,7 +13,7 @@
   display: flex;
   justify-content: center;
   padding: clamp(24px, 3vw, 42px) 0;
-  background: var(--review-v1-surface);
+  background: #ffffff;
   font-family: 'Inter', sans-serif;
   opacity: 0;
   will-change: opacity;

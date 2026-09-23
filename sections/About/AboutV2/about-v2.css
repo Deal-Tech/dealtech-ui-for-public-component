@@ -9,7 +9,7 @@
 
   box-sizing: border-box;
   width: 100%;
-  background: #f7f9fb;
+  background: #ffffff;
   font-family: 'Inter', sans-serif;
 }
 
@@ -123,7 +123,7 @@
   border: 1px solid var(--about-v2-line);
   border-radius: 20px;
   background: #ffffff;
-  box-shadow: 0 22px 54px rgba(0, 36, 70, 0.12);
+  box-shadow: 0 22px 54px rgba(0, 36, 70, 0.1);
 }
 
 .about-v2__visual img {

@@ -9,7 +9,7 @@
   box-sizing: border-box;
   width: 100%;
   padding: clamp(48px, 7vw, 84px) 0;
-  background-color: #ffffff;
+  background: #ffffff;
   background-image:
     linear-gradient(rgba(1, 73, 139, 0.035) 1px, transparent 1px),
     linear-gradient(90deg, rgba(1, 73, 139, 0.035) 1px, transparent 1px);

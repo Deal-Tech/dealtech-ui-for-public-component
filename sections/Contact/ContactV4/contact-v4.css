@@ -9,7 +9,7 @@
   box-sizing: border-box;
   width: 100%;
   padding: clamp(48px, 7vw, 84px) 0;
-  background: #f7f9fc;
+  background: #ffffff;
   font-family: 'Inter', sans-serif;
 }
 
@@ -240,7 +240,7 @@
   font-size: 0.8125rem;
   font-weight: 700;
   text-decoration: none;
-  box-shadow: 0 8px 24px rgba(1, 73, 139, 0.24);
+  box-shadow: 0 8px 24px rgba(1, 73, 139, 0.1);
   transition: background 0.2s ease, transform 0.2s ease;
 }
 

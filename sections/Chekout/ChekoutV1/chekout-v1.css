@@ -174,7 +174,7 @@
 }
 
 .chekout-v1__method--active {
-  box-shadow: 0 0 0 2px var(--chekout-v1-primary);
+  box-shadow: 0 0 0 2px rgba(1, 73, 139, 0.1);
 }
 
 .chekout-v1__method > svg:first-child {

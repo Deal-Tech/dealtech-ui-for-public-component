@@ -22,8 +22,8 @@
   overflow: hidden;
   background: var(--cta-v5-primary);
   box-shadow:
-    0 12px 0 rgba(1, 73, 139, 0.18),
-    0 -12px 0 rgba(1, 73, 139, 0.18);
+    0 12px 0 rgba(1, 73, 139, 0.1),
+    0 -12px 0 rgba(1, 73, 139, 0.1);
 }
 
 .cta-v5__surface::before {
@@ -155,8 +155,8 @@
 @media (max-width: 700px) {
   .cta-v5__surface {
     box-shadow:
-      0 8px 0 rgba(1, 73, 139, 0.18),
-      0 -8px 0 rgba(1, 73, 139, 0.18);
+      0 8px 0 rgba(1, 73, 139, 0.1),
+      0 -8px 0 rgba(1, 73, 139, 0.1);
   }
 
   .cta-v5__shell {

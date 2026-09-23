@@ -79,7 +79,7 @@
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 14px;
   background: var(--card-list-v3-primary);
-  box-shadow: 0 12px 28px rgba(1, 58, 111, 0.14);
+  box-shadow: 0 12px 28px rgba(1, 58, 111, 0.1);
 }
 
 .card-list-v3__icon {

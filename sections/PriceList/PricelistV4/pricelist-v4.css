@@ -6,7 +6,7 @@
   box-sizing: border-box;
   width: 100%;
   padding: clamp(36px, 5vw, 66px) 0;
-  background: #f6f8fb;
+  background: #ffffff;
   font-family: 'Inter', sans-serif;
 }
 
@@ -73,7 +73,7 @@
 .pricelist-v4__card--featured {
   border-color: var(--pricelist-v4-dark);
   background: var(--pricelist-v4-dark);
-  box-shadow: 0 18px 38px rgba(15, 23, 42, 0.2);
+  box-shadow: 0 18px 38px rgba(15, 23, 42, 0.1);
 }
 
 .pricelist-v4__card--custom {

@@ -94,7 +94,7 @@
   border: 1px solid rgba(1, 73, 139, 0.14);
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.97);
-  box-shadow: 0 22px 50px rgba(0, 28, 55, 0.22);
+  box-shadow: 0 22px 50px rgba(0, 28, 55, 0.1);
 }
 
 .hero-v9__finder h2 {

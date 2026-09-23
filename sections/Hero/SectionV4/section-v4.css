@@ -177,7 +177,7 @@
   border-radius: 14px;
   padding: 16px;
   background: rgba(255, 255, 255, 0.92);
-  box-shadow: 0 16px 40px rgba(1, 58, 111, 0.12);
+  box-shadow: 0 16px 40px rgba(1, 58, 111, 0.1);
   backdrop-filter: blur(8px);
 }
 
