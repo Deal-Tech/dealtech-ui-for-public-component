@@ -5,8 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "dev:admin": "npm --prefix admin-playground run dev",
+    "build": "tsc -b && vite build && npm --prefix admin-playground run build",
+    "build:admin": "npm --prefix admin-playground run build",
+    "preview": "vite preview",
+    "postinstall": "npm --prefix admin-playground install"
   },
   "dependencies": {
     "lucide-react": "^0.562.0",

@@ -16,6 +16,9 @@ export default defineConfig({
         },
     },
     server: {
+        proxy: {
+            '/playground/admin': { target: 'http://localhost:5175', ws: true },
+        },
         fs: {
             allow: [resolve(projectDirectory, '..')],
         },
