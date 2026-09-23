@@ -158,3 +158,9 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 640px) {
+  .review-v1 {
+    padding-inline: 10px;
+  }
+}

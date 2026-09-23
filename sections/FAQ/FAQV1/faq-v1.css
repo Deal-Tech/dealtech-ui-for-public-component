@@ -175,3 +175,9 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 640px) {
+  .faq-v1 {
+    padding-inline: 10px;
+  }
+}

@@ -228,3 +228,9 @@
     transition: none;
   }
 }
+
+@media (max-width: 640px) {
+  .faq-v3 {
+    padding-inline: 10px;
+  }
+}

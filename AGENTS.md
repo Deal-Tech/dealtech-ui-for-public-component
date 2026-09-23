@@ -28,7 +28,9 @@ Repo komponen UI publik dari tech.mudahdeal.com.
 ## Spacing section
 
 - Ikuti spacing Hero untuk seluruh section.
-- Padding semua section: `36px 0 32px` pada seluruh ukuran layar.
+- Padding dasar semua section: `36px 0 32px`.
+- Pada mobile maksimal 640px, beri `padding-inline: 10px` jika masih `0`.
+- Jangan tambah padding mobile jika padding horizontal sudah ada.
 - Jangan gunakan `clamp` atau padding vertikal berbeda antar breakpoint.
 - Container desktop: `min(1160px, calc(100% - 44px))`.
 - Container mobile: `min(1160px, calc(100% - 36px))`.

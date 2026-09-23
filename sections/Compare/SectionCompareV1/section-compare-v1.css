@@ -200,3 +200,9 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 640px) {
+  .section-compare-v1 {
+    padding-inline: 10px;
+  }
+}

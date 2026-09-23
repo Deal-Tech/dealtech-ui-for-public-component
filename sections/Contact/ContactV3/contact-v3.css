@@ -244,3 +244,9 @@
     transition: none;
   }
 }
+
+@media (max-width: 640px) {
+  .contact-v3 {
+    padding-inline: 10px;
+  }
+}

@@ -262,3 +262,9 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 640px) {
+  .hero-v9__shell {
+    padding-inline: 10px;
+  }
+}

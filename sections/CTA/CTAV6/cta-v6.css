@@ -144,3 +144,9 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 640px) {
+  .cta-v6__inner {
+    padding-inline: 10px;
+  }
+}

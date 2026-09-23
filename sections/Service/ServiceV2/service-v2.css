@@ -272,3 +272,9 @@
     transition: none;
   }
 }
+
+@media (max-width: 640px) {
+  .service-v2__shell {
+    padding-inline: 10px;
+  }
+}

@@ -494,3 +494,9 @@
     max-width: 100%;
   }
 }
+
+@media (max-width: 640px) {
+  .chekout-v1 {
+    padding-inline: 10px;
+  }
+}

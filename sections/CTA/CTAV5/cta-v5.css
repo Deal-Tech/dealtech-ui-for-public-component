@@ -187,3 +187,9 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 640px) {
+  .cta-v5__shell {
+    padding-inline: 10px;
+  }
+}

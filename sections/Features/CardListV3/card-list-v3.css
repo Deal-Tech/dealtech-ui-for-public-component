@@ -132,3 +132,9 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 640px) {
+  .card-list-v3 {
+    padding-inline: 10px;
+  }
+}

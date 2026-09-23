@@ -171,3 +171,9 @@
     transition: none;
   }
 }
+
+@media (max-width: 640px) {
+  .review-v7 {
+    padding-inline: 10px;
+  }
+}

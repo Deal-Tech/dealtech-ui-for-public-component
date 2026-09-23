@@ -269,3 +269,9 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 640px) {
+  .cta-v3 {
+    padding-inline: 10px;
+  }
+}

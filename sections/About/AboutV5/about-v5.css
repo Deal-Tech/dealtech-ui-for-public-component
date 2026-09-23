@@ -315,3 +315,9 @@
     transition: none;
   }
 }
+
+@media (max-width: 640px) {
+  .about-v5__shell {
+    padding-inline: 10px;
+  }
+}

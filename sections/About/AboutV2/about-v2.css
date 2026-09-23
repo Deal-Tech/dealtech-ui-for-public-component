@@ -183,3 +183,9 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 640px) {
+  .about-v2__shell {
+    padding-inline: 10px;
+  }
+}

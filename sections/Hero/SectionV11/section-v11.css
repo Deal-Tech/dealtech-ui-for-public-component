@@ -343,3 +343,9 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 640px) {
+  .hero-v11__shell {
+    padding-inline: 10px;
+  }
+}

@@ -152,3 +152,9 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 640px) {
+  .faq-v4 {
+    padding-inline: 10px;
+  }
+}

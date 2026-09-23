@@ -281,3 +281,9 @@
     font-size: 0.75rem;
   }
 }
+
+@media (max-width: 640px) {
+  .pricelist-v3 {
+    padding-inline: 10px;
+  }
+}

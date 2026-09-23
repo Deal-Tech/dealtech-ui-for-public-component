@@ -324,3 +324,9 @@
     animation: none;
   }
 }
+
+@media (max-width: 640px) {
+  .review-v4 {
+    padding-inline: 10px;
+  }
+}
