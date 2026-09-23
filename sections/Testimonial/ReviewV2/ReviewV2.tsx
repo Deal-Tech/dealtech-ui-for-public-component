@@ -54,7 +54,7 @@ export default function ReviewV2() {
     return (
         <section ref={sectionRef} className="review-v2">
             <div className="review-v2__shell">
-                <span className="review-v2__eyebrow">ReviewV2</span>
+                <span className="review-v2__eyebrow">Testimonial/ReviewV2</span>
                 <h2 className="review-v2__heading">
                     Sudah Dipakai Berbagai Tim untuk{' '}
                     <span className="review-v2__heading-accent">Membangun UI Lebih Cepat</span>

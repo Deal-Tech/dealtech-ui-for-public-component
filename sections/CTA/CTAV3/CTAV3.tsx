@@ -33,7 +33,7 @@ export default function CTAV3() {
             <div className="cta-v3__surface">
                 <div className="cta-v3__shell">
                     <div className="cta-v3__content">
-                        <span className="cta-v3__eyebrow">CTAV3</span>
+                        <span className="cta-v3__eyebrow">CTA/CTAV3</span>
                         <h2 className="cta-v3__title cta-v3__reveal cta-v3__hidden">
                             <span>Siap Bangun UI Lebih Cepat untuk </span>
                             <span className="cta-v3__title-accent">Proyek Berikutnya?</span>

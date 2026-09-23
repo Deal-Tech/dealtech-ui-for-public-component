@@ -45,7 +45,7 @@ export default function AboutV4() {
             <div className="about-v4__shell">
                 <div className="about-v4__content">
                     <span className="about-v4__eyebrow about-v4__reveal about-v4__hidden">
-                        <Info size={16} strokeWidth={2.5} aria-hidden="true" /> AboutV4
+                        <Info size={16} strokeWidth={2.5} aria-hidden="true" /> About/AboutV4
                     </span>
 
                     <h2 className="about-v4__title about-v4__reveal about-v4__hidden">

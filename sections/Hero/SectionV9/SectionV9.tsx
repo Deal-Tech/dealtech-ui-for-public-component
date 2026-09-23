@@ -38,7 +38,7 @@ export default function SectionV9() {
             <div className="hero-v9__shell">
                 <div className="hero-v9__content">
                     <span className="hero-v9__eyebrow hero-v9__reveal hero-v9__hidden">
-                        <AlertCircle size={16} strokeWidth={2.5} aria-hidden="true" /> SectionV9
+                        <AlertCircle size={16} strokeWidth={2.5} aria-hidden="true" /> Hero/SectionV9
                     </span>
 
                     <h1 className="hero-v9__title hero-v9__reveal hero-v9__hidden">

@@ -65,7 +65,7 @@ export default function ReviewV7() {
     return (
         <section ref={sectionRef} className="review-v7">
             <div className="review-v7__shell">
-                <span className="review-v7__eyebrow">ReviewV7</span>
+                <span className="review-v7__eyebrow">Testimonial/ReviewV7</span>
                 <h2 className="review-v7__heading">
                     Sudah Dipakai Berbagai Tim untuk{' '}
                     <span>Membangun UI Lebih Cepat</span>

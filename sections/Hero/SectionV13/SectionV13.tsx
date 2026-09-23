@@ -56,7 +56,7 @@ export default function SectionV13() {
                 <div className="hero-v13__shell">
                     <div className="hero-v13__content">
                         <span className="hero-v13__eyebrow hero-v13__reveal hero-v13__hidden">
-                            <AlertCircle size={16} strokeWidth={2.5} aria-hidden="true" /> SectionV13
+                            <AlertCircle size={16} strokeWidth={2.5} aria-hidden="true" /> Hero/SectionV13
                         </span>
 
                         <h1 className="hero-v13__title hero-v13__reveal hero-v13__hidden">

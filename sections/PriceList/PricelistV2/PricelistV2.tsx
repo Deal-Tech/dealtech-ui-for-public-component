@@ -43,7 +43,7 @@ export default function PricelistV2() {
     return (
         <section className="pricelist-v2">
             <div className="pricelist-v2__shell">
-                <span className="pricelist-v2__eyebrow">PricelistV2</span>
+                <span className="pricelist-v2__eyebrow">PriceList/PricelistV2</span>
                 <h2 className="pricelist-v2__heading">
                     Pilih Akses Sesuai{' '}
                     <span>Kebutuhan Proyek Anda</span>

@@ -64,7 +64,7 @@ export default function PricelistV5() {
     return (
         <section id="harga" className="pricelist-v5">
             <div className="pricelist-v5__shell">
-                <span className="pricelist-v5__eyebrow">PricelistV5</span>
+                <span className="pricelist-v5__eyebrow">PriceList/PricelistV5</span>
                 <h2 className="pricelist-v5__heading">
                     Pilih Akses Sesuai <span>Kebutuhan Proyek Anda</span>
                 </h2>

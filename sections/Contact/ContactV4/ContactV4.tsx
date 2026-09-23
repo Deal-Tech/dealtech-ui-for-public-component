@@ -43,7 +43,7 @@ export default function ContactV4() {
                 <div className="contact-v4__content">
                     <div className="contact-v4__info">
                         <div>
-                            <span className="contact-v4__eyebrow">ContactV4</span>
+                            <span className="contact-v4__eyebrow">Contact/ContactV4</span>
                             <h2>Mari Terhubung</h2>
                             <p>Ceritakan kebutuhan proyekmu. Tim kami siap membantu menemukan solusi yang tepat.</p>
                         </div>

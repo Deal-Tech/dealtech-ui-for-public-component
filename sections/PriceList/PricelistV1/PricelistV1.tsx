@@ -6,7 +6,7 @@ export default function PricelistV1() {
     return (
         <section id="harga" className="pricelist-v1">
             <div className="pricelist-v1__shell">
-                <span className="pricelist-v1__eyebrow">PricelistV1</span>
+                <span className="pricelist-v1__eyebrow">PriceList/PricelistV1</span>
                 <h2 className="pricelist-v1__heading">
                     Pilih Akses Sesuai{' '}
                     <span className="pricelist-v1__accent">Kebutuhan Proyek Anda</span>

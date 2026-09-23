@@ -95,7 +95,7 @@ export default function ReviewV3() {
     return (
         <section ref={sectionRef} className="review-v3">
             <div className="review-v3__shell">
-                <span className="review-v3__eyebrow">ReviewV3</span>
+                <span className="review-v3__eyebrow">Testimonial/ReviewV3</span>
                 <div className="review-v3__heading-wrap">
                     <h2 className="review-v3__heading">
                         Lihat pengalaman mereka,

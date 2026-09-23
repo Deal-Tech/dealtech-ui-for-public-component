@@ -19,7 +19,7 @@ const demoImages = [
     },
 ];
 
-const eyebrow = 'SectionV1';
+const eyebrow = 'Hero/SectionV1';
 const title = 'Sederhanakan Design UI, Pakai';
 const titleAccent = 'Dealtech UI';
 const titleSuffix = 'For Public Components';

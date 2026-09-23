@@ -71,7 +71,7 @@ export default function FAQV3() {
                 <header className="faq-v3__header faq-v3__reveal faq-v3__hidden">
                     <span className="faq-v3__eyebrow">
                         <BadgeHelp size={15} strokeWidth={2.4} aria-hidden="true" />
-                        FAQV3
+                        FAQ/FAQV3
                     </span>
                     <h2 className="faq-v3__heading">
                         Pertanyaan yang <span>Sering Diajukan</span>
