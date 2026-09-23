@@ -24,6 +24,16 @@
   position: relative;
 }
 
+.dealtech-landing [class*="__eyebrow"],
+.dealtech-landing .lp-eyebrow,
+.dealtech-landing .section-compare-v1__badge,
+.dealtech-landing .section-compare-v2__badge,
+.dealtech-landing .section-compare-v3__badge,
+.dealtech-landing .contact-v5__info-badge,
+.dealtech-landing .review-v4__badge {
+  text-transform: uppercase;
+}
+
 .dealtech-contact-slider__arrow {
   position: absolute;
   top: 50%;
