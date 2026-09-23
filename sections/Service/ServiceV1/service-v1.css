@@ -141,7 +141,7 @@
   height: 46px;
   display: grid;
   place-items: center;
-  margin-bottom: 9px;
+  margin-bottom: 6.75px;
   border-radius: 12px;
   background: var(--service-v1-primary-soft);
   color: var(--service-v1-primary);
@@ -162,7 +162,7 @@
 }
 
 .service-v1__card p {
-  margin: 3.5px 0 0;
+  margin: 2.625px 0 0;
   color: var(--service-v1-muted);
   font-size: 0.75rem;
   line-height: 1.55;
