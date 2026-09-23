@@ -267,6 +267,6 @@
 
 @media (max-width: 640px) {
   .service-v3__shell {
-    padding-inline: 4px;
+    padding-inline: 2px;
   }
 }
