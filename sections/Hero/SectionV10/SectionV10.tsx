@@ -1,13 +1,18 @@
 import { useEffect, useRef } from 'react';
-import { AlertCircle } from 'lucide-react';
+import { AlertCircle, Code2, LayoutGrid, Palette, Search } from 'lucide-react';
 
-import SearchV2 from '../../../elements/Search/SearchV2/SearchV2';
 import './section-v10.css';
 
 const metrics = [
     { value: '10K+', label: 'Developer Aktif' },
     { value: '350+', label: 'Komponen Publik' },
     { value: '99.9%', label: 'Tampilan Responsif' },
+];
+
+const searchFields = [
+    { label: 'Kategori', placeholder: 'Pilih kategori', name: 'category', Icon: LayoutGrid },
+    { label: 'Teknologi', placeholder: 'Pilih teknologi', name: 'technology', Icon: Code2 },
+    { label: 'Style', placeholder: 'Pilih style', name: 'style', Icon: Palette },
 ];
 
 export default function SectionV10() {
@@ -54,7 +59,23 @@ export default function SectionV10() {
                     </p>
 
                     <div className="hero-v10__search hero-v10__reveal hero-v10__hidden">
-                        <SearchV2 onSubmit={(event) => event.preventDefault()} />
+                        <form className="hero-v10__search-form" role="search" onSubmit={(event) => event.preventDefault()}>
+                            <div className="hero-v10__search-fields">
+                                {searchFields.map(({ label, placeholder, name, Icon }) => (
+                                    <label className="hero-v10__search-field" key={name}>
+                                        <Icon className="hero-v10__search-icon" size={20} strokeWidth={2.5} aria-hidden="true" />
+                                        <span className="hero-v10__search-copy">
+                                            <strong>{label}</strong>
+                                            <input type="text" name={name} placeholder={placeholder} />
+                                        </span>
+                                    </label>
+                                ))}
+                            </div>
+                            <button className="hero-v10__search-button" type="submit">
+                                <Search size={16} strokeWidth={2.5} aria-hidden="true" />
+                                <span>Cari Komponen</span>
+                            </button>
+                        </form>
                     </div>
 
                     <div className="hero-v10__metrics hero-v10__reveal hero-v10__hidden">
