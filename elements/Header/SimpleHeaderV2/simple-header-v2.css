@@ -165,7 +165,7 @@
   min-width: 0;
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 2.25px;
 }
 
 .simple-header-v2__mega-grid strong {
@@ -385,7 +385,7 @@
   min-width: 0;
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 1.5px;
 }
 
 .simple-header-v2__drawer-mega strong {
