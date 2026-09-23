@@ -8,8 +8,8 @@ import '../../sections/About/AboutV6/about-v6.css';
 import './dealtech-landing.css';
 import './about-v1.css';
 
-const dashboardImage = new URL('./assets/demo-dashboard.svg', import.meta.url).href;
-const aboutImage = new URL('../../sections/About/AboutV1/assets/demo-dashboard.svg', import.meta.url).href;
+const dashboardImage = new URL('./assets/hero-components-v2.png', import.meta.url).href;
+const aboutImage = new URL('./assets/open-source-collaboration-v2.png', import.meta.url).href;
 
 const testedModels = [
     {
@@ -90,9 +90,9 @@ export default function DealtechLanding() {
                             <div className="hero-v6__visual hero-v6__reveal hero-v6__hidden">
                                 <img
                                     src={dashboardImage}
-                                    alt="Preview dashboard Dealtech UI."
-                                    width={1460}
-                                    height={1078}
+                                    alt="Ekosistem komponen Dealtech UI untuk dashboard admin dan halaman publik."
+                                    width={1448}
+                                    height={1086}
                                     decoding="async"
                                 />
                             </div>
@@ -173,9 +173,9 @@ export default function DealtechLanding() {
                         <div className="about-v1__visual about-v1__reveal about-v1__hidden">
                             <img
                                 src={aboutImage}
-                                alt="Kumpulan komponen antarmuka Dealtech UI."
-                                width={1460}
-                                height={1078}
+                                alt="Ilustrasi kolaborasi open-source dan alur pull request Dealtech UI."
+                                width={1448}
+                                height={1086}
                                 decoding="async"
                             />
                         </div>
