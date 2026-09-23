@@ -21,12 +21,16 @@ const resourceLinks = [
 export interface SimpleFooterV2Props {
     brand?: string;
     description?: string;
+    logoSrc?: string;
+    showBrandName?: boolean;
     year?: number;
 }
 
 export default function SimpleFooterV2({
     brand = 'Dealtech UI',
     description = 'Kumpulan komponen UI publik siap pakai untuk membangun halaman yang responsif, konsisten, dan mudah disesuaikan.',
+    logoSrc = logoUrl,
+    showBrandName = false,
     year = new Date().getFullYear(),
 }: SimpleFooterV2Props) {
     return (
@@ -34,8 +38,9 @@ export default function SimpleFooterV2({
             <div className="simple-footer-v2__inner">
                 <div className="simple-footer-v2__grid">
                     <div className="simple-footer-v2__brand-column">
-                        <a className="simple-footer-v2__brand" href="/" aria-label={brand}>
-                            <img src={logoUrl} alt={brand} />
+                        <a className={`simple-footer-v2__brand${showBrandName ? ' simple-footer-v2__brand--mark' : ''}`} href="/" aria-label={brand}>
+                            <img src={logoSrc} alt="" aria-hidden="true" />
+                            {showBrandName && <span>{brand}</span>}
                         </a>
                         <p className="simple-footer-v2__description">{description}</p>
                         <div className="simple-footer-v2__repos">

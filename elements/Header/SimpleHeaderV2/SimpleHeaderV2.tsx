@@ -26,6 +26,8 @@ export interface SimpleHeaderV2NavItem {
 export interface SimpleHeaderV2Props {
     brand?: string;
     brandHref?: string;
+    logoSrc?: string;
+    showBrandName?: boolean;
     navItems?: SimpleHeaderV2NavItem[];
     ctaLabel?: string;
     ctaHref?: string;
@@ -76,6 +78,8 @@ const isExternal = (href: string) => /^https?:\/\//.test(href);
 export default function SimpleHeaderV2({
     brand = 'Dealtech UI',
     brandHref = '/',
+    logoSrc = logoUrl,
+    showBrandName = false,
     navItems = defaultNavItems,
     ctaLabel = 'Lihat Komponen',
     ctaHref = '/playground',
@@ -122,8 +126,9 @@ export default function SimpleHeaderV2({
         <>
             <header ref={headerRef} className="simple-header-v2">
                 <div className="simple-header-v2__inner">
-                    <a className="simple-header-v2__brand" href={brandHref} aria-label={brand}>
-                        <img src={logoUrl} alt={brand} />
+                    <a className={`simple-header-v2__brand${showBrandName ? ' simple-header-v2__brand--mark' : ''}`} href={brandHref} aria-label={brand}>
+                        <img src={logoSrc} alt="" aria-hidden="true" />
+                        {showBrandName && <span>{brand}</span>}
                     </a>
 
                     <nav className="simple-header-v2__nav" aria-label="Menu utama">

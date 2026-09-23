@@ -36,7 +36,7 @@ export default function DealtechLanding() {
 
     return (
         <div className="dealtech-landing-page">
-            <SimpleHeaderV2 />
+            <SimpleHeaderV2 logoSrc="/images/hexmark-icon.svg" showBrandName />
             <main className="dealtech-landing-page__main">
                 <section ref={heroRef} id="home" className="hero-v6">
                     <div className="hero-v6__surface">
@@ -115,7 +115,11 @@ export default function DealtechLanding() {
                     </div>
                 </section>
             </main>
-            <SimpleFooterV2 description="Kumpulan komponen UI siap pakai untuk dashboard admin dan halaman publik yang responsif, konsisten, dan mudah disesuaikan." />
+            <SimpleFooterV2
+                description="Kumpulan komponen UI siap pakai untuk dashboard admin dan halaman publik yang responsif, konsisten, dan mudah disesuaikan."
+                logoSrc="/images/hexmark-white.svg"
+                showBrandName
+            />
         </div>
     );
 }
