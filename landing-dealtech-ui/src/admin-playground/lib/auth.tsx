@@ -46,8 +46,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     });
 
     pasangPenanganWajibGantiSandi(() => {
-      if (window.location.pathname !== '/dashboard/pengaturan') {
-        window.location.replace('/dashboard/pengaturan');
+      if (window.location.pathname !== '/playground-admin/dashboard/pengaturan') {
+        window.location.replace('/playground-admin/dashboard/pengaturan');
       }
     });
   }, []);

@@ -10,15 +10,13 @@ export default defineConfig({
     plugins: [react()],
     resolve: {
         alias: {
+            '@': resolve(projectDirectory, 'src/admin-playground'),
             react: resolve(projectDirectory, 'node_modules/react'),
             'react-dom': resolve(projectDirectory, 'node_modules/react-dom'),
             'lucide-react': resolve(projectDirectory, 'node_modules/lucide-react'),
         },
     },
     server: {
-        proxy: {
-            '/playground/admin': { target: 'http://localhost:5175', ws: true },
-        },
         fs: {
             allow: [resolve(projectDirectory, '..')],
         },

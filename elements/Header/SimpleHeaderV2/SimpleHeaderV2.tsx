@@ -57,7 +57,7 @@ const defaultNavItems: SimpleHeaderV2NavItem[] = [
         label: 'Playground',
         megaColumns: 1,
         mega: [
-            { label: 'For Admin', description: 'Jelajahi starter admin versi terbaru.', href: `${adminRepositoryUrl}/tree/main/templates/starter-v3.0`, icon: LayoutTemplate },
+            { label: 'For Admin', description: 'Jelajahi starter admin versi terbaru.', href: '/playground-admin', icon: LayoutTemplate },
             { label: 'For Public Components', description: 'Coba variasi komponen publik.', href: '/playground', icon: BookOpen },
         ],
     },

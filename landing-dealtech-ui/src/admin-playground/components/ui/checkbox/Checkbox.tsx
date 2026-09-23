@@ -1,4 +1,10 @@
-import { forwardRef, useEffect, useRef, type InputHTMLAttributes } from 'react';
+import {
+  forwardRef,
+  useEffect,
+  useRef,
+  type InputHTMLAttributes,
+  type MutableRefObject,
+} from 'react';
 import { Check, Minus } from 'lucide-react';
 
 import './checkbox.css';
@@ -12,7 +18,7 @@ export const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(function Che
   { label, indeterminate = false, className = '', checked, ...props },
   ref,
 ) {
-  const dalam = useRef<HTMLInputElement>(null);
+  const dalam = useRef<HTMLInputElement | null>(null);
 
   useEffect(() => {
     const el = dalam.current;
@@ -25,7 +31,7 @@ export const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(function Che
         ref={(node) => {
           dalam.current = node;
           if (typeof ref === 'function') ref(node);
-          else if (ref) ref.current = node;
+          else if (ref) (ref as MutableRefObject<HTMLInputElement | null>).current = node;
         }}
         type="checkbox"
         checked={checked}
