@@ -79,7 +79,7 @@
 .service-v2__grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 16px;
+  gap: 10px;
   margin-top: clamp(34px, 5vw, 52px);
 }
 
@@ -241,7 +241,7 @@
 
   .service-v2__grid {
     grid-template-columns: 1fr;
-    gap: 12px;
+    gap: 8px;
     margin-top: 32px;
   }
 
