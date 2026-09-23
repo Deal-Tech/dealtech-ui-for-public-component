@@ -61,9 +61,9 @@ export default function AboutV6() {
                 </div>
 
                 <div className="about-v6__content">
-                    <span className="about-v6__eyebrow about-v6__reveal about-v6__hidden">
+                    <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/About/AboutV6" target="_blank" rel="noreferrer" className="about-v6__eyebrow about-v6__reveal about-v6__hidden">
                         <Sparkles size={16} strokeWidth={2.4} aria-hidden="true" /> About/AboutV6
-                    </span>
+                    </a>
 
                     <h2 className="about-v6__title about-v6__reveal about-v6__hidden">
                         Dibuat untuk Membantu Kamu{' '}

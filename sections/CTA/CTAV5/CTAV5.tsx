@@ -31,7 +31,7 @@ export default function CTAV5() {
             <div className="cta-v5__surface">
                 <div className="cta-v5__shell">
                     <div className="cta-v5__content">
-                        <span className="cta-v5__eyebrow">CTA/CTAV5</span>
+                        <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/CTA/CTAV5" target="_blank" rel="noreferrer" className="cta-v5__eyebrow">CTA/CTAV5</a>
                         <h2 className="cta-v5__title cta-v5__reveal cta-v5__hidden">
                             <span>Siap Bangun UI Lebih Cepat untuk </span>
                             <span className="cta-v5__title-accent">Proyek Berikutnya?</span>

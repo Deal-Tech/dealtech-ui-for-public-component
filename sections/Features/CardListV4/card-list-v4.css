@@ -15,6 +15,7 @@
 }
 
 .card-list-v4__intro .card-list-v4__eyebrow {
+  text-decoration: none;
   width: max-content;
   display: flex;
   align-items: center;

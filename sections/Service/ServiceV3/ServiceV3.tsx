@@ -88,9 +88,9 @@ export default function ServiceV3() {
             <div className="service-v3__shell">
                 <div className="service-v3__header">
                     <div className="service-v3__heading-copy">
-                        <span className="service-v3__eyebrow service-v3__reveal service-v3__hidden">
+                        <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/Service/ServiceV3" target="_blank" rel="noreferrer" className="service-v3__eyebrow service-v3__reveal service-v3__hidden">
                             <Sparkles size={16} strokeWidth={2.4} aria-hidden="true" /> Service/ServiceV3
-                        </span>
+                        </a>
 
                         <h2 className="service-v3__title service-v3__reveal service-v3__hidden">
                             Wujudkan UI Berkualitas melalui{' '}

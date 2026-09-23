@@ -69,6 +69,7 @@
 }
 
 .section-compare-v2__badge {
+  text-decoration: none;
   position: absolute;
   top: -14px;
   left: 28px;

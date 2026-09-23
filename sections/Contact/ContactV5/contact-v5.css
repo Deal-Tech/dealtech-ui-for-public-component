@@ -39,6 +39,7 @@
 }
 
 .contact-v5__info-badge {
+  text-decoration: none;
   align-self: flex-start;
   margin-bottom: 12px;
   padding: 5px 10px;

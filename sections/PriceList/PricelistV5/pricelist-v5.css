@@ -17,6 +17,7 @@
 }
 
 .pricelist-v5__eyebrow {
+  text-decoration: none;
   width: max-content;
   display: flex;
   align-items: center;

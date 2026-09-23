@@ -64,7 +64,7 @@ export default function PricelistV5() {
     return (
         <section id="harga" className="pricelist-v5">
             <div className="pricelist-v5__shell">
-                <span className="pricelist-v5__eyebrow">PriceList/PricelistV5</span>
+                <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/PriceList/PricelistV5" target="_blank" rel="noreferrer" className="pricelist-v5__eyebrow">PriceList/PricelistV5</a>
                 <h2 className="pricelist-v5__heading">
                     Pilih Akses Sesuai <span>Kebutuhan Proyek Anda</span>
                 </h2>

@@ -43,9 +43,9 @@ export default function SectionV10() {
         <section ref={sectionRef} id="home" className="hero-v10">
             <div className="hero-v10__surface">
                 <div className="hero-v10__shell">
-                    <span className="hero-v10__eyebrow hero-v10__reveal hero-v10__hidden">
+                    <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/Hero/SectionV10" target="_blank" rel="noreferrer" className="hero-v10__eyebrow hero-v10__reveal hero-v10__hidden">
                         <AlertCircle size={16} strokeWidth={2.5} aria-hidden="true" /> Hero/SectionV10
-                    </span>
+                    </a>
 
                     <h1 className="hero-v10__title hero-v10__reveal hero-v10__hidden">
                         <span>Sederhanakan Design UI, Pakai</span>{' '}

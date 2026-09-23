@@ -43,7 +43,7 @@ export default function PricelistV3() {
     return (
         <section className="pricelist-v3">
             <div className="pricelist-v3__shell">
-                <span className="pricelist-v3__eyebrow">PriceList/PricelistV3</span>
+                <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/PriceList/PricelistV3" target="_blank" rel="noreferrer" className="pricelist-v3__eyebrow">PriceList/PricelistV3</a>
                 <div className="pricelist-v3__billing" role="tablist" aria-label="Periode pembayaran">
                     <button
                         type="button"

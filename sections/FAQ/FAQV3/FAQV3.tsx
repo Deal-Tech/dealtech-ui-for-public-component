@@ -69,10 +69,10 @@ export default function FAQV3() {
         <section ref={sectionRef} className="faq-v3">
             <div className="faq-v3__shell">
                 <header className="faq-v3__header faq-v3__reveal faq-v3__hidden">
-                    <span className="faq-v3__eyebrow">
+                    <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/FAQ/FAQV3" target="_blank" rel="noreferrer" className="faq-v3__eyebrow">
                         <BadgeHelp size={15} strokeWidth={2.4} aria-hidden="true" />
                         FAQ/FAQV3
-                    </span>
+                    </a>
                     <h2 className="faq-v3__heading">
                         Pertanyaan yang <span>Sering Diajukan</span>
                     </h2>

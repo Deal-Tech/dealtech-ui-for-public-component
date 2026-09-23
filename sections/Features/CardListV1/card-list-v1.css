@@ -25,6 +25,7 @@
 }
 
 .card-list-v1__eyebrow {
+  text-decoration: none;
   width: max-content;
   display: flex;
   align-items: center;

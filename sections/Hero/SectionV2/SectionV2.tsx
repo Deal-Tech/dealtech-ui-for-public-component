@@ -42,9 +42,9 @@ export default function SectionV2() {
         <section ref={sectionRef} id="home" className="hero-v2">
             <div className="hero-v2__shell">
                 <div className="hero-v2__content">
-                    <span className="hero-v2__eyebrow hero-v2__reveal hero-v2__hidden">
+                    <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/Hero/SectionV2" target="_blank" rel="noreferrer" className="hero-v2__eyebrow hero-v2__reveal hero-v2__hidden">
                         <AlertCircle size={16} strokeWidth={2.5} aria-hidden="true" /> {eyebrow}
-                    </span>
+                    </a>
 
                     <h1 className="hero-v2__title hero-v2__reveal hero-v2__hidden">
                         <span>{title}</span> <span className="hero-v2__title-accent">{titleAccent}</span>{' '}

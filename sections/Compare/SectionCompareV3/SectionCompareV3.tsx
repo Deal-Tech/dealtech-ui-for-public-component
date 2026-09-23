@@ -110,7 +110,7 @@ export default function SectionCompareV3() {
                     </div>
 
                     <div className="section-compare-v3__column section-compare-v3__column--new section-compare-v3__reveal section-compare-v3__hidden">
-                        <span className="section-compare-v3__badge">Compare/SectionCompareV3</span>
+                        <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/Compare/SectionCompareV3" target="_blank" rel="noreferrer" className="section-compare-v3__badge">Compare/SectionCompareV3</a>
                         <h3 className="section-compare-v3__title section-compare-v3__title--new">
                             <CheckCircle2 size={20} strokeWidth={2.5} aria-hidden="true" /> Dengan Dealtech UI
                         </h3>

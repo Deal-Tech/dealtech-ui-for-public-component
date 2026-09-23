@@ -30,7 +30,7 @@ export default function CTAV6() {
         <section ref={sectionRef} className="cta-v6">
             <div className="cta-v6__inner">
                 <div className="cta-v6__content cta-v6__reveal cta-v6__hidden">
-                    <span className="cta-v6__eyebrow">CTA/CTAV6</span>
+                    <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/CTA/CTAV6" target="_blank" rel="noreferrer" className="cta-v6__eyebrow">CTA/CTAV6</a>
                     <h2 className="cta-v6__title">
                         <span>Siap Bangun UI Lebih Cepat untuk </span>
                         <span className="cta-v6__title-accent">Proyek Berikutnya?</span>

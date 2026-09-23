@@ -65,6 +65,7 @@
 }
 
 .hero-v12__eyebrow {
+  text-decoration: none;
   display: inline-flex;
   align-items: center;
   gap: 7px;

@@ -91,7 +91,7 @@ export default function CardListV3() {
     return (
         <section ref={sectionRef} className="card-list-v3">
             <div className="card-list-v3__shell">
-                <span className="card-list-v3__eyebrow">Features/CardListV3</span>
+                <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/Features/CardListV3" target="_blank" rel="noreferrer" className="card-list-v3__eyebrow">Features/CardListV3</a>
                 <h2 className="card-list-v3__heading">
                     Satu Library untuk{' '}
                     <span className="card-list-v3__heading-accent">Seluruh Kebutuhan UI</span>

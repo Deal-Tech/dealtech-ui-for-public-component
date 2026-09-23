@@ -60,9 +60,9 @@ export default function SectionV1() {
         <section id="home" className="home-hero-section">
             <div className="home-hero">
                 <div className="home-hero__content">
-                    <span className="lp-eyebrow sl-reveal sl-opacity-0">
+                    <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/Hero/SectionV1" target="_blank" rel="noreferrer" className="lp-eyebrow sl-reveal sl-opacity-0">
                         <AlertCircle size={16} strokeWidth={2.5} aria-hidden="true" /> {eyebrow}
-                    </span>
+                    </a>
 
                     <h1 className="home-hero__title sl-reveal sl-opacity-0">
                         <span>{title}</span> <span className="home-hero__title-accent">{titleAccent}</span>{' '}

@@ -53,6 +53,15 @@ Perbarui peta ini setiap kali komponen ditambah, dipindah, atau dihapus.
 - Komentar maksimal lima kata.
 - Jangan menumpuk komentar.
 
+## Badge section
+
+- Setiap section wajib memiliki badge nama dengan format `KATEGORI/NAMA_FOLDER`.
+- Tampilkan teks badge dengan huruf kapital di playground.
+- Badge wajib tanpa border dan memakai ikon informasi yang seragam.
+- Badge wajib berupa tautan langsung ke folder section di repository.
+- Gunakan URL lengkap `https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/KATEGORI/NAMA_FOLDER`.
+- Buka tautan pada tab baru dengan `target="_blank"` dan `rel="noreferrer"`.
+
 ## Spacing section
 
 - Ikuti spacing Hero untuk seluruh section.

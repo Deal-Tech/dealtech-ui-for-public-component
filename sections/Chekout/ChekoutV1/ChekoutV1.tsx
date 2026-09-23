@@ -255,7 +255,7 @@ export default function ChekoutV1({
     return (
         <section className="chekout-v1">
             <div className="chekout-v1__shell">
-                <span className="chekout-v1__eyebrow">Chekout/ChekoutV1</span>
+                <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/Chekout/ChekoutV1" target="_blank" rel="noreferrer" className="chekout-v1__eyebrow">Chekout/ChekoutV1</a>
                 <div className="chekout-v1__page">
                     <div className="chekout-v1__bar" role="note">
                         {step === 'checkout' ? (

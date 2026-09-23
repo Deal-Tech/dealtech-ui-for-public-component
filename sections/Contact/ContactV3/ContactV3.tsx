@@ -42,7 +42,7 @@ export default function ContactV3() {
             <div className="contact-v3__shell contact-v3__reveal contact-v3__hidden">
                 <div className="contact-v3__info">
                     <div>
-                        <span className="contact-v3__eyebrow">Contact/ContactV3</span>
+                        <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/Contact/ContactV3" target="_blank" rel="noreferrer" className="contact-v3__eyebrow">Contact/ContactV3</a>
                         <h2>Mari Terhubung</h2>
                         <p>Ceritakan kebutuhan proyekmu. Tim kami siap membantu menemukan solusi yang tepat.</p>
                     </div>

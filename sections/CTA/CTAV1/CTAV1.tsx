@@ -25,7 +25,7 @@ export default function CTAV1() {
         <section className="cta-v1">
             <div className="cta-v1__inner">
                 <div className="cta-v1__content">
-                    <span className="cta-v1__eyebrow">CTA/CTAV1</span>
+                    <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/CTA/CTAV1" target="_blank" rel="noreferrer" className="cta-v1__eyebrow">CTA/CTAV1</a>
                     <h2 className="cta-v1__title cta-v1__reveal cta-v1__opacity-0">
                         <span>Siap Bangun UI Lebih Cepat untuk </span>
                         <span className="cta-v1__title-accent">Proyek Berikutnya?</span>

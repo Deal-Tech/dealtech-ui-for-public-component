@@ -130,7 +130,7 @@ export default function ReviewV5() {
         <section ref={sectionRef} className="review-v5">
             <div className="review-v5__shell">
                 <header className="review-v5__header">
-                    <span className="review-v5__eyebrow">Testimonial/ReviewV5</span>
+                    <a href="https://github.com/Deal-Tech/dealtech-ui-for-public-component/tree/main/sections/Testimonial/ReviewV5" target="_blank" rel="noreferrer" className="review-v5__eyebrow">Testimonial/ReviewV5</a>
                     <h2>
                         Jangan hanya percaya kata kami.
                         <span>Dengarkan para pengguna</span>
