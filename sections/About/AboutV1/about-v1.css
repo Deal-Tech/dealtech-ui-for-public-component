@@ -28,7 +28,7 @@
   grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
   align-items: center;
   gap: clamp(36px, 5vw, 72px);
-  padding: 36px 0 32px;
+  padding: 45px 0;
 }
 
 .about-v1__content {
@@ -153,7 +153,7 @@
     min-height: 0;
     grid-template-columns: 1fr;
     gap: 36px;
-    padding: 36px 0 32px;
+    padding: 45px 0;
   }
 
 }
@@ -183,6 +183,7 @@
 
 @media (max-width: 640px) {
   .about-v1__shell {
+    padding-block: 36px 32px;
     padding-inline: 2px;
   }
 }

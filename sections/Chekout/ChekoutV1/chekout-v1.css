@@ -13,7 +13,7 @@
 
   box-sizing: border-box;
   width: 100%;
-  padding: 36px 0 32px;
+  padding: 45px 0;
   background: #ffffff;
   color: var(--chekout-v1-text);
   font-family: 'Inter', sans-serif;
@@ -514,6 +514,7 @@
 
 @media (max-width: 640px) {
   .chekout-v1 {
+    padding-block: 36px 32px;
     padding-inline: 2px;
   }
 }

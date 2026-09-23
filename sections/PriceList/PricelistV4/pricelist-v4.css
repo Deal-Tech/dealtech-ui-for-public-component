@@ -5,7 +5,7 @@
   --pricelist-v4-dark: #0f172a;
   box-sizing: border-box;
   width: 100%;
-  padding: 36px 0 32px;
+  padding: 45px 0;
   background: #ffffff;
   font-family: 'Inter', sans-serif;
 }
@@ -272,6 +272,7 @@
 
 @media (max-width: 640px) {
   .pricelist-v4 {
+    padding-block: 36px 32px;
     padding-inline: 2px;
   }
 }

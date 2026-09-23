@@ -27,7 +27,7 @@
   grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
   align-items: center;
   gap: clamp(42px, 6vw, 78px);
-  padding: 36px 0 32px;
+  padding: 45px 0;
 }
 
 .service-v1__content {
@@ -207,7 +207,7 @@
     min-height: 0;
     grid-template-columns: 1fr;
     gap: 38px;
-    padding: 36px 0 32px;
+    padding: 45px 0;
   }
 
   .service-v1__content {
@@ -223,7 +223,7 @@
 @media (max-width: 680px) {
   .service-v1__shell {
     width: min(calc(100% - 36px), 1160px);
-    padding: 36px 0 32px;
+    padding: 45px 0;
   }
 
   .service-v1__action,
@@ -271,6 +271,7 @@
 
 @media (max-width: 640px) {
   .service-v1__shell {
+    padding-block: 36px 32px;
     padding-inline: 2px;
   }
 }

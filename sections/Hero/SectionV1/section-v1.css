@@ -94,7 +94,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 36px 0 32px;
+  padding: 45px 0;
   background: #ffffff;
 }
 
@@ -279,6 +279,7 @@
 
 @media (max-width: 640px) {
   .home-hero {
+    padding-block: 36px 32px;
     padding-inline: 2px;
   }
 }

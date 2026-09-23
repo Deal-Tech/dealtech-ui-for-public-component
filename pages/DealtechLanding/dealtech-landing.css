@@ -45,7 +45,7 @@
   grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
   align-items: center;
   gap: clamp(36px, 5vw, 72px);
-  padding: clamp(54px, 6vw, 84px) 0;
+  padding: 45px 0;
 }
 
 .hero-v6__content {
@@ -209,7 +209,7 @@
     min-height: 0;
     grid-template-columns: 1fr;
     gap: 36px;
-    padding: 48px 0 56px;
+    padding: 45px 0;
   }
 
   .hero-v6__title {
@@ -240,7 +240,7 @@
 
   .hero-v6__shell {
     width: min(calc(100% - 36px), 1160px);
-    padding: 36px 0 42px;
+    padding: 36px 0 32px;
   }
 
   .hero-v6__actions {

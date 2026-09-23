@@ -65,10 +65,11 @@ Perbarui peta ini setiap kali komponen ditambah, dipindah, atau dihapus.
 ## Spacing section
 
 - Ikuti spacing Hero untuk seluruh section.
-- Padding dasar semua section: `36px 0 32px`.
+- Padding section desktop dan tablet di atas 640px: `45px 0`.
+- Padding section mobile maksimal 640px: `36px 0 32px`.
 - Pada mobile maksimal 640px, beri `padding-inline: 2px` jika masih `0`.
 - Jangan tambah padding mobile jika padding horizontal sudah ada.
-- Jangan gunakan `clamp` atau padding vertikal berbeda antar breakpoint.
+- Jangan gunakan `clamp` untuk padding vertikal section atau ukuran selain dua standar di atas.
 - Container desktop: `min(1160px, calc(100% - 44px))`.
 - Container mobile: `min(1160px, calc(100% - 36px))`.
 - Gap dua kolom utama: `clamp(36px, 5vw, 72px)`.

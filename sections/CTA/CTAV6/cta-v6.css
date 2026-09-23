@@ -42,7 +42,7 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
-  padding: 36px 0 32px;
+  padding: 45px 0;
 }
 
 .cta-v6__content {
@@ -137,7 +137,7 @@
   .cta-v6__inner {
     width: min(calc(100% - 36px), 1160px);
     min-height: 0;
-    padding: 36px 0 32px;
+    padding: 45px 0;
   }
 
   .cta-v6__content {
@@ -164,6 +164,7 @@
 
 @media (max-width: 640px) {
   .cta-v6__inner {
+    padding-block: 36px 32px;
     padding-inline: 2px;
   }
 }

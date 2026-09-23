@@ -12,7 +12,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 36px 0 32px;
+  padding: 45px 0;
   background: #ffffff;
   font-family: 'Inter', sans-serif;
 }
@@ -301,6 +301,7 @@
 
 @media (max-width: 640px) {
   .pricelist-v3 {
+    padding-block: 36px 32px;
     padding-inline: 2px;
   }
 }

@@ -6,7 +6,7 @@
 
   box-sizing: border-box;
   width: 100%;
-  padding: 36px 0 32px;
+  padding: 45px 0;
   background: #ffffff;
   font-family: 'Inter', sans-serif;
 }
@@ -214,7 +214,7 @@
 
 @media (max-width: 900px) {
   .cta-v3 {
-    padding: 36px 0 32px;
+    padding: 45px 0;
   }
 
   .cta-v3__surface {
@@ -235,7 +235,7 @@
 
 @media (max-width: 700px) {
   .cta-v3 {
-    padding: 36px 0 32px;
+    padding: 45px 0;
   }
 
   .cta-v3__surface {
@@ -289,6 +289,7 @@
 
 @media (max-width: 640px) {
   .cta-v3 {
+    padding-block: 36px 32px;
     padding-inline: 2px;
   }
 }

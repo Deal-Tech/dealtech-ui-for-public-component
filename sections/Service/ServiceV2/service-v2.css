@@ -23,7 +23,7 @@
 .service-v2__shell {
   width: min(1160px, calc(100% - 44px));
   margin: 0 auto;
-  padding: 36px 0 32px;
+  padding: 45px 0;
 }
 
 .service-v2__header {
@@ -280,6 +280,7 @@
 
 @media (max-width: 640px) {
   .service-v2__shell {
+    padding-block: 36px 32px;
     padding-inline: 2px;
   }
 }
