@@ -178,7 +178,7 @@
 .service-v2__action {
   display: flex;
   justify-content: center;
-  margin-top: 34px;
+  margin-top: clamp(34px, 5vw, 52px);
 }
 
 .service-v2__button {
@@ -253,6 +253,10 @@
   .service-v2__action,
   .service-v2__button {
     width: 100%;
+  }
+
+  .service-v2__action {
+    margin-top: 32px;
   }
 
   .service-v2__button {
