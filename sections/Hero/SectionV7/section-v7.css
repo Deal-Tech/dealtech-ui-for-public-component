@@ -26,7 +26,6 @@
 
 .hero-v7__shell {
   width: min(1160px, calc(100% - 44px));
-  min-height: 600px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
@@ -190,7 +189,6 @@
   }
 
   .hero-v7__shell {
-    min-height: 0;
     grid-template-columns: 1fr;
     gap: 36px;
     padding: 45px 0;

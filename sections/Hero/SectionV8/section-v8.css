@@ -25,7 +25,6 @@
 
 .hero-v8__shell {
   width: min(860px, calc(100% - 44px));
-  min-height: 580px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -157,7 +156,6 @@
 
   .hero-v8__shell {
     width: min(calc(100% - 36px), 860px);
-    min-height: 0;
     padding: 36px 0 32px;
   }
 

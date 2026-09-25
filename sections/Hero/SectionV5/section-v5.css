@@ -235,7 +235,6 @@
 
 @media (max-width: 900px) {
   .hero-v5__shell {
-    min-height: 0;
     grid-template-columns: 1fr;
     gap: 36px;
     padding: 45px 0;

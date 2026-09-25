@@ -25,7 +25,6 @@
 
 .hero-v10__shell {
   width: min(960px, calc(100% - 44px));
-  min-height: 600px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -254,7 +253,6 @@
 
   .hero-v10__shell {
     width: min(calc(100% - 36px), 960px);
-    min-height: 0;
     padding: 36px 0 32px;
   }
 
