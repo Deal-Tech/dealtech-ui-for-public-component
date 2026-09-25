@@ -131,7 +131,6 @@
 .hero-v11__visual {
   position: relative;
   min-width: 0;
-  min-height: 430px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -284,7 +283,6 @@
 
 @media (max-width: 900px) {
   .hero-v11__shell {
-    min-height: 0;
     grid-template-columns: 1fr;
     gap: 36px;
     padding: 45px 0;
@@ -293,10 +291,6 @@
   .hero-v11__title {
     max-width: 720px;
     font-size: clamp(1.85rem, 6vw, 2.7rem);
-  }
-
-  .hero-v11__visual {
-    min-height: 400px;
   }
 }
 
@@ -317,7 +311,6 @@
   }
 
   .hero-v11__visual {
-    min-height: 0;
     padding: 16px;
     border-radius: 18px;
   }
