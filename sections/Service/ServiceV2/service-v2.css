@@ -71,7 +71,7 @@
 
 .service-v2__description {
   max-width: 650px;
-  margin: 16px 0 0;
+  margin: 9px 0 0;
   color: var(--service-v2-muted);
   font-size: 1rem;
   line-height: 1.65;

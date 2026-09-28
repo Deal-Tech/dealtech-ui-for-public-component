@@ -79,7 +79,7 @@ Perbarui peta ini setiap kali komponen ditambah, dipindah, atau dihapus.
 - Gap dua kolom utama: `clamp(36px, 5vw, 72px)`.
 - Gap ikon dan teks kecil: `7px`.
 - Jarak eyebrow ke judul: `12px`.
-- Jarak judul ke deskripsi: `16px`.
+- Jarak judul ke deskripsi: `9px`, mengikuti Hero.
 - Jarak deskripsi ke tombol: `26px`.
 - Jarak header ke konten utama: `clamp(34px, 5vw, 50px)`; mobile `32px`.
 - Gap antarkartu: `10px`; mobile `8px`.
