@@ -23,7 +23,6 @@
 
 .about-v5__shell {
   width: min(1160px, calc(100% - 44px));
-  min-height: 520px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
@@ -229,9 +228,7 @@
 }
 
 @media (max-width: 900px) {
-  .about-v5__shell {
-    min-height: 0;
-    grid-template-columns: 1fr;
+  .about-v5__shell {    grid-template-columns: 1fr;
     gap: 36px;
     padding: 45px 0;
   }

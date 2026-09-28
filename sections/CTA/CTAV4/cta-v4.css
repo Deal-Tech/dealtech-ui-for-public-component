@@ -60,7 +60,6 @@
   position: relative;
   z-index: 1;
   width: min(1160px, calc(100% - 44px));
-  min-height: 370px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(340px, 0.75fr);

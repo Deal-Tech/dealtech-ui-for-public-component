@@ -48,7 +48,6 @@
 
 .cta-v3__shell {
   width: min(1160px, calc(100% - 44px));
-  min-height: 340px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(300px, 0.75fr);

@@ -22,7 +22,6 @@
 
 .about-v6__shell {
   width: min(1160px, calc(100% - 44px));
-  min-height: 520px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
@@ -207,9 +206,7 @@
 }
 
 @media (max-width: 900px) {
-  .about-v6__shell {
-    min-height: 0;
-    grid-template-columns: 1fr;
+  .about-v6__shell {    grid-template-columns: 1fr;
     gap: 40px;
     padding: 45px 0;
   }

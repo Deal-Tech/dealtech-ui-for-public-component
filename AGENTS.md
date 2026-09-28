@@ -64,6 +64,8 @@ Perbarui peta ini setiap kali komponen ditambah, dipindah, atau dihapus.
 
 ## Spacing section
 
+- Jangan gunakan `min-height` pada root, shell, atau inner utama section.
+- Atur tinggi section melalui konten dan padding vertikal.
 - Ukuran judul utama Hero: `clamp(1.5rem, 3.1vw, 2.25rem)` dengan maksimum desktop `36px`.
 - Ukuran judul utama section non-Hero: `clamp(1.5rem, 3.1vw, 2rem)` dengan maksimum desktop `32px`.
 - Ikuti spacing Hero untuk seluruh section.
