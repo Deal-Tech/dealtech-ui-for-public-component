@@ -53,7 +53,7 @@
 .contact-v2__info h2 {
   margin: 0;
   color: var(--contact-v2-ink);
-  font-size: clamp(1.35rem, 2.5vw, 1.8rem);
+  font-size: clamp(1.5rem, 3.1vw, 2rem);
   line-height: 1.25;
   letter-spacing: -0.025em;
 }
