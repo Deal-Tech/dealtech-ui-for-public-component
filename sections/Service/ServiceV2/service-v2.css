@@ -54,7 +54,7 @@
 .service-v2__title {
   margin: 0;
   color: var(--service-v2-ink);
-  font-size: clamp(1.5rem, 3.1vw, 2.25rem);
+  font-size: clamp(1.5rem, 3.1vw, 2rem);
   line-height: 1.28;
   font-weight: 700;
   letter-spacing: -0.03em;

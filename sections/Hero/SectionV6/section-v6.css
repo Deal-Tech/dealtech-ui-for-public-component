@@ -63,7 +63,7 @@
 .hero-v6__title {
   margin: 0;
   color: #ffffff;
-  font-size: clamp(2.15rem, 4vw, 3.05rem);
+  font-size: clamp(1.5rem, 3.1vw, 2.25rem);
   line-height: 1.24;
   font-weight: 700;
   letter-spacing: -0.04em;
@@ -200,7 +200,6 @@
 
   .hero-v6__title {
     max-width: 720px;
-    font-size: clamp(1.85rem, 6vw, 2.7rem);
   }
 
   .hero-v6__visual {

@@ -67,7 +67,7 @@
 .review-v5__header h2 {
   margin: 0;
   color: var(--review-v5-ink);
-  font-size: clamp(1.5rem, 3.1vw, 2.25rem);
+  font-size: clamp(1.5rem, 3.1vw, 2rem);
   line-height: 1.2;
   font-weight: 700;
   letter-spacing: -0.035em;

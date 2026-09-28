@@ -69,7 +69,7 @@
   margin: 0 auto;
   max-width: 680px;
   color: var(--review-v3-ink);
-  font-size: clamp(1.5rem, 3.1vw, 2.25rem);
+  font-size: clamp(1.5rem, 3.1vw, 2rem);
   line-height: 1.25;
   font-weight: 500;
   letter-spacing: -0.03em;
