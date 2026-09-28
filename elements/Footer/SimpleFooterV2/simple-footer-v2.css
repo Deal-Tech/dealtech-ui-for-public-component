@@ -70,8 +70,8 @@
   border-radius: 999px;
   background: #ffffff;
   color: #111111;
-  font-size: 0.8125rem;
-  font-weight: 700;
+  font-size: 0.875rem;
+  font-weight: 600;
   text-decoration: none;
   transition: background 0.2s ease, transform 0.2s ease;
 }
@@ -131,8 +131,8 @@
   border-radius: 999px;
   background: #066aca;
   color: #ffffff;
-  font-size: 0.8125rem;
-  font-weight: 700;
+  font-size: 0.875rem;
+  font-weight: 600;
   text-decoration: none;
   transition: background 0.2s ease, transform 0.2s ease;
 }

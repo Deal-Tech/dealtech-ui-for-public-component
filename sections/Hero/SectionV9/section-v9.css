@@ -187,8 +187,8 @@
   background: var(--hero-v9-primary);
   color: #ffffff;
   font-family: 'Inter', sans-serif;
-  font-size: 0.8125rem;
-  font-weight: 700;
+  font-size: 0.875rem;
+  font-weight: 600;
   cursor: pointer;
   transition: background 0.2s ease, transform 0.2s ease;
 }

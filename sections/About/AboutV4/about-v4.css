@@ -97,8 +97,8 @@
   background: var(--about-v4-primary);
   color: #ffffff;
   font-family: 'Inter', sans-serif;
-  font-size: 0.9375rem;
-  font-weight: 700;
+  font-size: 0.875rem;
+  font-weight: 600;
   text-decoration: none;
   transition: all 0.2s ease;
 }

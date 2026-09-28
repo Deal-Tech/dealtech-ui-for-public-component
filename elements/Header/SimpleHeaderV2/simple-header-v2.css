@@ -208,8 +208,8 @@
   gap: 7px;
   padding: 0 14px;
   border-radius: 999px;
-  font-size: 0.8125rem;
-  font-weight: 700;
+  font-size: 0.875rem;
+  font-weight: 600;
   text-decoration: none;
   white-space: nowrap;
   transition: background 0.2s ease, transform 0.2s ease;
@@ -326,8 +326,8 @@
   background: transparent;
   color: #1f2937;
   font-family: inherit;
-  font-size: 0.95rem;
-  font-weight: 500;
+  font-size: 0.875rem;
+  font-weight: 600;
   text-align: left;
   text-decoration: none;
   cursor: pointer;
@@ -422,8 +422,8 @@
   border-radius: 999px;
   background: #01498b;
   color: #ffffff;
-  font-size: 0.8125rem;
-  font-weight: 700;
+  font-size: 0.875rem;
+  font-weight: 600;
   text-decoration: none;
   transition: background 0.2s ease, transform 0.2s ease;
 }

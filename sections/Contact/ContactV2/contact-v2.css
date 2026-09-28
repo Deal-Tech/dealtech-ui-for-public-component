@@ -209,8 +209,8 @@
   background: var(--contact-v2-primary);
   color: #ffffff;
   font-family: inherit;
-  font-size: 0.8125rem;
-  font-weight: 700;
+  font-size: 0.875rem;
+  font-weight: 600;
   cursor: pointer;
   transition: background 0.2s ease, transform 0.2s ease;
 }

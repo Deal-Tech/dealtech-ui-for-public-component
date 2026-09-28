@@ -98,8 +98,8 @@
   background: var(--about-v5-primary);
   color: #ffffff;
   font-family: 'Inter', sans-serif;
-  font-size: 0.9375rem;
-  font-weight: 700;
+  font-size: 0.875rem;
+  font-weight: 600;
   text-decoration: none;
   transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
 }
