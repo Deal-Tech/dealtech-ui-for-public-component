@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState, type ButtonHTMLAttributes, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type ButtonHTMLAttributes, type ReactNode } from 'react';
 import {
     Banknote,
     Building2,
@@ -51,6 +51,49 @@ export interface ChekoutV1Props {
     plan?: ChekoutPlan;
     paymentMethods?: ChekoutPaymentMethod[];
     onProofSubmit?: (file: File) => void;
+}
+
+const proofTypes = new Set(['image/jpeg', 'image/png', 'image/webp']);
+
+function ProofCanvas({ file }: { file: File }) {
+    const canvasRef = useRef<HTMLCanvasElement>(null);
+
+    useEffect(() => {
+        let active = true;
+
+        void createImageBitmap(file)
+            .then((bitmap) => {
+                if (!active) {
+                    bitmap.close();
+                    return;
+                }
+
+                const canvas = canvasRef.current;
+                const context = canvas?.getContext('2d');
+                if (!canvas || !context) {
+                    bitmap.close();
+                    return;
+                }
+
+                const scale = Math.min(1, 1600 / Math.max(bitmap.width, bitmap.height));
+                canvas.width = Math.max(1, Math.round(bitmap.width * scale));
+                canvas.height = Math.max(1, Math.round(bitmap.height * scale));
+                context.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
+                bitmap.close();
+            })
+            .catch(() => {
+                const canvas = canvasRef.current;
+                if (!canvas) return;
+                canvas.width = 1;
+                canvas.height = 1;
+            });
+
+        return () => {
+            active = false;
+        };
+    }, [file]);
+
+    return <canvas ref={canvasRef} role="img" aria-label="Pratinjau bukti pembayaran" />;
 }
 
 const defaultCustomer: ChekoutCustomer = {
@@ -231,14 +274,6 @@ export default function ChekoutV1({
     const proofInputRef = useRef<HTMLInputElement>(null);
 
     const selectedMethod = paymentMethods.find((method) => method.id === methodId) ?? null;
-    const proofUrl = useMemo(() => (proof ? URL.createObjectURL(proof) : ''), [proof]);
-
-    useEffect(
-        () => () => {
-            if (proofUrl) URL.revokeObjectURL(proofUrl);
-        },
-        [proofUrl],
-    );
 
     const checkoutTitle = mode === 'perpanjang' ? 'Checkout perpanjangan paket' : 'Checkout pembelian paket';
     const checkoutDescription =
@@ -434,15 +469,16 @@ export default function ChekoutV1({
                                         disabled={proofSubmitted}
                                         onChange={(event) => {
                                             if (proofSubmitted) return;
-                                            setProof(event.target.files?.[0] ?? null);
+                                            const file = event.target.files?.[0];
+                                            setProof(file && proofTypes.has(file.type) ? file : null);
                                             event.target.value = '';
                                         }}
                                     />
 
-                                    {proofUrl ? (
+                                    {proof ? (
                                         <div className="chekout-v1__proof-preview">
-                                            <img src={proofUrl} alt="Pratinjau bukti pembayaran" />
-                                            <span>{proof?.name}</span>
+                                            <ProofCanvas file={proof} />
+                                            <span>{proof.name}</span>
                                         </div>
                                     ) : null}
 

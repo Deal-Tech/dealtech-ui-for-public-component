@@ -247,7 +247,7 @@
   gap: 6px;
 }
 
-.checkout-bukti__pratinjau img {
+.checkout-bukti__pratinjau canvas {
   display: block;
   max-width: 240px;
   max-height: 180px;

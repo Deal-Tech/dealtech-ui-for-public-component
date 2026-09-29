@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import {
   Banknote,
@@ -29,6 +29,49 @@ interface MetodeBayar {
   nomor?: string;
   pemilik?: string;
   instruksi: string;
+}
+
+const TIPE_BUKTI = new Set(['image/jpeg', 'image/png', 'image/webp']);
+
+function CanvasBukti({ file }: { file: File }) {
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+
+  useEffect(() => {
+    let aktif = true;
+
+    void createImageBitmap(file)
+      .then((bitmap) => {
+        if (!aktif) {
+          bitmap.close();
+          return;
+        }
+
+        const canvas = canvasRef.current;
+        const konteks = canvas?.getContext('2d');
+        if (!canvas || !konteks) {
+          bitmap.close();
+          return;
+        }
+
+        const skala = Math.min(1, 1600 / Math.max(bitmap.width, bitmap.height));
+        canvas.width = Math.max(1, Math.round(bitmap.width * skala));
+        canvas.height = Math.max(1, Math.round(bitmap.height * skala));
+        konteks.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
+        bitmap.close();
+      })
+      .catch(() => {
+        const canvas = canvasRef.current;
+        if (!canvas) return;
+        canvas.width = 1;
+        canvas.height = 1;
+      });
+
+    return () => {
+      aktif = false;
+    };
+  }, [file]);
+
+  return <canvas ref={canvasRef} role="img" aria-label="Pratinjau bukti pembayaran" />;
 }
 
 const LISENSI = {
@@ -232,11 +275,6 @@ export function PembayaranPage() {
   const inputRef = useRef<HTMLInputElement>(null);
   const [bukti, setBukti] = useState<File | null>(null);
   const [terkirim, setTerkirim] = useState(false);
-  const urlBukti = useMemo(() => (bukti ? URL.createObjectURL(bukti) : ''), [bukti]);
-
-  useEffect(() => () => {
-    if (urlBukti) URL.revokeObjectURL(urlBukti);
-  }, [urlBukti]);
 
   return (
     <div className="checkout-page space-y-6">
@@ -283,13 +321,16 @@ export function PembayaranPage() {
               className="checkout-bukti__input"
               accept="image/jpeg,image/png,image/webp"
               disabled={terkirim}
-              onChange={(e) => setBukti(e.target.files?.[0] ?? null)}
+              onChange={(e) => {
+                const file = e.target.files?.[0];
+                setBukti(file && TIPE_BUKTI.has(file.type) ? file : null);
+              }}
             />
 
-            {urlBukti ? (
+            {bukti ? (
               <div className="checkout-bukti__pratinjau">
-                <img src={urlBukti} alt="Pratinjau bukti pembayaran" />
-                <span>{bukti?.name}</span>
+                <CanvasBukti file={bukti} />
+                <span>{bukti.name}</span>
               </div>
             ) : null}
 

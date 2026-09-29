@@ -446,7 +446,7 @@
   gap: 6px;
 }
 
-.chekout-v1__proof-preview img {
+.chekout-v1__proof-preview canvas {
   display: block;
   max-width: 240px;
   max-height: 180px;
@@ -507,7 +507,7 @@
     align-items: flex-start;
   }
 
-  .chekout-v1__proof-preview img {
+  .chekout-v1__proof-preview canvas {
     max-width: 100%;
   }
 }
