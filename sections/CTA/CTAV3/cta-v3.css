@@ -48,7 +48,6 @@
 
 .cta-v3__shell {
   width: min(1160px, calc(100% - 44px));
-  min-height: 340px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(300px, 0.75fr);
@@ -88,7 +87,7 @@
 
 .cta-v3__description {
   max-width: 620px;
-  margin: 16px 0 0;
+  margin: 9px 0 0;
   color: rgba(255, 255, 255, 0.76);
   font-size: 0.9375rem;
   line-height: 1.6;
@@ -110,8 +109,8 @@
   padding: 0 24px;
   border-radius: 999px;
   font-family: inherit;
-  font-size: 0.9375rem;
-  font-weight: 700;
+  font-size: 0.875rem;
+  font-weight: 600;
   text-decoration: none;
   transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
 }

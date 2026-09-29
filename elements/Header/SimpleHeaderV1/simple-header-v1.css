@@ -49,8 +49,8 @@
   border-radius: 999px;
   background: var(--simple-header-v1-primary);
   color: #ffffff;
-  font-size: 13px;
-  font-weight: 700;
+  font-size: 0.875rem;
+  font-weight: 600;
   text-decoration: none;
   vertical-align: middle;
   transition: background 0.15s ease;
@@ -68,6 +68,7 @@
 
   .simple-header-v1__cta {
     padding: 4px 12px;
-    font-size: 12px;
+    font-size: 0.875rem;
+    font-weight: 600;
   }
 }

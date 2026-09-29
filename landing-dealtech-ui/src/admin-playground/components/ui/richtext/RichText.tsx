@@ -54,6 +54,14 @@ function hapusKendali(nilai: string): string {
   return bersih;
 }
 
+function kodekanUri(nilai: string): string {
+  try {
+    return encodeURI(nilai).replace(/%25([0-9a-f]{2})/gi, '%$1');
+  } catch {
+    return '';
+  }
+}
+
 export function sanitasiHtml(html: string): string {
   if (!html) return '';
   const dok = new DOMParser().parseFromString(html, 'text/html');
@@ -121,7 +129,7 @@ const normalkanUrl = (u: string): string => {
 const eksternal = (u: string): boolean => /^https?:\/\//i.test(u);
 
 // Tolak skema di luar allowlist.
-const urlTautanAman = (u: string): string => hrefAman(normalkanUrl(u));
+const urlTautanAman = (u: string): string => kodekanUri(hrefAman(normalkanUrl(u)));
 
 type TombolAlat = {
   cmd: string;

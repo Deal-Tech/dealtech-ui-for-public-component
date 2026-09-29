@@ -64,6 +64,8 @@ Perbarui peta ini setiap kali komponen ditambah, dipindah, atau dihapus.
 
 ## Spacing section
 
+- Jangan gunakan `min-height` pada root, shell, atau inner utama section.
+- Atur tinggi section melalui konten dan padding vertikal.
 - Ukuran judul utama Hero: `clamp(1.5rem, 3.1vw, 2.25rem)` dengan maksimum desktop `36px`.
 - Ukuran judul utama section non-Hero: `clamp(1.5rem, 3.1vw, 2rem)` dengan maksimum desktop `32px`.
 - Ikuti spacing Hero untuk seluruh section.
@@ -77,7 +79,7 @@ Perbarui peta ini setiap kali komponen ditambah, dipindah, atau dihapus.
 - Gap dua kolom utama: `clamp(36px, 5vw, 72px)`.
 - Gap ikon dan teks kecil: `7px`.
 - Jarak eyebrow ke judul: `12px`.
-- Jarak judul ke deskripsi: `16px`.
+- Jarak judul ke deskripsi: `9px`, mengikuti Hero.
 - Jarak deskripsi ke tombol: `26px`.
 - Jarak header ke konten utama: `clamp(34px, 5vw, 50px)`; mobile `32px`.
 - Gap antarkartu: `10px`; mobile `8px`.

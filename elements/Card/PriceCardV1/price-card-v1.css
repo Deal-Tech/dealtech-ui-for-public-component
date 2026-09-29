@@ -132,8 +132,8 @@
   border-radius: 10px;
   background: var(--lp-primary);
   color: #ffffff;
-  font-size: 0.88rem;
-  font-weight: 700;
+  font-size: 0.875rem;
+  font-weight: 600;
   text-decoration: none;
   transition: background 0.15s ease, transform 0.15s ease;
 }

@@ -55,8 +55,8 @@
   background: #01498b;
   color: #ffffff;
   font-family: 'Inter', sans-serif;
-  font-size: 0.8125rem;
-  font-weight: 700;
+  font-size: 0.875rem;
+  font-weight: 600;
   cursor: pointer;
   transition: background 0.2s ease, transform 0.2s ease;
 }
@@ -75,6 +75,7 @@
   .search-v1__button {
     min-width: 108px;
     padding: 0 14px;
-    font-size: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 600;
   }
 }

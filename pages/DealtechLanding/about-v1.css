@@ -73,7 +73,7 @@
 }
 
 .about-v1__description {
-  margin: 16px 0 0;
+  margin: 9px 0 0;
   max-width: 620px;
   color: var(--about-v1-muted);
   font-size: 1.0625rem;
@@ -97,8 +97,8 @@
   background: var(--about-v1-primary);
   color: #ffffff;
   font-family: 'Inter', sans-serif;
-  font-size: 0.9375rem;
-  font-weight: 700;
+  font-size: 0.875rem;
+  font-weight: 600;
   text-decoration: none;
   transition: all 0.2s ease;
 }

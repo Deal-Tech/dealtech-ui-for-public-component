@@ -38,7 +38,6 @@
 
 .cta-v6__inner {
   width: min(1160px, calc(100% - 44px));
-  min-height: 320px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -74,7 +73,7 @@
 
 .cta-v6__description {
   max-width: 620px;
-  margin: 16px 0 0;
+  margin: 9px 0 0;
   color: var(--cta-v6-muted);
   font-size: 0.9375rem;
   line-height: 1.6;
@@ -96,8 +95,8 @@
   border-radius: 999px;
   background: var(--cta-v6-primary);
   color: #ffffff;
-  font-size: 0.9375rem;
-  font-weight: 700;
+  font-size: 0.875rem;
+  font-weight: 600;
   text-decoration: none;
   transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
@@ -136,7 +135,6 @@
 @media (max-width: 700px) {
   .cta-v6__inner {
     width: min(calc(100% - 36px), 1160px);
-    min-height: 0;
     padding: 45px 0;
   }
 

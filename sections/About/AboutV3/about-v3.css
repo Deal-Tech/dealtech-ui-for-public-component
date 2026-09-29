@@ -21,7 +21,6 @@
 
 .about-v3__shell {
   width: min(1160px, calc(100% - 44px));
-  min-height: 520px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
@@ -73,7 +72,7 @@
 }
 
 .about-v3__description {
-  margin: 16px 0 0;
+  margin: 9px 0 0;
   max-width: 620px;
   color: var(--about-v3-muted);
   font-size: 1.0625rem;
@@ -170,9 +169,7 @@
 }
 
 @media (max-width: 900px) {
-  .about-v3__shell {
-    min-height: 0;
-    grid-template-columns: 1fr;
+  .about-v3__shell {    grid-template-columns: 1fr;
     gap: 36px;
     padding: 45px 0;
   }

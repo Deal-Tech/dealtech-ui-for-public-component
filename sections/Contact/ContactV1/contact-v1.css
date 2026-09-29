@@ -65,7 +65,7 @@
 }
 
 .contact-v1__description {
-  margin: 12px 0 0;
+  margin: 9px 0 0;
   color: var(--contact-v1-muted);
   font-size: 0.9375rem;
   line-height: 1.6;
@@ -185,7 +185,7 @@
   color: #ffffff;
   font-family: inherit;
   font-size: 0.875rem;
-  font-weight: 700;
+  font-weight: 600;
   cursor: pointer;
   transition: background 0.2s ease, transform 0.2s ease;
 }

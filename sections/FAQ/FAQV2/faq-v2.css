@@ -62,7 +62,7 @@
 }
 
 .faq-v2__description {
-  margin: 12px 0 0;
+  margin: 9px 0 0;
   color: var(--faq-v2-muted);
   font-size: 0.9375rem;
   line-height: 1.6;
@@ -99,9 +99,9 @@
   background: transparent;
   color: #1f2937;
   font-family: inherit;
-  font-size: 0.9375rem;
+  font-size: 0.875rem;
   line-height: 1.4;
-  font-weight: 700;
+  font-weight: 600;
   text-align: left;
   cursor: pointer;
 }
@@ -190,6 +190,7 @@
     min-height: 50px;
     padding: 9px 18px;
     font-size: 0.875rem;
+    font-weight: 600;
   }
 
   .faq-v2__item--open button {
